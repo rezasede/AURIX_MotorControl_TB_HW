@@ -865,7 +865,7 @@
 	)
 	(text "IGB070S10S1"
 		(exclude_from_sim no)
-		(at 119.38 40.64 0)
+		(at 128.27 48.26 0)
 		(effects
 			(font
 				(size 3.81 3.81)
@@ -875,140 +875,140 @@
 		(uuid "a06ca2a8-c5c8-4954-bf85-95dd42e71758")
 	)
 	(junction
-		(at 210.82 91.44)
+		(at 219.71 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "117df4ff-faf8-4fbd-bfb6-ee14541667dd")
 	)
 	(junction
-		(at 170.18 48.26)
+		(at 179.07 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12964cfa-26de-4429-8006-56116befb19b")
 	)
 	(junction
-		(at 71.12 91.44)
+		(at 80.01 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "166fdfdf-bfa8-4cba-9652-b1c7ccd866e2")
 	)
 	(junction
-		(at 60.96 68.58)
+		(at 69.85 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f087a60-4fe1-4e38-a1dc-b33e4dcd7ff9")
 	)
 	(junction
-		(at 160.02 91.44)
+		(at 168.91 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f5cd8a8-383c-4ba6-8412-1af5fe84590f")
 	)
 	(junction
-		(at 119.38 91.44)
+		(at 128.27 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3bea0b12-7368-4618-b4e5-0e2a37a83ce7")
 	)
 	(junction
-		(at 170.18 119.38)
+		(at 179.07 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "547103b4-7968-4f68-af63-5aa0169fe1ed")
 	)
 	(junction
-		(at 71.12 119.38)
+		(at 80.01 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d31d5ba-f030-4194-8dc0-df738979aeb7")
 	)
 	(junction
-		(at 109.22 68.58)
+		(at 118.11 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7b57c221-abf2-47c0-a2cb-bdf30a76bdbb")
 	)
 	(junction
-		(at 119.38 119.38)
+		(at 128.27 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "841c17c1-9c3a-43cd-9153-7db1fe35442e")
 	)
 	(junction
-		(at 109.22 99.06)
+		(at 118.11 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8d3b291b-75c3-4533-9427-c1d1ef5e6206")
 	)
 	(junction
-		(at 220.98 91.44)
+		(at 229.87 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "92f87fe5-aff1-463a-bbea-e24f71531447")
 	)
 	(junction
-		(at 160.02 99.06)
+		(at 168.91 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ae2fbc5f-0d76-41ac-9eec-85d37627ddb4")
 	)
 	(junction
-		(at 170.18 91.44)
+		(at 179.07 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c652f424-38c5-46ec-b77c-6399ccde8c1f")
 	)
 	(junction
-		(at 71.12 48.26)
+		(at 80.01 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c6c405f1-c67a-4606-8e9b-2b3be85e878f")
 	)
 	(junction
-		(at 210.82 99.06)
+		(at 219.71 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cef158a3-835a-43ad-9a64-c1735a212429")
 	)
 	(junction
-		(at 119.38 48.26)
+		(at 128.27 55.88)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6486bd6-3631-4c4e-b520-02f55e6aaca6")
 	)
 	(junction
-		(at 210.82 68.58)
+		(at 219.71 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dfc67bad-bf7f-40f8-a236-8ffa78b17ac0")
 	)
 	(junction
-		(at 109.22 91.44)
+		(at 118.11 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f55156c0-a22f-4bf0-89a7-5b71b0116e0d")
 	)
 	(junction
-		(at 60.96 99.06)
+		(at 69.85 106.68)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7cc73d6-a541-45de-986f-09664ff6b155")
 	)
 	(junction
-		(at 220.98 119.38)
+		(at 229.87 127)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa2fd707-b40d-432a-99f1-cac14f6ceec5")
 	)
 	(junction
-		(at 160.02 68.58)
+		(at 168.91 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fb1adda5-4197-4dd4-8f82-36b6ba191833")
 	)
 	(wire
 		(pts
-			(xy 20.32 35.56) (xy 22.86 35.56)
+			(xy 29.21 43.18) (xy 31.75 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1018,7 +1018,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 91.44) (xy 220.98 76.2)
+			(xy 229.87 99.06) (xy 229.87 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1028,7 +1028,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 109.22) (xy 109.22 99.06)
+			(xy 118.11 116.84) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1038,7 +1038,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 91.44) (xy 119.38 91.44)
+			(xy 118.11 99.06) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1048,7 +1048,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 119.38) (xy 119.38 119.38)
+			(xy 118.11 127) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -1058,7 +1058,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 119.38) (xy 220.98 119.38)
+			(xy 219.71 127) (xy 229.87 127)
 		)
 		(stroke
 			(width 0)
@@ -1068,7 +1068,7 @@
 	)
 	(wire
 		(pts
-			(xy 154.94 99.06) (xy 160.02 99.06)
+			(xy 163.83 106.68) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1078,7 +1078,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 109.22) (xy 160.02 99.06)
+			(xy 168.91 116.84) (xy 168.91 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1088,7 +1088,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 93.98) (xy 71.12 91.44)
+			(xy 80.01 101.6) (xy 80.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1098,7 +1098,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 76.2) (xy 109.22 68.58)
+			(xy 118.11 83.82) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1108,7 +1108,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 91.44) (xy 71.12 76.2)
+			(xy 80.01 99.06) (xy 80.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1118,7 +1118,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 91.44) (xy 223.52 91.44)
+			(xy 229.87 99.06) (xy 232.41 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1128,7 +1128,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 124.46) (xy 71.12 119.38)
+			(xy 80.01 132.08) (xy 80.01 127)
 		)
 		(stroke
 			(width 0)
@@ -1138,7 +1138,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 116.84) (xy 210.82 119.38)
+			(xy 219.71 124.46) (xy 219.71 127)
 		)
 		(stroke
 			(width 0)
@@ -1148,7 +1148,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 48.26) (xy 170.18 48.26)
+			(xy 128.27 55.88) (xy 179.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1158,7 +1158,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 68.58) (xy 160.02 68.58)
+			(xy 166.37 76.2) (xy 168.91 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1168,7 +1168,7 @@
 	)
 	(wire
 		(pts
-			(xy 144.78 68.58) (xy 134.62 68.58)
+			(xy 153.67 76.2) (xy 143.51 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1178,7 +1178,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 119.38) (xy 119.38 106.68)
+			(xy 128.27 127) (xy 128.27 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1188,7 +1188,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 109.22) (xy 60.96 99.06)
+			(xy 69.85 116.84) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1198,7 +1198,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 119.38 91.44)
+			(xy 128.27 101.6) (xy 128.27 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1208,7 +1208,7 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 99.06) (xy 109.22 99.06)
+			(xy 113.03 106.68) (xy 118.11 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1218,7 +1218,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 99.06) (xy 134.62 99.06)
+			(xy 151.13 106.68) (xy 143.51 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1228,7 +1228,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 60.96) (xy 119.38 48.26)
+			(xy 128.27 68.58) (xy 128.27 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1238,7 +1238,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 83.82) (xy 210.82 91.44)
+			(xy 219.71 91.44) (xy 219.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1248,7 +1248,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 210.82 91.44)
+			(xy 179.07 99.06) (xy 219.71 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1258,7 +1258,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 119.38) (xy 71.12 106.68)
+			(xy 80.01 127) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1268,7 +1268,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 99.06) (xy 210.82 99.06)
+			(xy 214.63 106.68) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1278,7 +1278,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 124.46) (xy 220.98 119.38)
+			(xy 229.87 132.08) (xy 229.87 127)
 		)
 		(stroke
 			(width 0)
@@ -1288,7 +1288,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 76.2) (xy 210.82 68.58)
+			(xy 219.71 83.82) (xy 219.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1298,7 +1298,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 48.26) (xy 119.38 48.26)
+			(xy 80.01 55.88) (xy 128.27 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1308,7 +1308,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 60.96) (xy 170.18 48.26)
+			(xy 179.07 68.58) (xy 179.07 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1318,7 +1318,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 50.8) (xy 22.86 50.8)
+			(xy 29.21 58.42) (xy 31.75 58.42)
 		)
 		(stroke
 			(width 0)
@@ -1328,7 +1328,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 68.58) (xy 83.82 68.58)
+			(xy 102.87 76.2) (xy 92.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1338,7 +1338,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 109.22) (xy 210.82 99.06)
+			(xy 219.71 116.84) (xy 219.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1348,7 +1348,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 48.26) (xy 220.98 48.26)
+			(xy 179.07 55.88) (xy 229.87 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1358,7 +1358,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 68.58) (xy 185.42 68.58)
+			(xy 204.47 76.2) (xy 194.31 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1368,7 +1368,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 93.98) (xy 220.98 91.44)
+			(xy 229.87 101.6) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1378,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 50.8) (xy 22.86 58.42)
+			(xy 31.75 58.42) (xy 31.75 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1388,7 +1388,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 68.58) (xy 210.82 68.58)
+			(xy 217.17 76.2) (xy 219.71 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 68.58) (xy 60.96 68.58)
+			(xy 67.31 76.2) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1408,7 +1408,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 116.84) (xy 160.02 119.38)
+			(xy 168.91 124.46) (xy 168.91 127)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 119.38 76.2)
+			(xy 128.27 99.06) (xy 128.27 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1428,7 +1428,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 68.58) (xy 109.22 68.58)
+			(xy 115.57 76.2) (xy 118.11 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1438,7 +1438,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 99.06) (xy 83.82 99.06)
+			(xy 100.33 106.68) (xy 92.71 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 68.58) (xy 35.56 68.58)
+			(xy 54.61 76.2) (xy 44.45 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 99.06) (xy 185.42 99.06)
+			(xy 201.93 106.68) (xy 194.31 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1468,7 +1468,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 119.38) (xy 170.18 119.38)
+			(xy 168.91 127) (xy 179.07 127)
 		)
 		(stroke
 			(width 0)
@@ -1478,7 +1478,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 116.84) (xy 109.22 119.38)
+			(xy 118.11 124.46) (xy 118.11 127)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 76.2) (xy 160.02 68.58)
+			(xy 168.91 83.82) (xy 168.91 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 124.46) (xy 170.18 119.38)
+			(xy 179.07 132.08) (xy 179.07 127)
 		)
 		(stroke
 			(width 0)
@@ -1508,7 +1508,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 91.44) (xy 109.22 91.44)
+			(xy 80.01 99.06) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1518,7 +1518,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 83.82) (xy 60.96 91.44)
+			(xy 69.85 91.44) (xy 69.85 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1528,7 +1528,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 116.84) (xy 60.96 119.38)
+			(xy 69.85 124.46) (xy 69.85 127)
 		)
 		(stroke
 			(width 0)
@@ -1538,7 +1538,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 83.82) (xy 160.02 91.44)
+			(xy 168.91 91.44) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1548,7 +1548,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 119.38) (xy 170.18 106.68)
+			(xy 179.07 127) (xy 179.07 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 91.44) (xy 220.98 91.44)
+			(xy 219.71 99.06) (xy 229.87 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1568,7 +1568,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 60.96) (xy 71.12 48.26)
+			(xy 80.01 68.58) (xy 80.01 55.88)
 		)
 		(stroke
 			(width 0)
@@ -1578,7 +1578,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 91.44) (xy 160.02 91.44)
+			(xy 128.27 99.06) (xy 168.91 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1588,7 +1588,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 124.46) (xy 119.38 119.38)
+			(xy 128.27 132.08) (xy 128.27 127)
 		)
 		(stroke
 			(width 0)
@@ -1598,7 +1598,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 48.26) (xy 220.98 60.96)
+			(xy 229.87 55.88) (xy 229.87 68.58)
 		)
 		(stroke
 			(width 0)
@@ -1608,7 +1608,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 99.06) (xy 35.56 99.06)
+			(xy 52.07 106.68) (xy 44.45 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1618,7 +1618,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 93.98) (xy 170.18 91.44)
+			(xy 179.07 101.6) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1628,7 +1628,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 119.38) (xy 71.12 119.38)
+			(xy 69.85 127) (xy 80.01 127)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 91.44) (xy 71.12 91.44)
+			(xy 69.85 99.06) (xy 80.01 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 119.38) (xy 220.98 106.68)
+			(xy 229.87 127) (xy 229.87 114.3)
 		)
 		(stroke
 			(width 0)
@@ -1658,7 +1658,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 99.06) (xy 60.96 99.06)
+			(xy 64.77 106.68) (xy 69.85 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1668,7 +1668,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 91.44) (xy 170.18 76.2)
+			(xy 179.07 99.06) (xy 179.07 83.82)
 		)
 		(stroke
 			(width 0)
@@ -1678,7 +1678,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 35.56) (xy 22.86 43.18)
+			(xy 31.75 43.18) (xy 31.75 50.8)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 76.2) (xy 60.96 68.58)
+			(xy 69.85 83.82) (xy 69.85 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1698,7 +1698,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 91.44) (xy 170.18 91.44)
+			(xy 168.91 99.06) (xy 179.07 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 83.82) (xy 109.22 91.44)
+			(xy 118.11 91.44) (xy 118.11 99.06)
 		)
 		(stroke
 			(width 0)
@@ -1717,7 +1717,7 @@
 		(uuid "ff4cf37b-9231-4066-a37f-6e9b86937136")
 	)
 	(label "G_LS_1"
-		(at 35.56 99.06 0)
+		(at 44.45 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1727,7 +1727,7 @@
 		(uuid "290afa08-f9a6-4078-ad33-87cef8c99825")
 	)
 	(label "G_HS_4"
-		(at 22.86 43.18 0)
+		(at 31.75 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1737,7 +1737,7 @@
 		(uuid "31c6c4c3-5033-49ff-afff-57aa8f472fe4")
 	)
 	(label "G_HS_4"
-		(at 185.42 68.58 0)
+		(at 194.31 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1747,7 +1747,7 @@
 		(uuid "3224bd1b-85d0-47a5-892f-f72e1ec1f590")
 	)
 	(label "G_LS_2"
-		(at 22.86 53.34 0)
+		(at 31.75 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1757,7 +1757,7 @@
 		(uuid "46e465fd-1b3a-45fc-a727-c80ef49268fb")
 	)
 	(label "G_LS_2"
-		(at 83.82 99.06 0)
+		(at 92.71 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1767,7 +1767,7 @@
 		(uuid "54071b37-812a-4ea9-bb44-38870f55eda0")
 	)
 	(label "G_LS_3"
-		(at 134.62 99.06 0)
+		(at 143.51 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1777,7 +1777,7 @@
 		(uuid "72c62579-56e7-40c3-84c9-f2a99dab7937")
 	)
 	(label "G_LS_4"
-		(at 22.86 58.42 0)
+		(at 31.75 66.04 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1787,7 +1787,7 @@
 		(uuid "7b20b3fb-c4ba-44fc-8ac2-0cb7fd8ca4aa")
 	)
 	(label "G_HS_2"
-		(at 22.86 38.1 0)
+		(at 31.75 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1797,7 +1797,7 @@
 		(uuid "90cae30f-8cf1-4444-8ba4-886628ef3301")
 	)
 	(label "G_LS_3"
-		(at 22.86 55.88 0)
+		(at 31.75 63.5 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1807,7 +1807,7 @@
 		(uuid "9177309d-964e-47f8-98d3-a60e110d0e25")
 	)
 	(label "G_HS_1"
-		(at 35.56 68.58 0)
+		(at 44.45 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1817,7 +1817,7 @@
 		(uuid "9f3ba638-6a91-4e16-8aa5-ec2ff1e01566")
 	)
 	(label "G_HS_3"
-		(at 22.86 40.64 0)
+		(at 31.75 48.26 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1827,7 +1827,7 @@
 		(uuid "a09ccfc0-7f25-487d-8e88-48f536811968")
 	)
 	(label "G_LS_1"
-		(at 22.86 50.8 0)
+		(at 31.75 58.42 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1837,7 +1837,7 @@
 		(uuid "abd884d4-dcca-4fb5-b411-bf2438733823")
 	)
 	(label "G_HS_3"
-		(at 134.62 68.58 0)
+		(at 143.51 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1847,7 +1847,7 @@
 		(uuid "bfca159c-e0bd-4fd3-a19c-690b8010fcc9")
 	)
 	(label "G_HS_1"
-		(at 22.86 35.56 0)
+		(at 31.75 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1857,7 +1857,7 @@
 		(uuid "ce721469-acd9-447a-8365-a8b983fa4490")
 	)
 	(label "G_LS_4"
-		(at 185.42 99.06 0)
+		(at 194.31 106.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1867,7 +1867,7 @@
 		(uuid "e2f395e3-748e-433f-a6ec-68a85ba20aef")
 	)
 	(label "G_HS_2"
-		(at 83.82 68.58 0)
+		(at 92.71 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1878,7 +1878,7 @@
 	)
 	(hierarchical_label "SW"
 		(shape bidirectional)
-		(at 223.52 91.44 0)
+		(at 232.41 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1889,7 +1889,7 @@
 	)
 	(hierarchical_label "HS"
 		(shape input)
-		(at 20.32 35.56 180)
+		(at 29.21 43.18 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1900,7 +1900,7 @@
 	)
 	(hierarchical_label "LS"
 		(shape input)
-		(at 20.32 50.8 180)
+		(at 29.21 58.42 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1911,7 +1911,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 71.12 124.46 0)
+		(at 80.01 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1921,7 +1921,7 @@
 		(dnp no)
 		(uuid "13136b20-d18c-4157-aa16-783f0975c829")
 		(property "Reference" "#PWR036"
-			(at 71.12 124.46 0)
+			(at 80.01 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1932,7 +1932,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 71.12 130.81 0)
+			(at 80.01 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1942,7 +1942,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 124.46 0)
+			(at 80.01 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 124.46 0)
+			(at 80.01 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1962,7 +1962,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 124.46 0)
+			(at 80.01 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1981,11 +1981,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "#PWR034")
+					(reference "#PWR035")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "#PWR035")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -1993,7 +1993,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 66.04 66.04 90)
+		(at 74.93 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2002,8 +2002,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19bc0d94-a24e-4c65-bfc3-0989bddd1f37")
-		(property "Reference" "Q1"
-			(at 71.882 68.326 90)
+		(property "Reference" "Q2"
+			(at 80.772 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2014,7 +2014,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 71.882 70.866 90)
+			(at 80.772 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2025,7 +2025,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 66.04 66.04 0)
+			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2036,7 +2036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 66.04 0)
+			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2047,7 +2047,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 66.04 66.04 0)
+			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2058,7 +2058,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 60.452 79.248 90)
+			(at 69.342 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2070,7 +2070,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 60.452 79.248 90)
+			(at 69.342 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2082,7 +2082,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 60.452 79.248 90)
+			(at 69.342 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2108,7 +2108,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "Q1")
+					(reference "Q2")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
@@ -2116,7 +2116,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "Q2")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -2124,7 +2124,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 100.33 68.58 90)
+		(at 109.22 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2133,8 +2133,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bfecb8f-ce2a-4d55-beae-8ab633b3f888")
-		(property "Reference" "R10"
-			(at 96.266 67.564 90)
+		(property "Reference" "R11"
+			(at 105.156 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2145,7 +2145,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 99.06 72.39 90)
+			(at 107.95 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2157,7 +2157,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 100.33 68.58 0)
+			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2168,7 +2168,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 68.58 0)
+			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2179,7 +2179,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 68.58 0)
+			(at 109.22 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2190,7 +2190,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 96.266 72.136 90)
+			(at 105.156 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2209,15 +2209,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "R10")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "R11")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "R12")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -2225,7 +2225,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 109.22 114.3 180)
+		(at 118.11 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2234,8 +2234,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "416cfa35-ce55-46ce-ae10-b4c90bfd9db5")
-		(property "Reference" "C155"
-			(at 111.506 114.046 0)
+		(property "Reference" "C156"
+			(at 120.396 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2246,7 +2246,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 106.934 108.712 0)
+			(at 115.824 116.332 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2258,7 +2258,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 109.22 114.3 0)
+			(at 118.11 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2269,7 +2269,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 114.3 0)
+			(at 118.11 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2280,7 +2280,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 114.3 0)
+			(at 118.11 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2291,7 +2291,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 111.506 116.586 0)
+			(at 120.396 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2310,15 +2310,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C155")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C156")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C154")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "C155")
 					(unit 1)
 				)
 			)
@@ -2326,7 +2326,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 148.59 99.06 90)
+		(at 157.48 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2335,8 +2335,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "468854eb-4ddd-4d17-b2bf-7dc77227557b")
-		(property "Reference" "R13"
-			(at 144.526 98.044 90)
+		(property "Reference" "R14"
+			(at 153.416 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2347,7 +2347,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 147.32 102.87 90)
+			(at 156.21 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2359,7 +2359,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 148.59 99.06 0)
+			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2370,7 +2370,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 99.06 0)
+			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2381,7 +2381,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 148.59 99.06 0)
+			(at 157.48 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2392,7 +2392,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 144.526 102.616 90)
+			(at 153.416 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2411,11 +2411,11 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "R13")
+					(reference "R14")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "R14")
+					(reference "R13")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
@@ -2427,7 +2427,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 201.93 68.58 90)
+		(at 210.82 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2437,7 +2437,7 @@
 		(dnp no)
 		(uuid "47f2e2fd-b7cc-449d-b0e1-5517277ba231")
 		(property "Reference" "R23"
-			(at 197.866 67.564 90)
+			(at 206.756 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2448,7 +2448,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 200.66 72.39 90)
+			(at 209.55 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2460,7 +2460,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 201.93 68.58 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2471,7 +2471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 201.93 68.58 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2482,7 +2482,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 201.93 68.58 0)
+			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2493,7 +2493,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 197.866 72.136 90)
+			(at 206.756 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2516,11 +2516,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "R22")
+					(reference "R24")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "R24")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -2528,7 +2528,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 97.79 99.06 90)
+		(at 106.68 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2538,7 +2538,7 @@
 		(dnp no)
 		(uuid "4acf4459-97d4-4c16-a693-af6434eefd96")
 		(property "Reference" "R9"
-			(at 93.726 98.044 90)
+			(at 102.616 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2549,7 +2549,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 96.52 102.87 90)
+			(at 105.41 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2561,7 +2561,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 97.79 99.06 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2572,7 +2572,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 97.79 99.06 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2583,7 +2583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 97.79 99.06 0)
+			(at 106.68 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2594,7 +2594,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 93.726 102.616 90)
+			(at 102.616 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2629,7 +2629,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 199.39 99.06 90)
+		(at 208.28 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2638,8 +2638,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4c836a9d-c354-4f98-94c1-284cef51e9ab")
-		(property "Reference" "R19"
-			(at 195.326 98.044 90)
+		(property "Reference" "R20"
+			(at 204.216 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2650,7 +2650,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 198.12 102.87 90)
+			(at 207.01 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2662,7 +2662,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 199.39 99.06 0)
+			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2673,7 +2673,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 199.39 99.06 0)
+			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2684,7 +2684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 199.39 99.06 0)
+			(at 208.28 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2695,7 +2695,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 195.326 102.616 90)
+			(at 204.216 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2714,7 +2714,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "R19")
+					(reference "R20")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
@@ -2722,7 +2722,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "R20")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -2730,7 +2730,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 215.9 66.04 90)
+		(at 224.79 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2740,7 +2740,7 @@
 		(dnp no)
 		(uuid "5113b6cb-6cac-462c-99d2-65455dc59438")
 		(property "Reference" "Q20"
-			(at 221.742 68.326 90)
+			(at 230.632 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2751,7 +2751,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 221.742 70.866 90)
+			(at 230.632 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2762,7 +2762,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 215.9 66.04 0)
+			(at 224.79 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2773,7 +2773,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 66.04 0)
+			(at 224.79 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2784,7 +2784,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 215.9 66.04 0)
+			(at 224.79 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2795,7 +2795,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 210.312 79.248 90)
+			(at 219.202 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2807,7 +2807,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 210.312 79.248 90)
+			(at 219.202 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2819,7 +2819,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 210.312 79.248 90)
+			(at 219.202 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2861,7 +2861,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:+Vin_BAR")
-		(at 71.12 48.26 180)
+		(at 80.01 55.88 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2871,7 +2871,7 @@
 		(dnp no)
 		(uuid "572ad4ae-7d86-4771-a5ea-bdca47c66235")
 		(property "Reference" "#PWR033"
-			(at 71.12 48.26 0)
+			(at 80.01 55.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,7 +2882,7 @@
 			)
 		)
 		(property "Value" "+Vin"
-			(at 71.12 44.45 0)
+			(at 80.01 52.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2892,7 +2892,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 71.12 48.26 0)
+			(at 80.01 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2902,7 +2902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 48.26 0)
+			(at 80.01 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2912,7 +2912,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 48.26 0)
+			(at 80.01 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2931,11 +2931,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "#PWR031")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -2943,7 +2943,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 165.1 96.52 90)
+		(at 173.99 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2953,7 +2953,7 @@
 		(dnp no)
 		(uuid "5853858b-de87-4336-a022-db574e27c4ad")
 		(property "Reference" "Q17"
-			(at 170.942 98.806 90)
+			(at 179.832 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2964,7 +2964,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 170.942 101.346 90)
+			(at 179.832 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2975,7 +2975,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 165.1 96.52 0)
+			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2986,7 +2986,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 96.52 0)
+			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2997,7 +2997,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 165.1 96.52 0)
+			(at 173.99 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3008,7 +3008,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 159.512 109.728 90)
+			(at 168.402 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3020,7 +3020,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 159.512 109.728 90)
+			(at 168.402 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3032,7 +3032,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 159.512 109.728 90)
+			(at 168.402 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3074,7 +3074,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 215.9 96.52 90)
+		(at 224.79 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3083,8 +3083,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5af51186-bc22-4c79-b452-f6c2b3d027ff")
-		(property "Reference" "Q24"
-			(at 221.742 98.806 90)
+		(property "Reference" "Q23"
+			(at 230.632 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3095,7 +3095,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 221.742 101.346 90)
+			(at 230.632 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3106,7 +3106,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 215.9 96.52 0)
+			(at 224.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3117,7 +3117,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 96.52 0)
+			(at 224.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3128,7 +3128,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 215.9 96.52 0)
+			(at 224.79 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3139,7 +3139,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 210.312 109.728 90)
+			(at 219.202 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3151,7 +3151,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 210.312 109.728 90)
+			(at 219.202 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3163,7 +3163,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 210.312 109.728 90)
+			(at 219.202 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3189,15 +3189,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "Q24")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "Q23")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "Q22")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "Q24")
 					(unit 1)
 				)
 			)
@@ -3205,7 +3205,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 160.02 81.28 180)
+		(at 168.91 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3214,8 +3214,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6be58994-cea2-46ee-9eac-6ea1b74d3dcb")
-		(property "Reference" "C159"
-			(at 162.306 81.026 0)
+		(property "Reference" "C157"
+			(at 171.196 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3226,7 +3226,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 157.734 75.692 0)
+			(at 166.624 83.312 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3238,7 +3238,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 160.02 81.28 0)
+			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3249,7 +3249,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 81.28 0)
+			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3260,7 +3260,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 81.28 0)
+			(at 168.91 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3271,7 +3271,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 162.306 83.566 0)
+			(at 171.196 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3290,15 +3290,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C159")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C157")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C158")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "C159")
 					(unit 1)
 				)
 			)
@@ -3306,7 +3306,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 210.82 114.3 180)
+		(at 219.71 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3316,7 +3316,7 @@
 		(dnp no)
 		(uuid "87c02b4d-7175-4966-88f7-b146407df883")
 		(property "Reference" "C168"
-			(at 213.106 114.046 0)
+			(at 221.996 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3327,7 +3327,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 208.534 108.712 0)
+			(at 217.424 116.332 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3339,7 +3339,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 210.82 114.3 0)
+			(at 219.71 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3350,7 +3350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 114.3 0)
+			(at 219.71 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3361,7 +3361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 114.3 0)
+			(at 219.71 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3372,7 +3372,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 213.106 116.586 0)
+			(at 221.996 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3395,11 +3395,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "C166")
+					(reference "C167")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "C167")
+					(reference "C166")
 					(unit 1)
 				)
 			)
@@ -3407,7 +3407,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 109.22 81.28 180)
+		(at 118.11 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3416,8 +3416,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8ad15461-e1a9-4f52-bf46-d0b6bbdbdc42")
-		(property "Reference" "C151"
-			(at 111.506 81.026 0)
+		(property "Reference" "C153"
+			(at 120.396 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3428,7 +3428,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 106.934 75.692 0)
+			(at 115.824 83.312 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3440,7 +3440,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 109.22 81.28 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3451,7 +3451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 81.28 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3462,7 +3462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 81.28 0)
+			(at 118.11 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3473,7 +3473,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 111.506 83.566 0)
+			(at 120.396 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3492,15 +3492,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C151")
+					(reference "C153")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "C152")
+					(reference "C151")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "C153")
+					(reference "C152")
 					(unit 1)
 				)
 			)
@@ -3508,7 +3508,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 114.3 66.04 90)
+		(at 123.19 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3518,7 +3518,7 @@
 		(dnp no)
 		(uuid "a6f52a71-b2ad-4577-a35b-37eabfe3217f")
 		(property "Reference" "Q8"
-			(at 120.142 68.326 90)
+			(at 129.032 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3529,7 +3529,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 120.142 70.866 90)
+			(at 129.032 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3540,7 +3540,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 114.3 66.04 0)
+			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3551,7 +3551,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 66.04 0)
+			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3562,7 +3562,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 114.3 66.04 0)
+			(at 123.19 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3573,7 +3573,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 108.712 79.248 90)
+			(at 117.602 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3585,7 +3585,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 108.712 79.248 90)
+			(at 117.602 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3597,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 108.712 79.248 90)
+			(at 117.602 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3639,7 +3639,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 165.1 66.04 90)
+		(at 173.99 73.66 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3649,7 +3649,7 @@
 		(dnp no)
 		(uuid "a90db7ee-9c52-45cc-9f02-dae40efbd618")
 		(property "Reference" "Q14"
-			(at 170.942 68.326 90)
+			(at 179.832 75.946 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3660,7 +3660,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 170.942 70.866 90)
+			(at 179.832 78.486 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3671,7 +3671,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 165.1 66.04 0)
+			(at 173.99 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3682,7 +3682,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 66.04 0)
+			(at 173.99 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3693,7 +3693,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 165.1 66.04 0)
+			(at 173.99 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3704,7 +3704,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 159.512 79.248 90)
+			(at 168.402 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3716,7 +3716,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 159.512 79.248 90)
+			(at 168.402 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3728,7 +3728,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 159.512 79.248 90)
+			(at 168.402 86.868 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3758,11 +3758,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "Q13")
+					(reference "Q15")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "Q15")
+					(reference "Q13")
 					(unit 1)
 				)
 			)
@@ -3770,7 +3770,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 49.53 99.06 90)
+		(at 58.42 106.68 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3779,8 +3779,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "abd59c91-f58a-42a0-8b5b-7d4484826591")
-		(property "Reference" "R1"
-			(at 45.466 98.044 90)
+		(property "Reference" "R2"
+			(at 54.356 105.664 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3791,7 +3791,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 48.26 102.87 90)
+			(at 57.15 110.49 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3803,7 +3803,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 49.53 99.06 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3814,7 +3814,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 49.53 99.06 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3825,7 +3825,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 49.53 99.06 0)
+			(at 58.42 106.68 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3836,7 +3836,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 45.466 102.616 90)
+			(at 54.356 110.236 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3855,15 +3855,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "R1")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "R2")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "R3")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -3871,7 +3871,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 220.98 124.46 0)
+		(at 229.87 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3880,8 +3880,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b763ec1c-0f33-4a17-8008-ce986378a4eb")
-		(property "Reference" "#PWR043"
-			(at 220.98 124.46 0)
+		(property "Reference" "#PWR045"
+			(at 229.87 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3892,7 +3892,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 220.98 130.81 0)
+			(at 229.87 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3902,7 +3902,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 220.98 124.46 0)
+			(at 229.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3912,7 +3912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 220.98 124.46 0)
+			(at 229.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3922,7 +3922,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 220.98 124.46 0)
+			(at 229.87 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3937,7 +3937,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "#PWR043")
+					(reference "#PWR045")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
@@ -3945,7 +3945,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "#PWR045")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -3953,7 +3953,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 66.04 96.52 90)
+		(at 74.93 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3962,8 +3962,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b9c34abf-5155-47bd-b574-35810b4f80fd")
-		(property "Reference" "Q5"
-			(at 71.882 98.806 90)
+		(property "Reference" "Q4"
+			(at 80.772 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3974,7 +3974,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 71.882 101.346 90)
+			(at 80.772 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3985,7 +3985,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 66.04 96.52 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3996,7 +3996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 66.04 96.52 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4007,7 +4007,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 66.04 96.52 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4018,7 +4018,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 60.452 109.728 90)
+			(at 69.342 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4030,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 60.452 109.728 90)
+			(at 69.342 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4042,7 +4042,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 60.452 109.728 90)
+			(at 69.342 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4068,7 +4068,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
@@ -4076,7 +4076,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "Q4")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -4084,7 +4084,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_IGB110S101_RezaLIB.IntLib")
-		(at 114.3 96.52 90)
+		(at 123.19 104.14 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4094,7 +4094,7 @@
 		(dnp no)
 		(uuid "c6905e90-e253-4d3a-b015-99464dbf32f1")
 		(property "Reference" "Q11"
-			(at 120.142 98.806 90)
+			(at 129.032 106.426 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4105,7 +4105,7 @@
 			)
 		)
 		(property "Value" "IGB110S101"
-			(at 120.142 101.346 90)
+			(at 129.032 108.966 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4116,7 +4116,7 @@
 			)
 		)
 		(property "Footprint" "IFX-PG-VSON-4-3-V"
-			(at 114.3 96.52 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4127,7 +4127,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 96.52 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4138,7 +4138,7 @@
 			)
 		)
 		(property "Description" "CoolGaN Transistor"
-			(at 114.3 96.52 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4149,7 +4149,7 @@
 			)
 		)
 		(property "MANUFACTURER" "Infineon Technologies"
-			(at 108.712 109.728 90)
+			(at 117.602 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +4161,7 @@
 			)
 		)
 		(property "MANUFACTURER ORDER NUMBER" "IGB110S101"
-			(at 108.712 109.728 90)
+			(at 117.602 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4173,7 +4173,7 @@
 			)
 		)
 		(property "PACKAGEREFERENCE" "PG-VSON-4-3"
-			(at 108.712 109.728 90)
+			(at 117.602 117.348 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4215,7 +4215,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 60.96 114.3 180)
+		(at 69.85 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4224,8 +4224,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d26fb8d7-7653-4cf7-b1ae-bcf4829b996e")
-		(property "Reference" "C148"
-			(at 63.246 114.046 0)
+		(property "Reference" "C150"
+			(at 72.136 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4236,7 +4236,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 58.674 108.712 0)
+			(at 67.564 116.332 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4248,7 +4248,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 60.96 114.3 0)
+			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 114.3 0)
+			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4270,7 +4270,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 114.3 0)
+			(at 69.85 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4281,7 +4281,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 63.246 116.586 0)
+			(at 72.136 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4300,11 +4300,11 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C148")
+					(reference "C150")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "C150")
+					(reference "C148")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
@@ -4316,7 +4316,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 210.82 81.28 180)
+		(at 219.71 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4325,8 +4325,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d9bee3ec-4b2a-432e-9901-c6ee594d767c")
-		(property "Reference" "C163"
-			(at 213.106 81.026 0)
+		(property "Reference" "C164"
+			(at 221.996 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4337,7 +4337,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 208.534 75.692 0)
+			(at 217.424 83.312 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4349,7 +4349,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 210.82 81.28 0)
+			(at 219.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4360,7 +4360,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 81.28 0)
+			(at 219.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4371,7 +4371,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 210.82 81.28 0)
+			(at 219.71 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4382,7 +4382,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 213.106 83.566 0)
+			(at 221.996 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4401,15 +4401,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C163")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C164")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C165")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "C163")
 					(unit 1)
 				)
 			)
@@ -4417,7 +4417,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 170.18 124.46 0)
+		(at 179.07 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4426,8 +4426,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de5bae13-9cda-495a-aaa5-47506b744c94")
-		(property "Reference" "#PWR040"
-			(at 170.18 124.46 0)
+		(property "Reference" "#PWR042"
+			(at 179.07 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4438,7 +4438,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 170.18 130.81 0)
+			(at 179.07 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4448,7 +4448,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 124.46 0)
+			(at 179.07 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4458,7 +4458,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 124.46 0)
+			(at 179.07 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4468,7 +4468,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 170.18 124.46 0)
+			(at 179.07 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4483,11 +4483,11 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "#PWR040")
+					(reference "#PWR042")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "#PWR042")
+					(reference "#PWR040")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
@@ -4499,7 +4499,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 52.07 68.58 90)
+		(at 60.96 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4509,7 +4509,7 @@
 		(dnp no)
 		(uuid "e09d20cf-cfa8-4188-8341-84c7845d45ca")
 		(property "Reference" "R5"
-			(at 47.752 65.786 90)
+			(at 56.642 73.406 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4520,7 +4520,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 50.8 72.39 90)
+			(at 59.69 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +4532,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 52.07 68.58 0)
+			(at 60.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4543,7 +4543,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 68.58 0)
+			(at 60.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4554,7 +4554,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 68.58 0)
+			(at 60.96 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4565,7 +4565,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 48.006 72.136 90)
+			(at 56.896 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4588,11 +4588,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "R4")
+					(reference "R6")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "R6")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -4600,7 +4600,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 119.38 124.46 0)
+		(at 128.27 132.08 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4609,8 +4609,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e14c81db-e78d-4b73-8a50-cc76f829e060")
-		(property "Reference" "#PWR038"
-			(at 119.38 124.46 0)
+		(property "Reference" "#PWR037"
+			(at 128.27 132.08 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4621,7 +4621,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 119.38 130.81 0)
+			(at 128.27 138.43 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4631,7 +4631,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 119.38 124.46 0)
+			(at 128.27 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4641,7 +4641,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 119.38 124.46 0)
+			(at 128.27 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4651,7 +4651,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 119.38 124.46 0)
+			(at 128.27 132.08 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4666,7 +4666,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "#PWR038")
+					(reference "#PWR037")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
@@ -4674,7 +4674,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "#PWR037")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -4682,7 +4682,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_0_Res SMD_RezaLIB.IntLib")
-		(at 151.13 68.58 90)
+		(at 160.02 76.2 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4691,8 +4691,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e69f6fa5-ac4b-4548-945e-7dc102aede2a")
-		(property "Reference" "R18"
-			(at 147.066 67.564 90)
+		(property "Reference" "R17"
+			(at 155.956 75.184 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4703,7 +4703,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 149.86 72.39 90)
+			(at 158.75 80.01 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4715,7 +4715,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 151.13 68.58 0)
+			(at 160.02 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4726,7 +4726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 151.13 68.58 0)
+			(at 160.02 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4737,7 +4737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 151.13 68.58 0)
+			(at 160.02 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4748,7 +4748,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "0R5"
-			(at 147.066 72.136 90)
+			(at 155.956 79.756 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4767,7 +4767,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "R18")
+					(reference "R17")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
@@ -4775,7 +4775,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "R17")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -4783,7 +4783,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 160.02 114.3 180)
+		(at 168.91 121.92 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4792,8 +4792,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ecb29a22-c248-4b46-bbd2-41245a28cd97")
-		(property "Reference" "C161"
-			(at 162.306 114.046 0)
+		(property "Reference" "C162"
+			(at 171.196 121.666 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4804,7 +4804,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 157.734 108.712 0)
+			(at 166.624 116.332 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4816,7 +4816,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 160.02 114.3 0)
+			(at 168.91 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4827,7 +4827,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 160.02 114.3 0)
+			(at 168.91 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4838,7 +4838,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 160.02 114.3 0)
+			(at 168.91 121.92 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4849,7 +4849,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 162.306 116.586 0)
+			(at 171.196 124.206 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4868,15 +4868,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C161")
+					(reference "C162")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
-					(reference "C160")
+					(reference "C161")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
-					(reference "C162")
+					(reference "C160")
 					(unit 1)
 				)
 			)
@@ -4884,7 +4884,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PowerStage_1_Cap SMD_RezaLIB.IntLib")
-		(at 60.96 81.28 180)
+		(at 69.85 88.9 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4893,8 +4893,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f0ed4001-9f19-45cc-86eb-e9ed356a2fc9")
-		(property "Reference" "C145"
-			(at 63.246 81.026 0)
+		(property "Reference" "C147"
+			(at 72.136 88.646 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4905,7 +4905,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 58.674 75.692 0)
+			(at 67.564 83.312 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4917,7 +4917,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 60.96 81.28 0)
+			(at 69.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4928,7 +4928,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 81.28 0)
+			(at 69.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4939,7 +4939,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 81.28 0)
+			(at 69.85 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4950,7 +4950,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 63.246 83.566 0)
+			(at 72.136 91.186 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4969,15 +4969,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/04ac1fea-15b9-4afc-8f43-9e4f03477705"
-					(reference "C145")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C147")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/1cc55cc7-df8f-42d6-a930-8776bd6520e4"
 					(reference "C146")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/583638e6-279e-47f1-9856-e5828de959a3"
+					(reference "C145")
 					(unit 1)
 				)
 			)

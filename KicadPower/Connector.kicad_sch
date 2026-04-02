@@ -3840,7 +3840,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2df32cf3-c1cc-4811-b5ba-808ab93df97d")
-		(property "Reference" "#PWR080"
+		(property "Reference" "#PWR078"
 			(at 78.74 159.2072 0)
 			(hide yes)
 			(show_name no)
@@ -3897,7 +3897,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/9252f410-1898-4564-9d05-e8bcb0be908b"
-					(reference "#PWR080")
+					(reference "#PWR078")
 					(unit 1)
 				)
 			)
@@ -4814,7 +4814,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "95708b77-498c-4b9d-8aec-7074600d9651")
-		(property "Reference" "#PWR081"
+		(property "Reference" "#PWR079"
 			(at 78.74 179.5272 0)
 			(hide yes)
 			(show_name no)
@@ -4871,7 +4871,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/9252f410-1898-4564-9d05-e8bcb0be908b"
-					(reference "#PWR081")
+					(reference "#PWR079")
 					(unit 1)
 				)
 			)

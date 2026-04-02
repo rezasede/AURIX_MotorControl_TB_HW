@@ -2009,7 +2009,7 @@
 	)
 	(text_box "Fc = 1.68 MHz"
 		(exclude_from_sim no)
-		(at 91.44 167.64 0)
+		(at 82.55 154.94 0)
 		(size -17.78 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2031,7 +2031,7 @@
 	)
 	(text_box "3.157 for 60V"
 		(exclude_from_sim no)
-		(at 60.96 175.26 0)
+		(at 52.07 162.56 0)
 		(size -17.78 5.08)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
@@ -2082,13 +2082,13 @@
 		(uuid "4feecd4c-2f01-4f56-9d32-ffdd4b494d99")
 	)
 	(junction
-		(at 78.74 177.8)
+		(at 69.85 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f89441ac-37e3-450e-9068-ba42911bcbec")
 	)
 	(junction
-		(at 63.5 177.8)
+		(at 54.61 165.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa3993bf-139b-4780-956c-77f98441726f")
@@ -2135,7 +2135,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 177.8) (xy 78.74 177.8)
+			(xy 54.61 165.1) (xy 69.85 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2165,7 +2165,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 157.48) (xy 63.5 157.48)
+			(xy 52.07 144.78) (xy 54.61 144.78)
 		)
 		(stroke
 			(width 0)
@@ -2185,7 +2185,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 177.8) (xy 96.52 177.8)
+			(xy 69.85 165.1) (xy 87.63 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2195,7 +2195,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 177.8) (xy 63.5 175.26)
+			(xy 54.61 165.1) (xy 54.61 162.56)
 		)
 		(stroke
 			(width 0)
@@ -2275,7 +2275,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 193.04) (xy 78.74 190.5)
+			(xy 69.85 180.34) (xy 69.85 177.8)
 		)
 		(stroke
 			(width 0)
@@ -2345,7 +2345,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 180.34) (xy 63.5 177.8)
+			(xy 54.61 167.64) (xy 54.61 165.1)
 		)
 		(stroke
 			(width 0)
@@ -2385,7 +2385,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 177.8) (xy 78.74 182.88)
+			(xy 69.85 165.1) (xy 69.85 170.18)
 		)
 		(stroke
 			(width 0)
@@ -2415,7 +2415,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 157.48) (xy 63.5 162.56)
+			(xy 54.61 144.78) (xy 54.61 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2456,7 +2456,7 @@
 	)
 	(hierarchical_label "SW"
 		(shape bidirectional)
-		(at 60.96 157.48 180)
+		(at 52.07 144.78 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2489,7 +2489,7 @@
 	)
 	(hierarchical_label "Vph"
 		(shape output)
-		(at 96.52 177.8 0)
+		(at 87.63 165.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2509,7 +2509,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "18c62df1-2748-4fb7-92cd-693dafed2895")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR056"
 			(at 71.12 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -2566,15 +2566,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR053")
+					(reference "#PWR055")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "#PWR054")
+					(reference "#PWR057")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR052")
+					(reference "#PWR056")
 					(unit 1)
 				)
 			)
@@ -2583,7 +2583,7 @@
 	(symbol
 		(lib_name "U_Sensing_2_1_Cap SMD_RezaLIB.IntLib_1")
 		(lib_id "RezaLIB:U_Sensing_2_1_Cap SMD_RezaLIB.IntLib")
-		(at 78.74 187.96 180)
+		(at 69.85 175.26 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2592,8 +2592,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21b3b340-e765-4e86-8059-81cfa2185ebd")
-		(property "Reference" "C174"
-			(at 81.026 187.706 0)
+		(property "Reference" "C169"
+			(at 72.136 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2604,7 +2604,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 76.454 182.372 0)
+			(at 67.564 169.672 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2616,7 +2616,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 78.74 187.96 0)
+			(at 69.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2627,7 +2627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 187.96 0)
+			(at 69.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2638,7 +2638,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 187.96 0)
+			(at 69.85 175.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2649,7 +2649,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10pF"
-			(at 81.026 190.246 0)
+			(at 72.136 177.546 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2668,15 +2668,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "C173")
+					(reference "C171")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "C172")
+					(reference "C170")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "C174")
+					(reference "C169")
 					(unit 1)
 				)
 			)
@@ -2693,7 +2693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3c096674-6890-4f87-92de-e6a5ef335dcc")
-		(property "Reference" "#PWR061"
+		(property "Reference" "#PWR063"
 			(at 149.86 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -2750,15 +2750,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR062")
+					(reference "#PWR061")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "#PWR063")
+					(reference "#PWR062")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR061")
+					(reference "#PWR063")
 					(unit 1)
 				)
 			)
@@ -2832,11 +2832,11 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR066")
+					(reference "#PWR064")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "#PWR064")
+					(reference "#PWR066")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
@@ -2848,7 +2848,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Sensing_2_1_Res SMD_RezaLIB.IntLib")
-		(at 63.5 186.69 180)
+		(at 54.61 173.99 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2857,8 +2857,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d20c07e-d8e7-48eb-a4fd-9dce533f16b1")
-		(property "Reference" "R31"
-			(at 64.516 185.166 0)
+		(property "Reference" "R29"
+			(at 55.626 172.466 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2869,7 +2869,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 62.484 179.832 0)
+			(at 53.594 167.132 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2881,7 +2881,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 63.5 186.69 0)
+			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2892,7 +2892,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 186.69 0)
+			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2903,7 +2903,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 186.69 0)
+			(at 54.61 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,7 +2914,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 64.516 187.706 0)
+			(at 55.626 175.006 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2933,15 +2933,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "R33")
+					(reference "R28")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "R32")
+					(reference "R30")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "R31")
+					(reference "R29")
 					(unit 1)
 				)
 			)
@@ -2959,7 +2959,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7089ddb7-8057-49b5-88e1-bb2413ced410")
-		(property "Reference" "C180"
+		(property "Reference" "C178"
 			(at 152.146 129.286 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3035,7 +3035,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "C178")
+					(reference "C180")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
@@ -3043,7 +3043,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "C180")
+					(reference "C178")
 					(unit 1)
 				)
 			)
@@ -3060,7 +3060,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9db68785-f3e8-4d05-9b85-5531b67804f5")
-		(property "Reference" "C169"
+		(property "Reference" "C173"
 			(at 73.406 86.106 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3136,15 +3136,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "C171")
+					(reference "C172")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "C170")
+					(reference "C174")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "C169")
+					(reference "C173")
 					(unit 1)
 				)
 			)
@@ -3161,7 +3161,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a27396ac-cf73-4cfb-b90c-06ed631de39e")
-		(property "Reference" "JS3"
+		(property "Reference" "JS2"
 			(at 168.148 94.742 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3232,11 +3232,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "JS2")
+					(reference "JS3")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "JS3")
+					(reference "JS2")
 					(unit 1)
 				)
 			)
@@ -3253,7 +3253,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b085fafc-f4f8-4b4f-9ab8-817753268d2f")
-		(property "Reference" "P3"
+		(property "Reference" "P1"
 			(at 145.542 66.802 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3321,11 +3321,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "P1")
+					(reference "P3")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "P3")
+					(reference "P1")
 					(unit 1)
 				)
 			)
@@ -3342,7 +3342,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b6f9da7e-91a1-4aa3-8481-7a9a707cdf3a")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR068"
 			(at 157.48 60.96 0)
 			(hide yes)
 			(show_name no)
@@ -3399,15 +3399,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR068")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
 					(reference "#PWR069")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
 					(reference "#PWR067")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
+					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3425,7 +3425,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "baba9995-6197-4fcd-b592-04b7d6bc465d")
-		(property "Reference" "C175"
+		(property "Reference" "C177"
 			(at 152.146 106.426 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3501,15 +3501,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "C176")
+					(reference "C175")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "C177")
+					(reference "C176")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "C175")
+					(reference "C177")
 					(unit 1)
 				)
 			)
@@ -3526,7 +3526,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf62d830-66c5-441f-ab91-88468511098f")
-		(property "Reference" "#PWR046"
+		(property "Reference" "#PWR048"
 			(at 25.4 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -3583,7 +3583,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR048")
+					(reference "#PWR046")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
@@ -3591,7 +3591,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR046")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -3599,7 +3599,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
-		(at 78.74 193.04 0)
+		(at 69.85 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3608,8 +3608,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c0776cb7-de68-40e4-920d-8f082ca6964f")
-		(property "Reference" "#PWR057"
-			(at 78.74 193.04 0)
+		(property "Reference" "#PWR053"
+			(at 69.85 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3620,7 +3620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 78.74 199.39 0)
+			(at 69.85 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3630,7 +3630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 78.74 193.04 0)
+			(at 69.85 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3640,7 +3640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 78.74 193.04 0)
+			(at 69.85 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3650,7 +3650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 78.74 193.04 0)
+			(at 69.85 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3665,15 +3665,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR055")
+					(reference "#PWR052")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "#PWR056")
+					(reference "#PWR054")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR057")
+					(reference "#PWR053")
 					(unit 1)
 				)
 			)
@@ -3690,7 +3690,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ce53b953-3416-4c12-8eb1-060d54810bee")
-		(property "Reference" "U2"
+		(property "Reference" "U1"
 			(at 94.488 76.708 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3809,11 +3809,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "U1")
+					(reference "U2")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "U2")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -3830,7 +3830,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e1542e13-2c37-4cdd-a76e-79a04ba8b9aa")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR058"
 			(at 127 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -3888,7 +3888,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR058")
+					(reference "#PWR059")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
@@ -3896,7 +3896,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR059")
+					(reference "#PWR058")
 					(unit 1)
 				)
 			)
@@ -3904,7 +3904,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
-		(at 63.5 193.04 0)
+		(at 54.61 180.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3913,8 +3913,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f15232aa-a0a7-434d-b798-ccc4c8f27f32")
-		(property "Reference" "#PWR050"
-			(at 63.5 193.04 0)
+		(property "Reference" "#PWR051"
+			(at 54.61 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3925,7 +3925,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 199.39 0)
+			(at 54.61 186.69 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3935,7 +3935,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 193.04 0)
+			(at 54.61 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3945,7 +3945,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 193.04 0)
+			(at 54.61 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3955,7 +3955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 193.04 0)
+			(at 54.61 180.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3970,7 +3970,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR051")
+					(reference "#PWR050")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
@@ -3978,7 +3978,7 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR050")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -3986,7 +3986,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Sensing_2_1_Res SMD_RezaLIB.IntLib")
-		(at 63.5 168.91 180)
+		(at 54.61 156.21 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3995,8 +3995,8 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f444db4d-440b-434c-9e90-09d46b03ba35")
-		(property "Reference" "R29"
-			(at 64.516 167.386 0)
+		(property "Reference" "R27"
+			(at 55.626 154.686 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4007,7 +4007,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 62.484 162.052 0)
+			(at 53.594 149.352 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4019,7 +4019,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 63.5 168.91 0)
+			(at 54.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4030,7 +4030,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 168.91 0)
+			(at 54.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4041,7 +4041,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 63.5 168.91 0)
+			(at 54.61 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4052,7 +4052,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "180K"
-			(at 64.516 169.926 0)
+			(at 55.626 157.226 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4071,15 +4071,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "R28")
+					(reference "R26")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "R30")
+					(reference "R25")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "R29")
+					(reference "R27")
 					(unit 1)
 				)
 			)
@@ -4231,11 +4231,11 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "FB3")
+					(reference "FB1")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "FB1")
+					(reference "FB3")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
@@ -4256,7 +4256,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f9d5c133-8d45-4638-8215-8fca0e2135d2")
-		(property "Reference" "R25"
+		(property "Reference" "R32"
 			(at 55.626 80.264 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4332,15 +4332,15 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "R26")
+					(reference "R31")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "R27")
+					(reference "R33")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "R25")
+					(reference "R32")
 					(unit 1)
 				)
 			)
