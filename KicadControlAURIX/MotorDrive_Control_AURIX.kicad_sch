@@ -1,0 +1,108 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "25ca5c22-aac3-4786-a118-92a8b0ac96f5")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 96.52 100.7872)
+		(size 38.1 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "9c95140c-92cc-4ed1-bd81-53c31bed9974")
+		(property "Sheetname" "U_PSU"
+			(at 96.52 98.2472 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PSU.kicad_sch"
+			(at 96.52 100.7872 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 149.86 83.0072)
+		(size 33.02 35.56)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0)
+			(type solid)
+			(color 128 0 0 1)
+		)
+		(fill
+			(color 128 255 128 1)
+		)
+		(uuid "ef339802-cb4b-45e6-a11b-c0e21622845d")
+		(property "Sheetname" "U_Control"
+			(at 149.86 83.0072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control.kicad_sch"
+			(at 170.18 83.0072 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "3")
+		)
+	)
+	(embedded_fonts no)
+)

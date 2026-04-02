@@ -1,0 +1,44 @@
+(version 1)
+
+# JLCPCB custom DRC for KiCad
+# Target: 2-layer board, 1 oz copper
+#
+# Note: Global parameters (track width = 0.1mm, via drill = 0.3mm) 
+# must remain governed by the Board Setup GUI.
+
+(rule "PTH Component Pad Annular Ring (2-layer)"
+	(condition "A.Type == 'pad' && A.Pad_Type == 'Through-hole'")
+	(constraint annular_width (min 0.18mm))
+)
+
+(rule "NPTH Mechanical Pad Annular Ring"
+	(condition "A.Type == 'pad' && A.Pad_Type == 'NPTH, mechanical'")
+	(constraint annular_width (min 0.45mm))
+)
+
+(rule "Pad to Silkscreen"
+	(layer outer)
+	(condition "A.Type == 'pad' && B.Layer == '?.Silkscreen'")
+	(constraint silk_clearance (min 0.15mm))
+)
+
+(rule "Hole (castellated) diameter"
+	(layer outer)
+	(condition "A.Type == 'pad' && A.Fabrication_Property == 'Castellated pad'")
+	(constraint hole_size (min 0.6mm))
+)
+
+(rule "Plated slot width (2-layer)"
+	(condition "A.Type == 'pad' && A.Pad_Type == 'Through-hole' && A.Hole_Shape == 'Oval'")
+	(constraint hole_size (min 0.65mm) (max 6.3mm))
+)
+
+(rule "Non-plated round hole diameter"
+	(condition "A.Type == 'pad' && A.Pad_Type == 'NPTH, mechanical' && A.Hole_Shape == 'Round'")
+	(constraint hole_size (min 0.5mm) (max 6.3mm))
+)
+
+(rule "Non-plated slot width"
+	(condition "A.Type == 'pad' && A.Pad_Type == 'NPTH, mechanical' && A.Hole_Shape == 'Oval'")
+	(constraint hole_size (min 1.0mm) (max 6.3mm))
+)
