@@ -5,6 +5,661 @@
 	(uuid "266c6877-3164-4cad-ba57-962ccbe5d6d8")
 	(paper "A")
 	(lib_symbols
+		(symbol "1EDN7116GXTMA1:1EDN7116GXTMA1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "IC"
+				(at 34.29 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "1EDN7116GXTMA1"
+				(at 34.29 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "1EDN7116GXTMA1"
+				(at 34.29 -94.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?"
+				(at 34.29 -194.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Description" "Gate Drivers INT. POWERSTAGE/DRIVER"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Height" "0.9"
+				(at 34.29 -394.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Name" "Infineon"
+				(at 34.29 -494.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Manufacturer_Part_Number" "1EDN7116GXTMA1"
+				(at 34.29 -594.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Part Number" "726-1EDN7116GXTMA1"
+				(at 34.29 -694.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDN7116GXTMA1?qs=XAiT9M5g4x8tURLMwQjrKg%3D%3D"
+				(at 34.29 -794.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Part Number" ""
+				(at 34.29 -894.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Arrow Price/Stock" ""
+				(at 34.29 -994.92 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(symbol "1EDN7116GXTMA1_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 33.02 -15.24)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "CF-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "CF+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "VOFF_ADJ"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "IN+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "IN-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 0 180)
+					(length 5.08)
+					(name "BST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -2.54 180)
+					(length 5.08)
+					(name "OUT_SNK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -5.08 180)
+					(length 5.08)
+					(name "OUT_SRC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -7.62 180)
+					(length 5.08)
+					(name "VOFF"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 38.1 -10.16 180)
+					(length 5.08)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorDrive_Power-altium-import:+10V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -434,218 +1089,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RezaLIB:U_GateDrive_0_1EDN7116UXTSA1_RezaLIB.IntLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "The 1EDN7116U is a single-channel gate-driver IC optimized for driving Infineon CoolGaNâ„¢ Schottky gate (SG) HEMTs, as well as other GaN SG HEMTs and Si MOSFETs. This gate driver includes several key features that enable a high-performance system design with fast-switching transistors, including Truly Differential Input (TDI), 2 A peak source and sink current, active Miller clamp, and bootstrap voltage clamp.Thanks to the TDI feature, the gate driver output state is exclusively controlled by the voltage difference between the two inputs, independent of the driverâ€™s reference (ground) potential as long as the common-mode voltage is below 150 V (static) and 200 V (dynamic). This eliminates the risk of false triggering due to ground bounce in low-side applications, while also allowing 1EDN7116U to address even high-side applications."
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*PG-TSNP-7-11_INF*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_GateDrive_0_1EDN7116UXTSA1_RezaLIB.IntLib_1_0"
-				(rectangle
-					(start 7.62 -38.1)
-					(end -25.4 -7.62)
-					(stroke
-						(width 0)
-						(type solid)
-						(color 0 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin power_in line
-					(at -15.24 0 270)
-					(length 7.62)
-					(name "VDD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -2.54 0 270)
-					(length 7.62)
-					(name "IN+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 0 0 270)
-					(length 7.62)
-					(name "IN-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -20.32 0 270)
-					(length 7.62)
-					(name "VSS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -7.62 0 270)
-					(length 7.62)
-					(name "BST"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -45.72 90)
-					(length 7.62)
-					(name "OUT_SNK"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -45.72 90)
-					(length 7.62)
-					(name "OUT_SRC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RezaLIB:U_GateDrive_0_LDK220C-R_RezaLIB.IntLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -812,299 +1255,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RezaLIB:U_GateDrive_0_Res SMD_RezaLIB.IntLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RESC1608X55N*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_GateDrive_0_Res SMD_RezaLIB.IntLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0.762 -3.048) (xy -0.762 -1.524) (xy 0.762 0) (xy -0.762 1.524) (xy 0.762 3.048)
-						(xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 6.35 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CAPC2012X135N*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_GateDrive_1_Cap SMD_RezaLIB.IntLib_1_0"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 -1.778) (xy 2.032 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 0 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1601,297 +1751,174 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RezaLIB:U_GateDrive_1_Res SMD_RezaLIB.IntLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RESC1608X55N*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_GateDrive_1_Res SMD_RezaLIB.IntLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0.762 -3.048) (xy -0.762 -1.524) (xy 0.762 0) (xy -0.762 1.524) (xy 0.762 3.048)
-						(xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 6.35 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(junction
-		(at 163.83 133.35)
+		(at 224.79 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "2295deda-e9b6-453a-b79b-571c9bacb475")
+		(uuid "0f849455-8cdf-4f82-b550-8b50d32f00f0")
 	)
 	(junction
-		(at 143.51 161.29)
+		(at 135.89 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "25144d33-2ed8-44c5-9000-05f96a755cb2")
 	)
 	(junction
-		(at 151.13 67.31)
+		(at 143.51 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26998e61-f954-4cd6-aca7-8b0dcad6c630")
 	)
 	(junction
-		(at 130.81 133.35)
+		(at 123.19 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3502c205-58bc-4683-8663-42cb2ff66302")
 	)
 	(junction
-		(at 153.67 133.35)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3a5fa727-d052-4835-8b4d-6d58333fb28a")
-	)
-	(junction
-		(at 130.81 67.31)
+		(at 123.19 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3dc04c1b-73be-45b1-b70b-d7252dd2e249")
 	)
 	(junction
-		(at 227.33 52.07)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "439b4bb8-0333-439e-ba1f-6ce47c1a651f")
-	)
-	(junction
-		(at 72.39 161.29)
+		(at 64.77 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53779578-49b0-43f5-ab27-ff791f659078")
 	)
 	(junction
-		(at 153.67 161.29)
+		(at 223.52 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "62e24569-24cd-49c9-9f91-03a27f8a4f9e")
+		(uuid "5c677a4a-77d0-4330-853c-f051cdb05bda")
 	)
 	(junction
-		(at 72.39 133.35)
+		(at 64.77 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "71ad0d17-0dc7-403f-83f8-e313230d8beb")
 	)
 	(junction
-		(at 85.09 95.25)
+		(at 77.47 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "724d7622-2ae3-44ae-8a3c-1c055d53aafe")
 	)
 	(junction
-		(at 161.29 67.31)
+		(at 153.67 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77499d0e-2031-42c3-8f98-aa71f23a7d77")
 	)
 	(junction
-		(at 227.33 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "832f1162-be8d-428d-b640-319e5fc8dce2")
-	)
-	(junction
-		(at 140.97 67.31)
+		(at 133.35 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "88de930b-4618-49a8-b69b-6e6ecd5534a5")
 	)
 	(junction
-		(at 77.47 67.31)
+		(at 69.85 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "895f848e-5e13-419b-a837-45590df93efe")
 	)
 	(junction
-		(at 151.13 95.25)
+		(at 247.65 95.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "944dfd61-6f7f-47e5-869b-b791897a4d92")
+	)
+	(junction
+		(at 143.51 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "96784603-31b5-4c76-899f-a75ffaa14aeb")
 	)
 	(junction
-		(at 181.61 95.25)
+		(at 168.91 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b1ae97b8-5fa4-42a3-a02a-cd7f17d786b4")
+		(uuid "ad315bd5-18c7-4354-9405-f4390fd464a2")
 	)
 	(junction
-		(at 143.51 133.35)
+		(at 135.89 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b74fa94b-dd5a-435a-a1d6-6e6e8eb0d89b")
 	)
 	(junction
-		(at 72.39 140.97)
+		(at 64.77 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b90976f1-6498-4584-8b30-85fb0ec86331")
 	)
 	(junction
-		(at 227.33 49.53)
+		(at 148.59 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "d4d235bc-d124-4233-a01f-30805ef5c4cb")
+		(uuid "caa292fa-befa-4ef5-9fc7-2ba2400b7f0e")
 	)
 	(junction
-		(at 140.97 95.25)
+		(at 181.61 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cfea1e8d-67e5-462c-9602-86fb93fa1e14")
+	)
+	(junction
+		(at 224.79 118.11)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d3de9a2b-81a4-4587-8d75-2f6a1e3a2262")
+	)
+	(junction
+		(at 133.35 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6feb3d1-2631-4482-bdba-1e07976f1681")
 	)
 	(junction
-		(at 82.55 67.31)
+		(at 74.93 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e025db79-3ee2-43ef-b5c1-79bd723d046b")
 	)
 	(junction
-		(at 52.07 133.35)
+		(at 148.59 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e6870d87-025a-4f6a-b335-155ddc4b6ab8")
+	)
+	(junction
+		(at 44.45 133.35)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f31ce0b7-d9c8-4b68-ab99-22f35639ae4d")
 	)
 	(junction
-		(at 161.29 95.25)
+		(at 223.52 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f75a8ef9-7247-47e3-99ba-71c8f1c30434")
+	)
+	(junction
+		(at 153.67 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f7701458-7f6f-4af2-be53-a9356f456851")
 	)
-	(junction
-		(at 227.33 118.11)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa3748f4-8a61-4556-a0c7-00d06626cd89")
-	)
 	(no_connect
-		(at 85.09 138.43)
+		(at 77.47 138.43)
 		(uuid "704e4638-2218-4f77-b483-8cb82fdfdb5f")
 	)
 	(no_connect
-		(at 85.09 72.39)
+		(at 77.47 72.39)
 		(uuid "8c933d7d-857d-4169-88e2-e3f71021435a")
 	)
 	(wire
 		(pts
-			(xy 161.29 74.93) (xy 161.29 67.31)
+			(xy 153.67 74.93) (xy 153.67 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1901,7 +1928,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 52.07) (xy 158.75 52.07)
+			(xy 121.92 48.26) (xy 130.81 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1911,7 +1938,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 151.13) (xy 85.09 151.13)
+			(xy 73.66 151.13) (xy 77.47 151.13)
 		)
 		(stroke
 			(width 0)
@@ -1921,7 +1948,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 67.31) (xy 130.81 67.31)
+			(xy 133.35 67.31) (xy 123.19 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1931,7 +1958,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 67.31) (xy 125.73 67.31)
+			(xy 123.19 67.31) (xy 118.11 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1941,7 +1968,27 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 140.97) (xy 143.51 133.35)
+			(xy 170.18 118.11) (xy 170.18 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0b3f851d-2061-46ef-b827-9d8e420cbb38")
+	)
+	(wire
+		(pts
+			(xy 224.79 123.19) (xy 224.79 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dfe9c14-adc0-4f1d-94cc-1ac2be19df3e")
+	)
+	(wire
+		(pts
+			(xy 135.89 140.97) (xy 135.89 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1951,7 +1998,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 140.97) (xy 130.81 133.35)
+			(xy 123.19 140.97) (xy 123.19 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1961,7 +2008,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 133.35) (xy 125.73 133.35)
+			(xy 123.19 133.35) (xy 118.11 133.35)
 		)
 		(stroke
 			(width 0)
@@ -1971,7 +2018,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 161.29) (xy 130.81 161.29)
+			(xy 24.13 133.35) (xy 26.67 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1766368c-7d7a-4289-a0dc-599778deb593")
+	)
+	(wire
+		(pts
+			(xy 135.89 161.29) (xy 123.19 161.29)
 		)
 		(stroke
 			(width 0)
@@ -1981,17 +2038,27 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 113.03) (xy 171.45 113.03)
+			(xy 138.43 48.26) (xy 185.42 48.26)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1c4bc3ba-d7ab-4234-bfdd-5cadbdeba222")
+		(uuid "1bbe6365-4922-4591-a930-ae28a60c0e57")
 	)
 	(wire
 		(pts
-			(xy 151.13 80.01) (xy 151.13 95.25)
+			(xy 168.91 95.25) (xy 247.65 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d19e7f0-d2a5-415b-a419-8543f6b5ab88")
+	)
+	(wire
+		(pts
+			(xy 143.51 80.01) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2001,7 +2068,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 74.93) (xy 82.55 67.31)
+			(xy 74.93 74.93) (xy 74.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2011,7 +2078,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 74.93) (xy 82.55 74.93)
+			(xy 77.47 74.93) (xy 74.93 74.93)
 		)
 		(stroke
 			(width 0)
@@ -2021,7 +2088,17 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 84.328) (xy 161.29 95.25)
+			(xy 227.33 81.28) (xy 227.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "223484d5-765c-4c6c-b56a-232bc6954ab8")
+	)
+	(wire
+		(pts
+			(xy 153.67 84.328) (xy 153.67 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2031,7 +2108,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 95.25) (xy 161.29 95.25)
+			(xy 143.51 95.25) (xy 153.67 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2041,7 +2118,17 @@
 	)
 	(wire
 		(pts
-			(xy 143.51 166.37) (xy 143.51 161.29)
+			(xy 123.19 121.92) (xy 123.19 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "30eb4874-87e5-41b3-9684-61e8b4b42399")
+	)
+	(wire
+		(pts
+			(xy 135.89 166.37) (xy 135.89 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2051,7 +2138,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 161.29) (xy 81.28 161.29)
+			(xy 64.77 161.29) (xy 73.66 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2061,7 +2148,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 100.33) (xy 130.81 67.31)
+			(xy 123.19 100.33) (xy 123.19 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2071,17 +2158,7 @@
 	)
 	(wire
 		(pts
-			(xy 176.53 59.69) (xy 176.53 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3522b7ad-6bf2-4e44-98e9-7f3f27791b1b")
-	)
-	(wire
-		(pts
-			(xy 85.09 85.09) (xy 85.09 95.25)
+			(xy 77.47 85.09) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2091,7 +2168,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 67.31) (xy 77.47 67.31)
+			(xy 168.91 45.72) (xy 185.42 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "394398ad-755d-4756-b397-95b1db69f050")
+	)
+	(wire
+		(pts
+			(xy 170.18 118.11) (xy 186.69 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3af4e767-3ee5-4d05-9e8a-609a72c0c7ed")
+	)
+	(wire
+		(pts
+			(xy 44.45 67.31) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2101,17 +2198,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 125.73) (xy 181.61 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3f02a0a2-f112-49a9-9104-99efb4a4c17f")
-	)
-	(wire
-		(pts
-			(xy 72.39 166.37) (xy 72.39 161.29)
+			(xy 64.77 166.37) (xy 64.77 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2121,7 +2208,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 106.68) (xy 130.81 110.49)
+			(xy 123.19 106.68) (xy 123.19 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2131,27 +2218,17 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 62.23) (xy 227.33 52.07)
+			(xy 223.52 43.18) (xy 223.52 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "462288ad-cd0b-44fb-8e3f-5bcfbbd84f45")
+		(uuid "46d5a075-a8d4-458a-90c6-f5cd0064a3b3")
 	)
 	(wire
 		(pts
-			(xy 181.61 59.69) (xy 181.61 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "468270be-1888-4223-b50e-fa136d144cad")
-	)
-	(wire
-		(pts
-			(xy 140.97 95.25) (xy 140.97 80.01)
+			(xy 133.35 95.25) (xy 133.35 80.01)
 		)
 		(stroke
 			(width 0)
@@ -2161,7 +2238,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 95.25) (xy 140.97 95.25)
+			(xy 77.47 95.25) (xy 133.35 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2171,7 +2248,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 133.35) (xy 143.51 133.35)
+			(xy 135.89 133.35) (xy 148.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2181,17 +2258,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 128.27) (xy 227.33 128.27)
+			(xy 34.29 133.35) (xy 44.45 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4b96a78d-d00d-4328-adcd-a471e7f6776f")
+		(uuid "4bbb0bae-3783-4f6d-aec4-edac63aca2e9")
 	)
 	(wire
 		(pts
-			(xy 151.13 72.39) (xy 151.13 67.31)
+			(xy 143.51 72.39) (xy 143.51 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2201,17 +2278,27 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 59.69) (xy 176.53 59.69)
+			(xy 247.65 95.25) (xy 251.46 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ef7237c-205e-4265-bbe9-10aa0a75688a")
+		(uuid "4ef4f95c-e214-4aac-beeb-92cffbc8ccf1")
 	)
 	(wire
 		(pts
-			(xy 143.51 161.29) (xy 153.67 161.29)
+			(xy 223.52 50.8) (xy 247.65 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51859953-1375-4dbe-8081-48ce1e2ccc27")
+	)
+	(wire
+		(pts
+			(xy 135.89 161.29) (xy 148.59 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2221,7 +2308,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 161.29) (xy 81.28 151.13)
+			(xy 73.66 161.29) (xy 73.66 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2231,7 +2318,7 @@
 	)
 	(wire
 		(pts
-			(xy 85.09 140.97) (xy 72.39 140.97)
+			(xy 77.47 140.97) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2241,7 +2328,7 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 161.29) (xy 130.81 148.59)
+			(xy 123.19 161.29) (xy 123.19 148.59)
 		)
 		(stroke
 			(width 0)
@@ -2251,7 +2338,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 113.03) (xy 158.75 113.03)
+			(xy 142.24 120.65) (xy 148.59 120.65)
 		)
 		(stroke
 			(width 0)
@@ -2261,7 +2348,17 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 67.31) (xy 140.97 67.31)
+			(xy 223.52 45.72) (xy 241.3 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ba2afe3-a18f-457b-aad8-cd6b719b2cab")
+	)
+	(wire
+		(pts
+			(xy 143.51 67.31) (xy 133.35 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2271,7 +2368,17 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 95.25) (xy 85.09 95.25)
+			(xy 166.37 123.19) (xy 167.64 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f8f80d8-0ecb-41ff-8871-772d7445e80e")
+	)
+	(wire
+		(pts
+			(xy 69.85 95.25) (xy 77.47 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2281,17 +2388,27 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 128.27) (xy 227.33 118.11)
+			(xy 181.61 125.73) (xy 181.61 133.35)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "648a63ac-0a91-42ba-80b4-ddc86320b67a")
+		(uuid "677129ad-fb57-43c8-aa53-90fd5cec40b2")
 	)
 	(wire
 		(pts
-			(xy 143.51 133.35) (xy 130.81 133.35)
+			(xy 175.26 123.19) (xy 186.69 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7212fab7-3321-40b9-be0d-1d83ea5e0159")
+	)
+	(wire
+		(pts
+			(xy 135.89 133.35) (xy 123.19 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2301,27 +2418,27 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 106.68) (xy 52.07 110.49)
+			(xy 148.59 161.29) (xy 224.79 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "75b0e509-f21b-4e4c-82cb-e83a5ed18d40")
+		(uuid "7606943a-5a22-4f6e-af08-ef8c0f160fbd")
 	)
 	(wire
 		(pts
-			(xy 181.61 133.35) (xy 163.83 133.35)
+			(xy 227.33 73.66) (xy 227.33 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "81558f80-1393-47a5-96b5-47159124960c")
+		(uuid "7cc8d35f-1d2b-4bb2-aad8-38816689e2c2")
 	)
 	(wire
 		(pts
-			(xy 77.47 82.55) (xy 77.47 95.25)
+			(xy 69.85 82.55) (xy 69.85 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2331,7 +2448,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 140.97) (xy 72.39 133.35)
+			(xy 64.77 140.97) (xy 64.77 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2341,7 +2458,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 133.35) (xy 31.75 128.27)
+			(xy 24.13 133.35) (xy 24.13 128.27)
 		)
 		(stroke
 			(width 0)
@@ -2351,7 +2468,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 67.31) (xy 161.29 67.31)
+			(xy 181.61 67.31) (xy 227.33 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c4dc6e3-56ab-4704-8e8e-c4bd82af921c")
+	)
+	(wire
+		(pts
+			(xy 153.67 67.31) (xy 181.61 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2361,7 +2488,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 100.33) (xy 52.07 67.31)
+			(xy 44.45 100.33) (xy 44.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2371,7 +2498,7 @@
 	)
 	(wire
 		(pts
-			(xy 161.29 95.25) (xy 181.61 95.25)
+			(xy 153.67 95.25) (xy 168.91 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2381,7 +2508,17 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 146.812) (xy 163.83 133.35)
+			(xy 148.59 133.35) (xy 181.61 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94d27d71-9a2d-42fb-b058-1af2b6775891")
+	)
+	(wire
+		(pts
+			(xy 148.59 141.224) (xy 148.59 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2391,17 +2528,17 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 140.97) (xy 153.67 133.35)
+			(xy 224.79 118.11) (xy 238.76 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "97823ddb-7925-4102-b347-c94b859cfdf3")
+		(uuid "976a1e2c-8e66-412e-9d3e-2b7db5273c8d")
 	)
 	(wire
 		(pts
-			(xy 82.55 67.31) (xy 85.09 67.31)
+			(xy 74.93 67.31) (xy 77.47 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2411,17 +2548,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 95.25) (xy 234.95 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9ddc99a5-6bdf-48be-bcfb-6d744ca5405b")
-	)
-	(wire
-		(pts
-			(xy 77.47 67.31) (xy 82.55 67.31)
+			(xy 69.85 67.31) (xy 74.93 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2431,7 +2558,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 133.35) (xy 52.07 133.35)
+			(xy 64.77 133.35) (xy 44.45 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2441,17 +2568,17 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 62.23) (xy 227.33 62.23)
+			(xy 224.79 120.65) (xy 224.79 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a75c8db5-df3f-4d81-a14a-8fd1033645fd")
+		(uuid "a83d9d8f-cf38-4e63-a324-c4720591b389")
 	)
 	(wire
 		(pts
-			(xy 31.75 113.03) (xy 31.75 110.49)
+			(xy 24.13 113.03) (xy 24.13 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2461,7 +2588,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 143.51) (xy 72.39 140.97)
+			(xy 64.77 143.51) (xy 64.77 140.97)
 		)
 		(stroke
 			(width 0)
@@ -2471,7 +2598,17 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 95.25) (xy 151.13 95.25)
+			(xy 168.91 45.72) (xy 168.91 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b592511e-3774-4434-855f-17dd1b0eee21")
+	)
+	(wire
+		(pts
+			(xy 133.35 95.25) (xy 143.51 95.25)
 		)
 		(stroke
 			(width 0)
@@ -2481,67 +2618,57 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 49.53) (xy 234.95 49.53)
+			(xy 151.13 50.8) (xy 153.67 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ba73770c-315b-4263-993b-c7517ab243ba")
+		(uuid "b7ea1251-2aee-43f4-bb9a-439833beaa22")
 	)
 	(wire
 		(pts
-			(xy 44.45 133.35) (xy 52.07 133.35)
+			(xy 247.65 50.8) (xy 247.65 95.25)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bb506366-b44e-483b-9b22-f503223159a8")
+		(uuid "bda6a95e-3ed4-4bcf-9bc8-0713aaadd489")
 	)
 	(wire
 		(pts
-			(xy 227.33 115.57) (xy 234.95 115.57)
+			(xy 181.61 53.34) (xy 181.61 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "bc4ed45b-5aef-4251-adb9-984f19aa9f1f")
+		(uuid "c2b42f16-e27c-4f5e-82c5-88122a27b76c")
 	)
 	(wire
 		(pts
-			(xy 176.53 54.61) (xy 181.61 54.61)
+			(xy 224.79 115.57) (xy 224.79 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c28b0dc7-49d9-4a09-acf6-756fb1864f5d")
+		(uuid "c61557af-dcb6-4d6b-9f15-037888dc94b7")
 	)
 	(wire
 		(pts
-			(xy 163.83 133.35) (xy 153.67 133.35)
+			(xy 224.79 113.03) (xy 227.33 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c49d7030-4d59-4896-b5da-e185b6a4f2d0")
+		(uuid "c7903a32-41cd-4b26-bd75-5bdb1255956c")
 	)
 	(wire
 		(pts
-			(xy 181.61 52.07) (xy 171.45 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c652e086-5610-4cc2-b466-f4f22fee6ec6")
-	)
-	(wire
-		(pts
-			(xy 143.51 148.59) (xy 143.51 161.29)
+			(xy 135.89 148.59) (xy 135.89 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2551,17 +2678,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 120.65) (xy 181.61 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb0aaf8e-004e-4e51-b415-d36c98116d41")
-	)
-	(wire
-		(pts
-			(xy 52.07 133.35) (xy 52.07 123.19)
+			(xy 44.45 106.68) (xy 44.45 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2571,7 +2688,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 151.13) (xy 72.39 161.29)
+			(xy 64.77 151.13) (xy 64.77 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2581,27 +2698,27 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 148.59) (xy 153.67 161.29)
+			(xy 161.29 50.8) (xy 185.42 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "cd8a186a-82eb-4900-9967-86e3cf7d3ae9")
+		(uuid "d2428de7-c9c1-42ea-bce3-72e3aab47deb")
 	)
 	(wire
 		(pts
-			(xy 181.61 118.11) (xy 181.61 113.03)
+			(xy 223.52 48.26) (xy 223.52 50.8)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "dccded3c-a7d8-4f31-bcaa-3d9cdd037248")
+		(uuid "dc21236a-1f5e-4f67-8ae5-c3c9bec87104")
 	)
 	(wire
 		(pts
-			(xy 161.29 67.31) (xy 151.13 67.31)
+			(xy 153.67 67.31) (xy 143.51 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2611,7 +2728,7 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 72.39) (xy 140.97 67.31)
+			(xy 133.35 72.39) (xy 133.35 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2621,7 +2738,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 74.93) (xy 77.47 67.31)
+			(xy 69.85 74.93) (xy 69.85 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2631,37 +2748,37 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 123.19) (xy 130.81 133.35)
+			(xy 185.42 53.34) (xy 181.61 53.34)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ea8ed0c1-85fa-4ddb-aaa6-97b931a2ce7b")
+		(uuid "edd1546b-8302-480c-addc-82aa348f5791")
 	)
 	(wire
 		(pts
-			(xy 227.33 49.53) (xy 227.33 52.07)
+			(xy 186.69 125.73) (xy 181.61 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "eb914224-2e57-4b91-81f3-6b90d15eff83")
+		(uuid "ef7541d4-54f7-4184-971d-70af3726580d")
 	)
 	(wire
 		(pts
-			(xy 227.33 118.11) (xy 227.33 115.57)
+			(xy 156.21 120.65) (xy 186.69 120.65)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ed6b8555-d30f-4af7-8d0d-e0bf275c4e6e")
+		(uuid "ef988b9a-fcc4-4e5c-abbc-bf305134b055")
 	)
 	(wire
 		(pts
-			(xy 163.83 161.29) (xy 163.83 156.21)
+			(xy 148.59 161.29) (xy 148.59 150.622)
 		)
 		(stroke
 			(width 0)
@@ -2671,27 +2788,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 72.39) (xy 181.61 95.25)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f8c413c1-d97d-4f47-98e5-90b744f3719e")
-	)
-	(wire
-		(pts
-			(xy 153.67 161.29) (xy 163.83 161.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f92e3fae-b472-4183-b986-1b48c2d46e4e")
-	)
-	(wire
-		(pts
-			(xy 72.39 133.35) (xy 85.09 133.35)
+			(xy 64.77 133.35) (xy 77.47 133.35)
 		)
 		(stroke
 			(width 0)
@@ -2701,7 +2798,7 @@
 	)
 	(hierarchical_label "HS"
 		(shape output)
-		(at 234.95 49.53 0)
+		(at 241.3 45.72 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2712,7 +2809,7 @@
 	)
 	(hierarchical_label "LS_MCU"
 		(shape bidirectional)
-		(at 153.67 113.03 180)
+		(at 142.24 120.65 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2723,7 +2820,7 @@
 	)
 	(hierarchical_label "SW"
 		(shape bidirectional)
-		(at 234.95 95.25 0)
+		(at 251.46 95.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2734,7 +2831,7 @@
 	)
 	(hierarchical_label "LS"
 		(shape output)
-		(at 234.95 115.57 0)
+		(at 238.76 118.11 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,7 +2842,7 @@
 	)
 	(hierarchical_label "HS_MCU"
 		(shape bidirectional)
-		(at 151.13 52.07 180)
+		(at 121.92 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2755,8 +2852,98 @@
 		(uuid "f1843cdc-74ef-42d7-91de-cc2e538074fb")
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 135.89 144.78 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0bb2b929-004b-47e5-a606-a34b221cccf5")
+		(property "Reference" "C203"
+			(at 139.7 143.5099 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 139.7 146.0499 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 136.8552 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 135.89 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c467f68c-c9f4-4139-8a2c-9996fd62a3d6")
+		)
+		(pin "2"
+			(uuid "36398b49-3202-4f6e-8514-c80dc8362389")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "C204")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "C203")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "C205")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RezaLIB:U_GateDrive_0_LDK220C-R_RezaLIB.IntLib")
-		(at 85.09 133.35 90)
+		(at 77.47 133.35 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2766,7 +2953,7 @@
 		(dnp no)
 		(uuid "18c0d867-c42a-4e35-b1c8-c737ac41e929")
 		(property "Reference" "U8"
-			(at 92.71 126.492 90)
+			(at 85.09 126.492 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2777,7 +2964,7 @@
 			)
 		)
 		(property "Value" "LDK220C-R"
-			(at 92.71 158.75 90)
+			(at 85.09 158.75 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2788,7 +2975,7 @@
 			)
 		)
 		(property "Footprint" "SOT_220M-R_STM"
-			(at 85.09 133.35 0)
+			(at 77.47 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2799,7 +2986,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ldk220.pdf"
-			(at 85.09 133.35 90)
+			(at 77.47 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2811,7 +2998,7 @@
 			)
 		)
 		(property "Description" "200 mA low quiescent current and low noise LDO"
-			(at 85.09 133.35 0)
+			(at 77.47 133.35 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2822,7 +3009,7 @@
 			)
 		)
 		(property "COPYRIGHT" "Copyright (C) 2026 Ultra Librarian. All rights reserved."
-			(at 85.09 133.35 90)
+			(at 77.47 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2834,7 +3021,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "STMicroelectronics"
-			(at 85.09 133.35 90)
+			(at 77.47 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2846,7 +3033,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "LDK220C-R"
-			(at 85.09 133.35 90)
+			(at 77.47 133.35 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2858,7 +3045,7 @@
 			)
 		)
 		(property "REFDES" "RefDes"
-			(at 105.41 123.19 90)
+			(at 97.79 123.19 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2870,7 +3057,7 @@
 			)
 		)
 		(property "TYPE" "Type"
-			(at 105.41 125.73 90)
+			(at 97.79 125.73 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2914,8 +3101,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_1EDN7116UXTSA1_RezaLIB.IntLib")
-		(at 181.61 118.11 90)
+		(lib_id "Device:C")
+		(at 123.19 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2923,197 +3110,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "2909394e-1188-4beb-aceb-f053373bbf23")
-		(property "Reference" "U16"
-			(at 189.23 108.712 90)
+		(fields_autoplaced yes)
+		(uuid "20c5aea6-caa2-44ef-a3c1-87538a1f4768")
+		(property "Reference" "C197"
+			(at 127 143.5099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "1EDN7116UXTSA1"
-			(at 189.23 146.05 90)
+		(property "Value" "10uF"
+			(at 127 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "PG-TSNP-7-11_INF"
-			(at 181.61 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DS_1EDN71X6U_2.0-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c82af846e0182c6ff82134ec0"
-			(at 181.61 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Description" "The 1EDN7116U is a single-channel gate-driver IC optimized for driving Infineon CoolGaNâ„¢ Schottky gate (SG) HEMTs, as well as other GaN SG HEMTs and Si MOSFETs. This gate driver includes several key features that enable a high-performance system design with fast-switching transistors, including Truly Differential Input (TDI), 2 A peak source and sink current, active Miller clamp, and bootstrap voltage clamp.Thanks to the TDI feature, the gate driver output state is exclusively controlled by the voltage difference between the two inputs, independent of the driverâ€™s reference (ground) potential as long as the common-mode voltage is below 150 V (static) and 200 V (dynamic). This eliminates the risk of false triggering due to ground bounce in low-side applications, while also allowing 1EDN7116U to address even high-side applications."
-			(at 181.61 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TYPE" "Power Management"
-			(at 204.47 107.95 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COPYRIGHT" "Copyright (C) 2026 Ultra Librarian. All rights reserved."
-			(at 181.61 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Infineon"
-			(at 181.61 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "1EDN7116UXTSA1"
-			(at 181.61 118.11 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "REFDES" "RefDes"
-			(at 204.47 105.41 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "7"
-			(uuid "5502604d-0f4d-4ec3-95ce-d0f52f27d15b")
-		)
-		(pin "1"
-			(uuid "36fed8c2-0f23-408c-943f-81a7def43805")
-		)
-		(pin "2"
-			(uuid "6ba26adb-a887-40aa-8df9-9ac5713b6e78")
-		)
-		(pin "3"
-			(uuid "374c2dd9-406f-498c-b040-3530c3b77fc9")
-		)
-		(pin "6"
-			(uuid "d503f32e-6f60-4561-9195-3768a2b1cd36")
-		)
-		(pin "5"
-			(uuid "9edca533-3297-41a0-88c4-cc04384974ad")
-		)
-		(pin "4"
-			(uuid "18e8481d-f77a-40e1-92be-38d47999664c")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "U15")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "U16")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "U14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_Res SMD_RezaLIB.IntLib")
-		(at 165.1 113.03 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "294b33c2-4fef-45ef-9c92-36cecef442e3")
-		(property "Reference" "R55"
-			(at 161.036 112.014 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Res SMD"
-			(at 163.83 116.84 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 165.1 113.03 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 124.1552 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3124,7 +3146,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 113.03 0)
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3134,8 +3156,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 113.03 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 123.19 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3143,138 +3165,26 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ALTIUM_VALUE" "47K"
-			(at 161.036 116.586 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(pin "1"
-			(uuid "5af9528b-f1ba-4b91-b42c-534da9c0de30")
+			(uuid "b4058e4a-9ef5-4cfd-bef7-79121e4288ca")
 		)
 		(pin "2"
-			(uuid "ee03348d-3130-4d95-b322-2cd450ce2dee")
+			(uuid "655721ba-69aa-436c-933f-6970a04bf962")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R53")
+					(reference "C198")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "R55")
+					(reference "C197")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "R54")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 153.67 146.05 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "2ab52026-9cd2-4ca2-b5a0-ec184830f152")
-		(property "Reference" "C203"
-			(at 155.956 145.796 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Cap SMD"
-			(at 151.384 140.462 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 153.67 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 153.67 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" "10uF"
-			(at 155.956 148.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "eb3667c7-c9b9-4d31-8d1d-5aff5271301c")
-		)
-		(pin "2"
-			(uuid "8d2cd3d3-d783-4104-bd21-9e0268444819")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C205")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C203")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C204")
+					(reference "C199")
 					(unit 1)
 				)
 			)
@@ -3282,7 +3192,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_GateDrive_1_Ferrite Bead SMD_RezaLIB.IntLib")
-		(at 31.75 120.65 180)
+		(at 24.13 120.65 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3292,7 +3202,7 @@
 		(dnp no)
 		(uuid "325b185c-b405-426e-a04c-fe98256e0502")
 		(property "Reference" "FB4"
-			(at 32.512 118.11 0)
+			(at 24.892 118.11 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3303,7 +3213,7 @@
 			)
 		)
 		(property "Value" "Ferrite Bead SMD"
-			(at 32.512 123.19 0)
+			(at 24.892 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3314,7 +3224,7 @@
 			)
 		)
 		(property "Footprint" "RESC2012X70N"
-			(at 31.75 120.65 0)
+			(at 24.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3325,7 +3235,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 120.65 0)
+			(at 24.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3336,7 +3246,7 @@
 			)
 		)
 		(property "Description" "FERRITE BEAD 1.1 KOHM 0805 1LN"
-			(at 31.75 120.65 0)
+			(at 24.13 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3347,7 +3257,7 @@
 			)
 		)
 		(property "SNAPEDA_LINK" "https://www.snapeda.com/parts/782853112/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=snap"
-			(at 30.48 112.522 0)
+			(at 22.86 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3359,7 +3269,7 @@
 			)
 		)
 		(property "PACKAGE" "0805 Wurth Elektronik"
-			(at 30.48 112.522 0)
+			(at 22.86 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3371,7 +3281,7 @@
 			)
 		)
 		(property "MF" "WÃ¼rth Elektronik"
-			(at 30.48 112.522 0)
+			(at 22.86 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3383,7 +3293,7 @@
 			)
 		)
 		(property "MP" "782853112"
-			(at 30.48 112.522 0)
+			(at 22.86 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3395,7 +3305,7 @@
 			)
 		)
 		(property "CHECK_PRICES" "https://www.snapeda.com/parts/782853112/W%25C3%25BCrth+Elektronik+Midcom/view-part/?ref=eda"
-			(at 30.48 112.522 0)
+			(at 22.86 112.522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3407,7 +3317,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "220R"
-			(at 32.512 120.65 0)
+			(at 24.892 120.65 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3441,8 +3351,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_Res SMD_RezaLIB.IntLib")
-		(at 38.1 133.35 90)
+		(lib_id "Device:C")
+		(at 64.77 147.32 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3450,32 +3360,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "3be2eda3-90ed-4b0e-bdeb-7abde4a4fd25")
-		(property "Reference" "R40"
-			(at 35.052 130.302 90)
+		(fields_autoplaced yes)
+		(uuid "3cbdf92c-d80a-4e31-8b1a-35c7de68efce")
+		(property "Reference" "C212"
+			(at 68.58 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "Res SMD"
-			(at 31.242 132.334 90)
-			(hide yes)
+		(property "Value" "10uF"
+			(at 68.58 148.5899 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at 38.1 133.35 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 65.7352 151.13 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3486,7 +3396,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 133.35 0)
+			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3496,8 +3406,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 38.1 133.35 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 147.32 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3505,37 +3415,116 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ALTIUM_VALUE" "5R"
-			(at 34.036 136.906 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(pin "1"
-			(uuid "4c7f5e60-30c9-4477-ad9a-96c47a3c49f9")
+			(uuid "f1ac4751-9bc2-492e-9823-e1d89ed43260")
 		)
 		(pin "2"
-			(uuid "c825ae2a-1057-478c-886c-047ac24de0df")
+			(uuid "3c5b3acc-7989-4889-8535-67d924469de4")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R38")
+					(reference "C213")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "R40")
+					(reference "C212")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "R39")
+					(reference "C214")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 143.51 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4263ffb0-c861-4550-9f57-45d83b8a0ad1")
+		(property "Reference" "C200"
+			(at 147.32 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 147.32 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 144.4752 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 143.51 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 143.51 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ac49e8f8-63bd-445f-8043-3c93ba3c33cd")
+		)
+		(pin "2"
+			(uuid "f91f9f27-0989-4494-854c-30c72d2bc323")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "C201")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "C200")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "C202")
 					(unit 1)
 				)
 			)
@@ -3543,7 +3532,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_GateDrive_1_Diode Zener SMD_RezaLIB.IntLib")
-		(at 161.29 79.756 180)
+		(at 153.67 79.756 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3553,7 +3542,7 @@
 		(dnp no)
 		(uuid "4d1f7d8b-91d0-44ed-8530-98cbac99e3b6")
 		(property "Reference" "D10"
-			(at 163.068 80.264 0)
+			(at 155.448 80.264 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3564,7 +3553,7 @@
 			)
 		)
 		(property "Value" "5.6V"
-			(at 163.068 82.804 0)
+			(at 155.448 82.804 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3575,7 +3564,7 @@
 			)
 		)
 		(property "Footprint" "DIOMELF3615N"
-			(at 161.29 79.756 0)
+			(at 153.67 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3586,7 +3575,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 161.29 79.756 0)
+			(at 153.67 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3597,7 +3586,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 161.29 79.756 0)
+			(at 153.67 79.756 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3608,7 +3597,7 @@
 			)
 		)
 		(property "DESIGNER" "Hamed Jafarzadeh"
-			(at 159.512 74.422 0)
+			(at 151.892 74.422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3644,7 +3633,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 72.39 166.37 0)
+		(at 64.77 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3654,7 +3643,7 @@
 		(dnp no)
 		(uuid "4ea7e45b-ae6d-4083-a594-22a2dabc49e0")
 		(property "Reference" "#PWR098"
-			(at 72.39 166.37 0)
+			(at 64.77 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3665,7 +3654,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 72.39 172.72 0)
+			(at 64.77 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3675,7 +3664,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 166.37 0)
+			(at 64.77 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3685,7 +3674,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 166.37 0)
+			(at 64.77 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3695,7 +3684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 166.37 0)
+			(at 64.77 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -3725,8 +3714,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Res SMD_RezaLIB.IntLib")
-		(at 130.81 116.84 180)
+		(lib_id "Device:R")
+		(at 171.45 123.19 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3734,32 +3723,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "5993d0f1-3e17-4248-9b60-a628859d0058")
-		(property "Reference" "R46"
-			(at 131.826 115.316 0)
+		(uuid "68771491-0aff-4c75-94ec-59f2148d47e5")
+		(property "Reference" "R53"
+			(at 171.196 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "Res SMD"
-			(at 129.794 109.982 0)
-			(hide yes)
+		(property "Value" "47K"
+			(at 171.196 129.286 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at 130.81 116.84 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 171.45 124.968 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3770,7 +3756,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 116.84 0)
+			(at 171.45 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3780,8 +3766,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 116.84 0)
+		(property "Description" "Resistor"
+			(at 171.45 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3789,220 +3775,26 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ALTIUM_VALUE" "1R"
-			(at 131.826 117.856 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "ed98802f-5abd-45af-9b07-64902996072e")
-		)
-		(pin "2"
-			(uuid "6ccaa559-92e8-4f8c-8c10-46cce9905041")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R45")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "R46")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "R44")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 77.47 80.01 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "5aabb7b0-c1c0-434a-97c6-487252e79ae4")
-		(property "Reference" "C190"
-			(at 79.756 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Cap SMD"
-			(at 75.184 74.422 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 77.47 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" "4.7uF"
-			(at 79.756 82.296 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(pin "2"
-			(uuid "80e10d93-5ffc-4629-9ace-838494ac038c")
+			(uuid "7750e8ce-8f23-43e5-a0f5-cdd76f968dff")
 		)
 		(pin "1"
-			(uuid "7738cb00-674c-44b7-b6e7-28a948246393")
+			(uuid "ef946932-195c-49d4-9af7-8c3df5fbb0ca")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C189")
+					(reference "R54")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C190")
+					(reference "R53")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C188")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 181.61 138.43 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6693ecfe-c2cb-44f8-92ae-cded70c9d5ad")
-		(property "Reference" "#PWR0110"
-			(at 181.61 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PGND"
-			(at 181.61 144.78 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 181.61 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 181.61 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 181.61 138.43 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "a11bd8c7-0c8e-4053-afb8-08f8e8d0beea")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "#PWR0108")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "#PWR0110")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "#PWR0109")
+					(reference "R55")
 					(unit 1)
 				)
 			)
@@ -4010,7 +3802,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_GateDrive_1_Generic Diode_RezaLIB.IntLib")
-		(at 130.81 104.14 180)
+		(at 123.19 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4020,7 +3812,7 @@
 		(dnp no)
 		(uuid "79fc3023-971f-43c5-907c-37a46cbe8d79")
 		(property "Reference" "D6"
-			(at 132.334 105.156 0)
+			(at 124.714 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4031,7 +3823,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 132.334 107.696 0)
+			(at 124.714 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4042,7 +3834,7 @@
 			)
 		)
 		(property "Footprint" "DO-214AC"
-			(at 130.81 104.14 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4053,7 +3845,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 104.14 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4064,7 +3856,7 @@
 			)
 		)
 		(property "Description" "schottky  diode"
-			(at 130.81 104.14 0)
+			(at 123.19 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4098,8 +3890,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 72.39 148.59 180)
+		(lib_id "1EDN7116GXTMA1:1EDN7116GXTMA1")
+		(at 186.69 113.03 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4107,20 +3899,30 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "87441332-a9b0-49c7-80bd-3b6b46717ca5")
-		(property "Reference" "C185"
-			(at 74.676 148.336 0)
+		(fields_autoplaced yes)
+		(uuid "88c203ee-50b5-41a2-b182-12cfb085b289")
+		(property "Reference" "IC2"
+			(at 205.74 105.41 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "Cap SMD"
-			(at 70.104 143.002 0)
+		(property "Value" "1EDN7116GXTMA1"
+			(at 205.74 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1EDN7116GXTMA1"
+			(at 220.98 207.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4128,11 +3930,23 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left top)
 			)
 		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 72.39 148.59 0)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?"
+			(at 220.98 307.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Gate Drivers INT. POWERSTAGE/DRIVER"
+			(at 186.69 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4142,8 +3956,8 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
-			(at 72.39 148.59 0)
+		(property "Height" "0.9"
+			(at 220.98 507.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4151,10 +3965,11 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "Description" ""
-			(at 72.39 148.59 0)
+		(property "Manufacturer_Name" "Infineon"
+			(at 220.98 607.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4162,138 +3977,114 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left top)
 			)
 		)
-		(property "ALTIUM_VALUE" "4.7uF"
-			(at 74.676 150.876 0)
+		(property "Manufacturer_Part_Number" "1EDN7116GXTMA1"
+			(at 220.98 707.95 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left top)
 			)
 		)
-		(pin "1"
-			(uuid "d3a1ba47-43d7-45ac-a682-4ebd8ea6d80d")
+		(property "Mouser Part Number" "726-1EDN7116GXTMA1"
+			(at 220.98 807.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDN7116GXTMA1?qs=XAiT9M5g4x8tURLMwQjrKg%3D%3D"
+			(at 220.98 907.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 220.98 1007.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 220.98 1107.95 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "72b2c06c-363d-4ca0-9c58-2be3a46c33af")
+		)
+		(pin "7"
+			(uuid "df1715a7-9ce3-4ab5-a7e4-b81937c4f2cc")
 		)
 		(pin "2"
-			(uuid "b9d473f7-666f-4dbe-a311-3353af5e28d6")
+			(uuid "4be9b4d2-220a-4d66-8cc8-146a992849f0")
+		)
+		(pin "1"
+			(uuid "2a277a22-9c7e-4ec0-8b60-25dbc232aa22")
+		)
+		(pin "3"
+			(uuid "9502aa92-84b4-408f-9b3f-635dfa5542c0")
+		)
+		(pin "5"
+			(uuid "353e86db-88de-44fd-9110-1e2609ee74f9")
+		)
+		(pin "6"
+			(uuid "816dfa60-fea3-432a-8cde-bbed38e9cf61")
+		)
+		(pin "8"
+			(uuid "449f898f-9212-4c27-9737-c09352581166")
+		)
+		(pin "9"
+			(uuid "e440ea43-6acd-44b8-b44d-a76bf58f0999")
+		)
+		(pin "10"
+			(uuid "eb433b4e-570f-4012-a0b9-5e52d2b4dbd8")
+		)
+		(pin "11"
+			(uuid "ec1e4597-e904-47a7-8f65-c4a3ad664f75")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C186")
+					(reference "IC3")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C185")
+					(reference "IC2")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C187")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 151.13 77.47 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "88bd08a2-bcd0-4b64-96aa-d38c00d9e838")
-		(property "Reference" "C201"
-			(at 153.416 77.216 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Cap SMD"
-			(at 148.844 71.882 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 151.13 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 151.13 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" "10uF"
-			(at 153.416 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "9459f38f-0774-40e7-bc69-6504359014d9")
-		)
-		(pin "2"
-			(uuid "72b3eaaa-034f-4944-888a-1c251e692b53")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C200")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C201")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C202")
+					(reference "IC4")
 					(unit 1)
 				)
 			)
@@ -4301,7 +4092,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
-		(at 158.75 59.69 270)
+		(at 151.13 50.8 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4311,7 +4102,7 @@
 		(dnp no)
 		(uuid "8be307fe-30ef-4120-ab51-06b66652054f")
 		(property "Reference" "#PWR0104"
-			(at 158.75 59.69 0)
+			(at 151.13 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4322,7 +4113,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 59.69 90)
+			(at 144.78 50.8 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4333,7 +4124,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 59.69 0)
+			(at 151.13 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4343,7 +4134,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 59.69 0)
+			(at 151.13 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4353,7 +4144,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 59.69 0)
+			(at 151.13 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4383,109 +4174,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Res SMD_RezaLIB.IntLib")
-		(at 52.07 116.84 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8e036ed3-49fa-4c82-b6b0-27a7b46f4af6")
-		(property "Reference" "R43"
-			(at 53.086 115.316 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Res SMD"
-			(at 51.054 109.982 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 52.07 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 52.07 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 52.07 116.84 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" "1R"
-			(at 53.086 117.856 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "962e5d58-cc0e-4c3e-8494-b6057d5d7b13")
-		)
-		(pin "2"
-			(uuid "ba303085-0c9e-4a3b-a21b-b7abbe3840fb")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R41")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "R43")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "R42")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "MotorDrive_Power-altium-import:PGND_POWER_GROUND")
-		(at 143.51 166.37 0)
+		(at 135.89 166.37 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4495,7 +4185,7 @@
 		(dnp no)
 		(uuid "90ed7739-1384-490c-9b11-60efb2a5d085")
 		(property "Reference" "#PWR0100"
-			(at 143.51 166.37 0)
+			(at 135.89 166.37 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4506,7 +4196,7 @@
 			)
 		)
 		(property "Value" "PGND"
-			(at 143.51 172.72 0)
+			(at 135.89 172.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4516,7 +4206,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 143.51 166.37 0)
+			(at 135.89 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4526,7 +4216,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 166.37 0)
+			(at 135.89 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4536,7 +4226,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 143.51 166.37 0)
+			(at 135.89 166.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4567,7 +4257,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_GateDrive_0_LDK220C-R_RezaLIB.IntLib")
-		(at 85.09 67.31 90)
+		(at 77.47 67.31 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4577,7 +4267,7 @@
 		(dnp no)
 		(uuid "95d42895-0d93-4a87-9ce4-9189600e3c5f")
 		(property "Reference" "U7"
-			(at 92.71 60.706 90)
+			(at 85.09 60.706 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4588,7 +4278,7 @@
 			)
 		)
 		(property "Value" "LDK220C"
-			(at 92.71 92.71 90)
+			(at 85.09 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4599,7 +4289,7 @@
 			)
 		)
 		(property "Footprint" "SOT_220M-R_STM"
-			(at 85.09 67.31 0)
+			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4610,7 +4300,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/resource/en/datasheet/ldk220.pdf"
-			(at 85.09 67.31 90)
+			(at 77.47 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4622,7 +4312,7 @@
 			)
 		)
 		(property "Description" "200 mA low quiescent current and low noise LDO"
-			(at 85.09 67.31 0)
+			(at 77.47 67.31 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4633,7 +4323,7 @@
 			)
 		)
 		(property "COPYRIGHT" "Copyright (C) 2026 Ultra Librarian. All rights reserved."
-			(at 85.09 67.31 90)
+			(at 77.47 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4645,7 +4335,7 @@
 			)
 		)
 		(property "MANUFACTURER_NAME" "STMicroelectronics"
-			(at 85.09 67.31 90)
+			(at 77.47 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4657,7 +4347,7 @@
 			)
 		)
 		(property "MANUFACTURER_PART_NUMBER" "LDK220C-R"
-			(at 85.09 67.31 90)
+			(at 77.47 67.31 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4669,7 +4359,7 @@
 			)
 		)
 		(property "REFDES" "RefDes"
-			(at 105.41 57.15 90)
+			(at 97.79 57.15 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +4371,7 @@
 			)
 		)
 		(property "TYPE" "Type"
-			(at 105.41 59.69 90)
+			(at 97.79 59.69 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4725,8 +4415,185 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 133.35 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9ab91371-b60c-4957-9b9b-181dce2342b6")
+		(property "Reference" "C194"
+			(at 137.16 74.9299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 137.16 77.4699 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 134.3152 80.01 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 133.35 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "fb536976-c310-4476-a846-5e82527440ff")
+		)
+		(pin "2"
+			(uuid "b9f8cf1e-ace0-4511-b5de-95c6859f667a")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "C195")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "C194")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "C196")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 30.48 133.35 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9c915696-02c3-4074-a73e-3615b70bb3d0")
+		(property "Reference" "R41"
+			(at 30.226 136.906 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 30.226 139.446 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 30.48 135.128 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 30.48 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a74b6033-8145-4538-8f4d-385f4fa1f747")
+		)
+		(pin "1"
+			(uuid "d04a9ee9-b1b8-447a-a93c-65bdedd78614")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "R42")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "R41")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "R43")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
-		(at 158.75 120.65 270)
+		(at 166.37 123.19 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4736,7 +4603,7 @@
 		(dnp no)
 		(uuid "9f6d635c-1f1f-401b-9607-9226fb6e450f")
 		(property "Reference" "#PWR0107"
-			(at 158.75 120.65 0)
+			(at 166.37 123.19 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4747,7 +4614,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 152.4 120.65 90)
+			(at 160.02 123.19 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4758,7 +4625,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 120.65 0)
+			(at 166.37 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4768,7 +4635,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 120.65 0)
+			(at 166.37 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4778,7 +4645,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 158.75 120.65 0)
+			(at 166.37 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4808,8 +4675,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 143.51 146.05 180)
+		(lib_id "Device:R")
+		(at 123.19 118.11 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4817,32 +4684,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a0156b7e-8b01-46a2-9919-711d4635a85f")
-		(property "Reference" "C198"
-			(at 145.796 145.796 0)
+		(uuid "a1d3fc18-9530-4c08-bd93-19e6567b0b2e")
+		(property "Reference" "R59"
+			(at 126.746 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "Cap SMD"
-			(at 141.224 140.462 0)
-			(hide yes)
+		(property "Value" "10R"
+			(at 129.286 118.364 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 143.51 146.05 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 124.968 118.11 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4853,7 +4717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 143.51 146.05 0)
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4863,8 +4727,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 143.51 146.05 0)
+		(property "Description" "Resistor"
+			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4872,45 +4736,34 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ALTIUM_VALUE" "10uF"
-			(at 145.796 148.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(pin "2"
-			(uuid "496cda54-e1ec-4e8d-a2f4-018bce2992ea")
+			(uuid "0d919ce0-a5ed-4ae2-ab6b-af1d5f3ba84b")
 		)
 		(pin "1"
-			(uuid "73aab1b1-c14e-4e47-ac83-3697d216a9fe")
+			(uuid "7c15e477-fb33-4de4-8701-693e7a91c860")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C197")
+					(reference "R60")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C198")
+					(reference "R59")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C199")
+					(reference "R61")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 140.97 77.47 180)
+		(lib_id "Device:R")
+		(at 227.33 77.47 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4918,32 +4771,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "a920ea6c-5655-4c8c-a4f4-7039ceb15c0b")
-		(property "Reference" "C196"
-			(at 143.256 77.216 0)
+		(uuid "aa7a2b44-2437-4223-8a29-b6bef9687892")
+		(property "Reference" "R56"
+			(at 223.774 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "Cap SMD"
-			(at 138.684 71.882 0)
-			(hide yes)
+		(property "Value" "0R"
+			(at 221.234 77.216 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 140.97 77.47 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 225.552 77.47 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4954,7 +4804,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 140.97 77.47 0)
+			(at 227.33 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4964,8 +4814,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 140.97 77.47 0)
+		(property "Description" "Resistor"
+			(at 227.33 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4974,36 +4824,313 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ALTIUM_VALUE" "10uF"
-			(at 143.256 79.756 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "980ac118-39d7-464f-becc-5d7fe76a2e0e")
 		)
 		(pin "2"
-			(uuid "6d208227-ba37-4054-bdb0-43e28ff58814")
+			(uuid "ab6c4e19-f75e-4853-a5ad-d0aa818deabe")
+		)
+		(pin "1"
+			(uuid "0b39c230-d83c-4f72-a4f3-9cc26f1d8bc6")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C195")
+					(reference "R57")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C196")
+					(reference "R56")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C194")
+					(reference "R58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "1EDN7116GXTMA1:1EDN7116GXTMA1")
+		(at 185.42 40.64 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aac8aef7-bad4-4cd7-9dcd-7293949a1c19")
+		(property "Reference" "IC5"
+			(at 204.47 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1EDN7116GXTMA1"
+			(at 204.47 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "1EDN7116GXTMA1"
+			(at 219.71 135.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Datasheet" "https://www.infineon.com/cms/en/product/power/gate-driver-ics/?"
+			(at 219.71 235.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Description" "Gate Drivers INT. POWERSTAGE/DRIVER"
+			(at 185.42 40.64 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Height" "0.9"
+			(at 219.71 435.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Name" "Infineon"
+			(at 219.71 535.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Manufacturer_Part_Number" "1EDN7116GXTMA1"
+			(at 219.71 635.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Part Number" "726-1EDN7116GXTMA1"
+			(at 219.71 735.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Infineon-Technologies/1EDN7116GXTMA1?qs=XAiT9M5g4x8tURLMwQjrKg%3D%3D"
+			(at 219.71 835.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 219.71 935.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 219.71 1035.56 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "4"
+			(uuid "811ed3e2-471e-433d-9c83-0349e1d71f0a")
+		)
+		(pin "7"
+			(uuid "34f6bf2b-d546-4503-ab68-798b845b923a")
+		)
+		(pin "2"
+			(uuid "4ffeb7a8-b4dd-4c74-9262-5a21ab6941d3")
+		)
+		(pin "1"
+			(uuid "7356e2f8-1907-4083-b8b8-cb88ac7b1657")
+		)
+		(pin "3"
+			(uuid "ddbec504-879b-4929-a407-9e008c2e116b")
+		)
+		(pin "5"
+			(uuid "eb253204-8ad5-40a9-8c28-7df2092fb03d")
+		)
+		(pin "6"
+			(uuid "09cbeb95-a583-4163-9118-da3a35baf98c")
+		)
+		(pin "8"
+			(uuid "4086271a-3ad8-4a9d-b88a-3e7fafa9989d")
+		)
+		(pin "9"
+			(uuid "aba67db2-b37d-438a-a927-9c552cec93e2")
+		)
+		(pin "10"
+			(uuid "6f954b54-deb3-4b69-b5be-533d16bc0172")
+		)
+		(pin "11"
+			(uuid "0cbfde6f-9a64-45b7-941e-dfe2ca73a8eb")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "IC6")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "IC5")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "IC7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 134.62 48.26 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ac304341-c309-4402-8a16-959164619d2c")
+		(property "Reference" "R47"
+			(at 134.366 51.816 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "47K"
+			(at 134.366 54.356 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 134.62 50.038 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 134.62 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "1e8757c6-f90b-4bca-a64b-658f1f6822d1")
+		)
+		(pin "1"
+			(uuid "53df72da-f7a0-4144-8f49-2e6c98fdc055")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "R48")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "R47")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "R49")
 					(unit 1)
 				)
 			)
@@ -5011,7 +5138,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:+10V_BAR")
-		(at 31.75 110.49 180)
+		(at 24.13 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5021,7 +5148,7 @@
 		(dnp no)
 		(uuid "b87f7ea3-1944-470e-ace3-62a1ebffe90d")
 		(property "Reference" "#PWR095"
-			(at 31.75 110.49 0)
+			(at 24.13 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5032,7 +5159,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 31.75 106.68 0)
+			(at 24.13 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5042,7 +5169,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 31.75 110.49 0)
+			(at 24.13 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5052,7 +5179,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 31.75 110.49 0)
+			(at 24.13 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5062,7 +5189,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 31.75 110.49 0)
+			(at 24.13 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5092,8 +5219,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Cap SMD_RezaLIB.IntLib")
-		(at 130.81 146.05 180)
+		(lib_id "Device:R")
+		(at 152.4 120.65 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5101,32 +5228,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "bdaa38b9-fa00-43a9-bc32-dde2a3261c02")
-		(property "Reference" "C191"
-			(at 133.096 145.796 0)
+		(uuid "c282bbb3-299b-49f1-999a-fd79676e0f0d")
+		(property "Reference" "R44"
+			(at 152.146 124.206 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "Cap SMD"
-			(at 128.524 140.462 0)
-			(hide yes)
+		(property "Value" "47K"
+			(at 152.146 126.746 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "CAPC2012X135N"
-			(at 130.81 146.05 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 152.4 122.428 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5137,7 +5261,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 130.81 146.05 0)
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5147,8 +5271,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 130.81 146.05 0)
+		(property "Description" "Resistor"
+			(at 152.4 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5157,36 +5281,25 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ALTIUM_VALUE" "10uF"
-			(at 133.096 148.336 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "d42382ae-a88c-4cab-bb11-6f84f4a1ebe3")
 		)
 		(pin "2"
-			(uuid "39cec426-1574-479c-9204-e44dada3e837")
+			(uuid "3696f9e1-2e83-4d47-b96f-983a00ada2e4")
+		)
+		(pin "1"
+			(uuid "0b3d2836-c56e-466a-b9cc-fe22cecc85f9")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "C192")
+					(reference "R45")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "C191")
+					(reference "R44")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "C193")
+					(reference "R46")
 					(unit 1)
 				)
 			)
@@ -5194,7 +5307,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_GateDrive_1_Diode Zener SMD_RezaLIB.IntLib")
-		(at 163.83 151.638 180)
+		(at 148.59 146.05 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5204,7 +5317,7 @@
 		(dnp no)
 		(uuid "d147ee03-a8c7-48ea-b720-92e4f6141546")
 		(property "Reference" "D12"
-			(at 165.608 152.146 0)
+			(at 150.368 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5215,7 +5328,7 @@
 			)
 		)
 		(property "Value" "5.6V"
-			(at 165.608 154.686 0)
+			(at 150.368 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5226,7 +5339,7 @@
 			)
 		)
 		(property "Footprint" "DIOMELF3615N"
-			(at 163.83 151.638 0)
+			(at 148.59 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5237,7 +5350,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 163.83 151.638 0)
+			(at 148.59 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5248,7 +5361,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 163.83 151.638 0)
+			(at 148.59 146.05 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5259,7 +5372,7 @@
 			)
 		)
 		(property "DESIGNER" "Hamed Jafarzadeh"
-			(at 162.052 146.304 0)
+			(at 146.812 140.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5294,8 +5407,8 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_Res SMD_RezaLIB.IntLib")
-		(at 165.1 59.69 90)
+		(lib_id "Device:R")
+		(at 157.48 50.8 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5303,32 +5416,29 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "d46a108f-19ae-4226-8027-b006cf59584b")
-		(property "Reference" "R51"
-			(at 161.036 58.674 90)
+		(uuid "d82b5a22-b729-42a4-9360-a52b1b670db2")
+		(property "Reference" "R50"
+			(at 157.226 54.356 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Value" "Res SMD"
-			(at 163.83 63.5 90)
-			(hide yes)
+		(property "Value" "47K"
+			(at 157.226 56.896 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at 165.1 59.69 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 157.48 52.578 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5339,7 +5449,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 59.69 0)
+			(at 157.48 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,8 +5459,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 59.69 0)
+		(property "Description" "Resistor"
+			(at 157.48 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5359,209 +5469,33 @@
 					(size 1.27 1.27)
 				)
 			)
-		)
-		(property "ALTIUM_VALUE" "47K"
-			(at 161.036 63.246 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "f91140e4-dbde-4de9-b920-a4bbff979855")
 		)
 		(pin "2"
-			(uuid "a493aa29-9a0c-4e18-8b10-8cb564adcbcf")
+			(uuid "a26dda8f-d329-49bb-aaca-a585e4e91e49")
+		)
+		(pin "1"
+			(uuid "bdbeed3a-b1d1-4504-a883-a3b5da4001f2")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R52")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
 					(reference "R51")
 					(unit 1)
 				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
 					(reference "R50")
 					(unit 1)
 				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_1EDN7116UXTSA1_RezaLIB.IntLib")
-		(at 181.61 52.07 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "e6103ec7-07c6-4a09-a552-a060dc4e0d39")
-		(property "Reference" "U12"
-			(at 188.976 42.672 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "1EDN7116UXTSA1"
-			(at 189.23 80.01 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "PG-TSNP-7-11_INF"
-			(at 181.61 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://www.infineon.com/dgdl/Infineon-DS_1EDN71X6U_2.0-DataSheet-v01_00-EN.pdf?fileId=8ac78c8c82af846e0182c6ff82134ec0"
-			(at 181.61 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Description" "The 1EDN7116U is a single-channel gate-driver IC optimized for driving Infineon CoolGaNâ„¢ Schottky gate (SG) HEMTs, as well as other GaN SG HEMTs and Si MOSFETs. This gate driver includes several key features that enable a high-performance system design with fast-switching transistors, including Truly Differential Input (TDI), 2 A peak source and sink current, active Miller clamp, and bootstrap voltage clamp.Thanks to the TDI feature, the gate driver output state is exclusively controlled by the voltage difference between the two inputs, independent of the driverâ€™s reference (ground) potential as long as the common-mode voltage is below 150 V (static) and 200 V (dynamic). This eliminates the risk of false triggering due to ground bounce in low-side applications, while also allowing 1EDN7116U to address even high-side applications."
-			(at 181.61 52.07 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "TYPE" "Power Management"
-			(at 204.47 41.91 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "COPYRIGHT" "Copyright (C) 2026 Ultra Librarian. All rights reserved."
-			(at 181.61 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_NAME" "Infineon"
-			(at 181.61 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "1EDN7116UXTSA1"
-			(at 181.61 52.07 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "REFDES" "RefDes"
-			(at 204.47 39.37 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "7"
-			(uuid "d1d784bb-437b-478e-9a91-dccc5bab006f")
-		)
-		(pin "3"
-			(uuid "0c11b21c-f467-4074-8174-94c9f04f7683")
-		)
-		(pin "2"
-			(uuid "16facfd7-2710-42b8-a86f-2401f454e1fa")
-		)
-		(pin "5"
-			(uuid "6cf48cb7-086f-4158-b08a-3d49d2b426c0")
-		)
-		(pin "1"
-			(uuid "76b09475-4ea1-46fb-ba29-be37539b0016")
-		)
-		(pin "4"
-			(uuid "9acbeed7-dd2a-4dd8-92ad-99085a77af98")
-		)
-		(pin "6"
-			(uuid "483fa6f0-7278-496e-9893-7967466cf87a")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "U11")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "U12")
-					(unit 1)
-				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "U13")
+					(reference "R52")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_Res SMD_RezaLIB.IntLib")
-		(at 165.1 52.07 90)
+		(lib_id "Device:C")
+		(at 69.85 78.74 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5569,32 +5503,32 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "e93038a0-112d-427d-bc19-60145008e866")
-		(property "Reference" "R48"
-			(at 161.036 51.054 90)
+		(fields_autoplaced yes)
+		(uuid "df73adb2-db60-4e5c-b8b7-db50683953f5")
+		(property "Reference" "C215"
+			(at 73.66 77.4699 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Value" "Res SMD"
-			(at 163.83 55.88 90)
-			(hide yes)
+		(property "Value" "10uF"
+			(at 73.66 80.0099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
+				(justify left)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at 165.1 52.07 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 70.8152 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5605,7 +5539,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 52.07 0)
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5615,8 +5549,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 165.1 52.07 0)
+		(property "Description" "Unpolarized capacitor"
+			(at 69.85 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5624,45 +5558,34 @@
 				(font
 					(size 1.27 1.27)
 				)
-			)
-		)
-		(property "ALTIUM_VALUE" "47K"
-			(at 161.036 55.626 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
 			)
 		)
 		(pin "1"
-			(uuid "b849dd86-241d-4182-8285-0e841ee01cc1")
+			(uuid "8022f74e-5e47-416d-8c10-04e7436b8002")
 		)
 		(pin "2"
-			(uuid "bf6e83ad-19fa-4aa2-afb5-54cde73a49f6")
+			(uuid "b4eef59b-b1fd-4777-8972-22de5350e51d")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R49")
+					(reference "C216")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "R48")
+					(reference "C215")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "R47")
+					(reference "C217")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_GateDrive_0_Res SMD_RezaLIB.IntLib")
-		(at 165.1 120.65 90)
+		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
+		(at 170.18 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5670,20 +5593,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "eec9bd9c-920e-44d1-9c88-4c84919416b5")
-		(property "Reference" "R57"
-			(at 161.036 119.634 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "Res SMD"
-			(at 163.83 124.46 90)
+		(uuid "e3b687cf-63ff-4379-a3f6-313a76206285")
+		(property "Reference" "#PWR0108"
+			(at 170.18 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5691,12 +5603,21 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right bottom)
 			)
 		)
-		(property "Footprint" "RESC1608X55N"
-			(at 165.1 120.65 0)
-			(hide yes)
+		(property "Value" "PGND"
+			(at 170.18 110.49 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5706,8 +5627,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 120.65 0)
-			(hide yes)
+			(at 170.18 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5717,8 +5637,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 165.1 120.65 0)
-			(hide yes)
+			(at 170.18 116.84 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5727,35 +5646,21 @@
 				)
 			)
 		)
-		(property "ALTIUM_VALUE" "47K"
-			(at 161.036 124.206 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(pin "1"
-			(uuid "dcdc3a85-e613-4330-a16e-d4e73c4cb1fa")
-		)
-		(pin "2"
-			(uuid "128970e6-e5c6-4ba6-8a8d-6291d2512ecb")
+		(pin ""
+			(uuid "0f3e2eb6-1daa-4db9-94f2-ee066e79000f")
 		)
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "R58")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "R57")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "R56")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -5763,7 +5668,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_GateDrive_1_Generic Diode_RezaLIB.IntLib")
-		(at 52.07 104.14 180)
+		(at 44.45 104.14 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5773,7 +5678,7 @@
 		(dnp no)
 		(uuid "ffa04025-9b2f-4cf1-9635-4521b5834cf2")
 		(property "Reference" "D3"
-			(at 53.594 105.156 0)
+			(at 45.974 105.156 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5784,7 +5689,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 53.594 107.696 0)
+			(at 45.974 107.696 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5795,7 +5700,7 @@
 			)
 		)
 		(property "Footprint" "DO-214AC"
-			(at 52.07 104.14 0)
+			(at 44.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5806,7 +5711,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 104.14 0)
+			(at 44.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5817,7 +5722,7 @@
 			)
 		)
 		(property "Description" "schottky  diode"
-			(at 52.07 104.14 0)
+			(at 44.45 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

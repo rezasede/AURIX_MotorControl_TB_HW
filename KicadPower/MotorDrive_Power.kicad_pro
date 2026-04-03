@@ -1012,7 +1012,7 @@
         "uuid": "b3d8444f-9701-4bb0-8db6-84dd09da4106"
       }
     ],
-    "used_designators": "D1-13,#PWR1-118,LED1,JS1-3,C1-208,FB1-6,P1-9,Q1-24,R1-58,U1-19,v1",
+    "used_designators": "U20-28,#PWR108-110,#PWR119-120,IC1-7,R41-61,C185-186,C194-205,C209-217",
     "variants": []
   },
   "sheets": [
@@ -1112,7 +1112,7 @@
         "via_prop_delay": 0
       },
       {
-        "enable_time_domain_tuning": true,
+        "enable_time_domain_tuning": false,
         "layer_entries": [
           {
             "bottom_reference_layer": "In1.Cu",
