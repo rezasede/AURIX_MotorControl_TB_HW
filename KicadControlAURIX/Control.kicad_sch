@@ -5,6 +5,161 @@
 	(uuid "e742567c-0a1c-4901-8700-e8f6155f68e1")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorDrive_Control_AURIX-altium-import:+10V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -4338,7 +4493,7 @@
 	)
 	(text "P00.11"
 		(exclude_from_sim no)
-		(at 154.94 139.5222 0)
+		(at 172.72 129.3622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4349,7 +4504,7 @@
 	)
 	(text "AN0"
 		(exclude_from_sim no)
-		(at 208.28 157.3022 0)
+		(at 226.06 147.1422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4360,7 +4515,7 @@
 	)
 	(text "P20.0"
 		(exclude_from_sim no)
-		(at 152.4 63.3222 0)
+		(at 170.18 53.1622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4371,7 +4526,7 @@
 	)
 	(text "/PORST"
 		(exclude_from_sim no)
-		(at 208.28 55.7022 0)
+		(at 226.06 45.5422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4382,7 +4537,7 @@
 	)
 	(text "LED5"
 		(exclude_from_sim no)
-		(at 143.51 58.2422 0)
+		(at 161.29 48.0822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4393,7 +4548,7 @@
 	)
 	(text "P00.9"
 		(exclude_from_sim no)
-		(at 154.94 136.9822 0)
+		(at 172.72 126.8222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4404,7 +4559,7 @@
 	)
 	(text "P15.4"
 		(exclude_from_sim no)
-		(at 208.28 58.2422 0)
+		(at 226.06 48.0822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4415,7 +4570,7 @@
 	)
 	(text "P16.10"
 		(exclude_from_sim no)
-		(at 152.4 73.4822 0)
+		(at 170.18 63.3222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4426,7 +4581,7 @@
 	)
 	(text "P16.11"
 		(exclude_from_sim no)
-		(at 152.4 70.9422 0)
+		(at 170.18 60.7822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4437,7 +4592,7 @@
 	)
 	(text "LED2"
 		(exclude_from_sim no)
-		(at 217.17 131.9022 0)
+		(at 234.95 121.7422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4448,7 +4603,7 @@
 	)
 	(text "P33.9"
 		(exclude_from_sim no)
-		(at 208.28 170.0022 0)
+		(at 226.06 159.8422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4459,7 +4614,7 @@
 	)
 	(text "AN6"
 		(exclude_from_sim no)
-		(at 208.28 149.6822 0)
+		(at 226.06 139.5222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4470,7 +4625,7 @@
 	)
 	(text "P33.2"
 		(exclude_from_sim no)
-		(at 154.94 159.8422 0)
+		(at 172.72 149.6822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4481,7 +4636,7 @@
 	)
 	(text "P20.9"
 		(exclude_from_sim no)
-		(at 208.28 48.0822 0)
+		(at 226.06 37.9222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4492,7 +4647,7 @@
 	)
 	(text "AN13"
 		(exclude_from_sim no)
-		(at 154.94 144.6022 0)
+		(at 172.72 134.4422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4503,7 +4658,7 @@
 	)
 	(text "P33.12"
 		(exclude_from_sim no)
-		(at 208.28 88.7222 0)
+		(at 226.06 78.5622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4514,7 +4669,7 @@
 	)
 	(text "P20.11"
 		(exclude_from_sim no)
-		(at 208.28 50.6222 0)
+		(at 226.06 40.4622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4525,7 +4680,7 @@
 	)
 	(text "P20.12"
 		(exclude_from_sim no)
-		(at 152.4 50.6222 0)
+		(at 170.18 40.4622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4536,7 +4691,7 @@
 	)
 	(text "P23.1"
 		(exclude_from_sim no)
-		(at 152.4 83.6422 0)
+		(at 170.18 73.4822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4547,7 +4702,7 @@
 	)
 	(text "P33.1"
 		(exclude_from_sim no)
-		(at 208.28 159.8422 0)
+		(at 226.06 149.6822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4558,7 +4713,7 @@
 	)
 	(text "P22.2"
 		(exclude_from_sim no)
-		(at 208.28 73.4822 0)
+		(at 226.06 63.3222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4569,7 +4724,7 @@
 	)
 	(text "P00.10"
 		(exclude_from_sim no)
-		(at 208.28 136.9822 0)
+		(at 226.06 126.8222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4580,7 +4735,7 @@
 	)
 	(text "Button"
 		(exclude_from_sim no)
-		(at 147.32 134.4422 0)
+		(at 165.1 124.2822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4591,7 +4746,7 @@
 	)
 	(text "P00.7"
 		(exclude_from_sim no)
-		(at 208.28 134.4422 0)
+		(at 226.06 124.2822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4602,7 +4757,7 @@
 	)
 	(text "P33.14"
 		(exclude_from_sim no)
-		(at 152.4 81.1022 0)
+		(at 170.18 70.9422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4613,7 +4768,7 @@
 	)
 	(text "P16.9"
 		(exclude_from_sim no)
-		(at 152.4 76.0222 0)
+		(at 170.18 65.8622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4624,7 +4779,7 @@
 	)
 	(text "AN1"
 		(exclude_from_sim no)
-		(at 154.94 154.7622 0)
+		(at 172.72 144.6022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4635,7 +4790,7 @@
 	)
 	(text "P21.5"
 		(exclude_from_sim no)
-		(at 208.28 65.8622 0)
+		(at 226.06 55.7022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4646,7 +4801,7 @@
 	)
 	(text "P23.4"
 		(exclude_from_sim no)
-		(at 208.28 78.5622 0)
+		(at 226.06 68.4022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4657,7 +4812,7 @@
 	)
 	(text "RX"
 		(exclude_from_sim no)
-		(at 12.7 39.1922 0)
+		(at 30.48 29.0322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4668,7 +4823,7 @@
 	)
 	(text "VREF1"
 		(exclude_from_sim no)
-		(at 208.28 142.0622 0)
+		(at 226.06 131.9022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4679,7 +4834,7 @@
 	)
 	(text "RX"
 		(exclude_from_sim no)
-		(at 215.9 162.3822 0)
+		(at 233.68 152.2222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4690,7 +4845,7 @@
 	)
 	(text "P33.0"
 		(exclude_from_sim no)
-		(at 154.94 157.3022 0)
+		(at 172.72 147.1422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4701,7 +4856,7 @@
 	)
 	(text "P33.8"
 		(exclude_from_sim no)
-		(at 154.94 167.4622 0)
+		(at 172.72 157.3022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4712,7 +4867,7 @@
 	)
 	(text "P33.15"
 		(exclude_from_sim no)
-		(at 208.28 167.4622 0)
+		(at 226.06 157.3022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4723,7 +4878,7 @@
 	)
 	(text "P03.10"
 		(exclude_from_sim no)
-		(at 208.28 131.9022 0)
+		(at 226.06 121.7422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4734,7 +4889,7 @@
 	)
 	(text "P00.12"
 		(exclude_from_sim no)
-		(at 208.28 139.5222 0)
+		(at 226.06 129.3622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4745,7 +4900,7 @@
 	)
 	(text "AN21"
 		(exclude_from_sim no)
-		(at 154.94 142.0622 0)
+		(at 172.72 131.9022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4756,7 +4911,7 @@
 	)
 	(text "P03.6"
 		(exclude_from_sim no)
-		(at 154.94 126.8222 0)
+		(at 172.72 116.6622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4767,7 +4922,7 @@
 	)
 	(text "POT"
 		(exclude_from_sim no)
-		(at 215.9 157.3022 0)
+		(at 233.68 147.1422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4778,7 +4933,7 @@
 	)
 	(text "P00.0"
 		(exclude_from_sim no)
-		(at 208.28 126.8222 0)
+		(at 226.06 116.6622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4789,7 +4944,7 @@
 	)
 	(text "AN20"
 		(exclude_from_sim no)
-		(at 208.28 144.6022 0)
+		(at 226.06 134.4422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4800,7 +4955,7 @@
 	)
 	(text "P33.4"
 		(exclude_from_sim no)
-		(at 154.94 162.3822 0)
+		(at 172.72 152.2222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4811,7 +4966,7 @@
 	)
 	(text "P33.6"
 		(exclude_from_sim no)
-		(at 154.94 164.9222 0)
+		(at 172.72 154.7622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4822,7 +4977,7 @@
 	)
 	(text "P03.7"
 		(exclude_from_sim no)
-		(at 154.94 129.3622 0)
+		(at 172.72 119.2022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4833,7 +4988,7 @@
 	)
 	(text "P03.9"
 		(exclude_from_sim no)
-		(at 154.94 131.9022 0)
+		(at 172.72 121.7422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4844,7 +4999,7 @@
 	)
 	(text "P20.3"
 		(exclude_from_sim no)
-		(at 152.4 60.7822 0)
+		(at 170.18 50.6222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4855,7 +5010,7 @@
 	)
 	(text "/ESR0"
 		(exclude_from_sim no)
-		(at 152.4 58.2422 0)
+		(at 170.18 48.0822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4866,7 +5021,7 @@
 	)
 	(text "P03.11"
 		(exclude_from_sim no)
-		(at 154.94 134.4422 0)
+		(at 172.72 124.2822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4877,7 +5032,7 @@
 	)
 	(text "AN4"
 		(exclude_from_sim no)
-		(at 208.28 152.2222 0)
+		(at 226.06 142.0622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4888,7 +5043,7 @@
 	)
 	(text "P20.14"
 		(exclude_from_sim no)
-		(at 152.4 53.1622 0)
+		(at 170.18 43.0022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4899,7 +5054,7 @@
 	)
 	(text "AN5"
 		(exclude_from_sim no)
-		(at 154.94 149.6822 0)
+		(at 172.72 139.5222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4910,7 +5065,7 @@
 	)
 	(text "P20.13"
 		(exclude_from_sim no)
-		(at 208.28 53.1622 0)
+		(at 226.06 43.0022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4921,7 +5076,7 @@
 	)
 	(text "P20.1"
 		(exclude_from_sim no)
-		(at 208.28 63.3222 0)
+		(at 226.06 53.1622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4932,7 +5087,7 @@
 	)
 	(text "AN3"
 		(exclude_from_sim no)
-		(at 154.94 152.2222 0)
+		(at 172.72 142.0622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4943,7 +5098,7 @@
 	)
 	(text "AN7"
 		(exclude_from_sim no)
-		(at 154.94 147.1422 0)
+		(at 172.72 136.9822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4954,7 +5109,7 @@
 	)
 	(text "P15.5"
 		(exclude_from_sim no)
-		(at 152.4 55.7022 0)
+		(at 170.18 45.5422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4965,7 +5120,7 @@
 	)
 	(text "P22.3"
 		(exclude_from_sim no)
-		(at 208.28 70.9422 0)
+		(at 226.06 60.7822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4976,7 +5131,7 @@
 	)
 	(text "P20.7"
 		(exclude_from_sim no)
-		(at 208.28 45.5422 0)
+		(at 226.06 35.3822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4987,7 +5142,7 @@
 	)
 	(text "LED1"
 		(exclude_from_sim no)
-		(at 147.32 131.9022 0)
+		(at 165.1 121.7422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4998,7 +5153,7 @@
 	)
 	(text "P32.6"
 		(exclude_from_sim no)
-		(at 208.28 83.6422 0)
+		(at 226.06 73.4822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5009,7 +5164,7 @@
 	)
 	(text "P33.3"
 		(exclude_from_sim no)
-		(at 208.28 162.3822 0)
+		(at 226.06 152.2222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5020,7 +5175,7 @@
 	)
 	(text "P33.11"
 		(exclude_from_sim no)
-		(at 152.4 88.7222 0)
+		(at 170.18 78.5622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5031,7 +5186,7 @@
 	)
 	(text "TX"
 		(exclude_from_sim no)
-		(at 149.86 159.8422 0)
+		(at 167.64 149.6822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5042,7 +5197,7 @@
 	)
 	(text "P00.8"
 		(exclude_from_sim no)
-		(at 208.28 129.3622 0)
+		(at 226.06 119.2022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5053,7 +5208,7 @@
 	)
 	(text "P22.0"
 		(exclude_from_sim no)
-		(at 208.28 76.0222 0)
+		(at 226.06 65.8622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5064,7 +5219,7 @@
 	)
 	(text "P32.4"
 		(exclude_from_sim no)
-		(at 208.28 86.1822 0)
+		(at 226.06 76.0222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5075,7 +5230,7 @@
 	)
 	(text "P33.5"
 		(exclude_from_sim no)
-		(at 208.28 164.9222 0)
+		(at 226.06 154.7622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5086,7 +5241,7 @@
 	)
 	(text "P20.8"
 		(exclude_from_sim no)
-		(at 152.4 45.5422 0)
+		(at 170.18 35.3822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5097,7 +5252,7 @@
 	)
 	(text "P32.7"
 		(exclude_from_sim no)
-		(at 208.28 81.1022 0)
+		(at 226.06 70.9422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5108,7 +5263,7 @@
 	)
 	(text "P16.12"
 		(exclude_from_sim no)
-		(at 152.4 68.4022 0)
+		(at 170.18 58.2422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5119,7 +5274,7 @@
 	)
 	(text "AN12"
 		(exclude_from_sim no)
-		(at 208.28 147.1422 0)
+		(at 226.06 136.9822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5130,7 +5285,7 @@
 	)
 	(text "P22.1"
 		(exclude_from_sim no)
-		(at 208.28 68.4022 0)
+		(at 226.06 58.2422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5141,7 +5296,7 @@
 	)
 	(text "/ESR1"
 		(exclude_from_sim no)
-		(at 208.28 60.7822 0)
+		(at 226.06 50.6222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5152,7 +5307,7 @@
 	)
 	(text "P23.5"
 		(exclude_from_sim no)
-		(at 152.4 78.5622 0)
+		(at 170.18 68.4022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5163,7 +5318,7 @@
 	)
 	(text "P21.4"
 		(exclude_from_sim no)
-		(at 152.4 65.8622 0)
+		(at 170.18 55.7022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5174,7 +5329,7 @@
 	)
 	(text "AN2"
 		(exclude_from_sim no)
-		(at 208.28 154.7622 0)
+		(at 226.06 144.6022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5185,7 +5340,7 @@
 	)
 	(text "TX"
 		(exclude_from_sim no)
-		(at 12.7 36.6522 0)
+		(at 30.48 26.4922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5196,7 +5351,7 @@
 	)
 	(text "P20.10"
 		(exclude_from_sim no)
-		(at 152.4 48.0822 0)
+		(at 170.18 37.9222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5207,7 +5362,7 @@
 	)
 	(text "P33.10"
 		(exclude_from_sim no)
-		(at 154.94 170.0022 0)
+		(at 172.72 159.8422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5218,7 +5373,7 @@
 	)
 	(text "P33.13"
 		(exclude_from_sim no)
-		(at 152.4 86.1822 0)
+		(at 170.18 76.0222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5228,260 +5383,266 @@
 		(uuid "fd2d920a-5d07-4e65-a87c-e75a6c3ab202")
 	)
 	(junction
-		(at 137.16 238.5822)
+		(at 154.94 228.4222)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "004f7fff-4adb-4be0-a1da-d5d58d539cbf")
 	)
 	(junction
-		(at 44.45 103.9622)
+		(at 62.23 93.8022)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12b57230-728a-4f9c-afd4-efda3ee85f88")
 	)
 	(junction
-		(at 44.45 159.8422)
+		(at 62.23 149.6822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "186d8cf1-da8b-4bce-8782-e1bf1d8b236a")
 	)
 	(junction
-		(at 109.22 138.2522)
+		(at 127 128.0922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18794b89-8aca-46f4-a61e-b4c1ab994956")
 	)
 	(junction
-		(at 137.16 228.4222)
+		(at 154.94 218.2622)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1bfc272a-0163-4902-8d58-4b12b43f8d3f")
 	)
 	(junction
-		(at 137.16 223.3422)
+		(at 154.94 213.1822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d71b9d7-e83c-4932-972a-394c1045c95a")
 	)
 	(junction
-		(at 137.16 243.6622)
+		(at 154.94 233.5022)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2338064b-4052-42e7-9a42-26d7390d9970")
 	)
 	(junction
-		(at 44.45 140.7922)
+		(at 62.23 130.6322)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "26775811-9c60-4176-93bb-bfb0aed7f0d5")
 	)
 	(junction
-		(at 137.16 248.7422)
+		(at 154.94 238.5822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2aa9d546-1142-410e-8b62-fb5ca1b4c813")
 	)
 	(junction
-		(at 344.17 252.5522)
+		(at 361.95 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "315bfe32-ab3d-453e-928e-fc1979670741")
 	)
 	(junction
-		(at 137.16 258.9022)
+		(at 154.94 248.7422)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3208d000-106b-4d75-9fc4-9ff9df91b3e3")
 	)
 	(junction
-		(at 137.16 233.5022)
+		(at 154.94 223.3422)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33bc0a50-7e20-41a5-ae1d-e50b34cf7a60")
 	)
 	(junction
-		(at 312.42 252.5522)
+		(at 330.2 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36ad59ce-9870-4996-8b93-237dd0ae6f3a")
 	)
 	(junction
-		(at 36.83 138.2522)
+		(at 54.61 128.0922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3f8c347a-6c38-4a77-ada0-a96402172486")
 	)
 	(junction
-		(at 44.45 120.4722)
+		(at 62.23 110.3122)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "439ecafa-9624-4687-a64f-e45c1cd15fb0")
 	)
 	(junction
-		(at 44.45 64.5922)
+		(at 62.23 54.4322)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59b51193-f5ad-44ba-8941-c3436dc99516")
 	)
 	(junction
-		(at 323.85 252.5522)
+		(at 341.63 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5a5fccdd-14d9-492b-9d24-2aec1c31b995")
 	)
 	(junction
-		(at 99.06 84.9122)
+		(at 116.84 74.7522)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6421a6b3-2fb7-478e-aa93-3f8b21508272")
 	)
 	(junction
-		(at 137.16 236.0422)
+		(at 154.94 225.8822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "74d0b264-983b-40c6-9241-aa30d6e9effb")
 	)
 	(junction
-		(at 137.16 246.2022)
+		(at 154.94 236.0422)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7684f11c-ac36-4a3c-8578-6275d32dd3df")
 	)
 	(junction
-		(at 334.01 252.5522)
+		(at 351.79 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a48149f-285e-4291-a9a5-cdb0ba893996")
 	)
 	(junction
-		(at 137.16 241.1222)
+		(at 154.94 230.9622)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7abe389b-c4b1-443b-9bf8-ae19400c039b")
 	)
 	(junction
-		(at 100.33 140.7922)
+		(at 118.11 130.6322)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "842a862a-5c92-4547-9f2b-c957ee36b21c")
 	)
 	(junction
-		(at 36.83 82.3722)
+		(at 54.61 72.2122)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "885d8640-a653-447b-a513-9d3da29dfcdc")
 	)
 	(junction
-		(at 91.44 143.3322)
+		(at 109.22 133.1722)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "901cdb50-294d-47ae-85f4-de3fe6207638")
 	)
 	(junction
-		(at 137.16 269.0622)
+		(at 154.94 258.9022)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9198afb9-e229-442b-92af-b1833492919b")
 	)
 	(junction
-		(at 364.49 252.5522)
+		(at 382.27 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "91e89706-d46d-4173-abfd-312b39bd3ed4")
 	)
 	(junction
-		(at 330.2 191.5922)
+		(at 347.98 181.4322)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "95110233-00de-4f4c-90fd-7429fda22867")
 	)
 	(junction
-		(at 302.26 252.5522)
+		(at 320.04 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9aedb6eb-10b4-43c9-9d58-612f108384fa")
 	)
 	(junction
-		(at 137.16 251.2822)
+		(at 154.94 241.1222)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9e77d177-90ae-4031-b01f-061b0308e628")
 	)
 	(junction
-		(at 354.33 252.5522)
+		(at 372.11 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "aa701a90-e754-4fc4-9f2b-28e0d9ed5a7e")
 	)
 	(junction
-		(at 107.95 82.3722)
+		(at 125.73 72.2122)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b744be95-08e5-42c1-a8a3-12aa11f60b13")
 	)
 	(junction
-		(at 90.17 87.4522)
+		(at 107.95 77.2922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ea577e-0a10-4950-82c1-4106dd9ba5e5")
 	)
 	(junction
-		(at 137.16 261.4422)
+		(at 154.94 251.2822)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d27dd2c7-cb6e-4f67-9005-395420ccadd4")
 	)
 	(junction
-		(at 52.07 87.4522)
+		(at 69.85 77.2922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4eed695-a4b9-4992-97c1-2bcdbdc03f22")
 	)
 	(junction
-		(at 137.16 256.3622)
+		(at 154.94 246.2022)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d6e3b574-2db1-47e6-b8e3-04fbb5cb48c8")
 	)
 	(junction
-		(at 137.16 225.8822)
+		(at 154.94 215.7222)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d70c3f47-67e8-4a46-bd29-d73cb04abe2f")
 	)
 	(junction
-		(at 137.16 253.8222)
+		(at 154.94 243.6622)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9d62645-d96b-4c2c-bd88-6b6f7ccae15b")
 	)
 	(junction
-		(at 52.07 143.3322)
+		(at 69.85 133.1722)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e368b0f4-1cf2-46e8-a8b0-92dc2cece486")
 	)
 	(junction
-		(at 137.16 230.9622)
+		(at 154.94 220.8022)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5ac1a22-dcb3-4dcd-8191-f9aeb66a9d64")
 	)
 	(junction
-		(at 44.45 84.9122)
+		(at 62.23 74.7522)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eb62d3b8-7bf3-4dc5-9b94-6f74d6d6b477")
 	)
 	(junction
-		(at 292.1 252.5522)
+		(at 309.88 242.3922)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1eb7a58-6d35-4d6d-9826-42a896d932d4")
 	)
+	(junction
+		(at 38.1 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f1f85f18-96b0-499d-bff6-0539e2024359")
+	)
 	(wire
 		(pts
-			(xy 364.49 252.5522) (xy 374.65 252.5522)
+			(xy 382.27 242.3922) (xy 392.43 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -5491,7 +5652,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 234.7722) (xy 302.26 239.8522)
+			(xy 320.04 224.6122) (xy 320.04 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -5501,7 +5662,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 252.5522) (xy 344.17 252.5522)
+			(xy 351.79 242.3922) (xy 361.95 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -5511,7 +5672,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.7922) (xy 20.32 140.7922)
+			(xy 62.23 130.6322) (xy 38.1 130.6322)
 		)
 		(stroke
 			(width 0)
@@ -5521,7 +5682,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 143.3322) (xy 52.07 143.3322)
+			(xy 95.25 133.1722) (xy 69.85 133.1722)
 		)
 		(stroke
 			(width 0)
@@ -5531,7 +5692,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.4522) (xy 52.07 78.5622)
+			(xy 69.85 77.2922) (xy 69.85 68.4022)
 		)
 		(stroke
 			(width 0)
@@ -5541,7 +5702,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 251.2822) (xy 137.16 248.7422)
+			(xy 154.94 241.1222) (xy 154.94 238.5822)
 		)
 		(stroke
 			(width 0)
@@ -5551,7 +5712,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 253.8222) (xy 184.15 253.8222)
+			(xy 195.58 243.6622) (xy 201.93 243.6622)
 		)
 		(stroke
 			(width 0)
@@ -5561,7 +5722,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 269.0622) (xy 26.67 263.2202)
+			(xy 44.45 258.9022) (xy 44.45 253.0602)
 		)
 		(stroke
 			(width 0)
@@ -5571,17 +5732,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 74.7522) (xy 20.32 79.8322)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "16263dfd-2722-4d38-9cc2-24bdf8883df3")
-	)
-	(wire
-		(pts
-			(xy 198.12 152.4) (xy 193.04 152.4)
+			(xy 215.9 142.24) (xy 210.82 142.24)
 		)
 		(stroke
 			(width 0)
@@ -5591,7 +5742,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 191.5922) (xy 337.82 191.5922)
+			(xy 347.98 181.4322) (xy 355.6 181.4322)
 		)
 		(stroke
 			(width 0)
@@ -5601,7 +5752,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 121.7422) (xy 36.83 120.4722)
+			(xy 54.61 111.5822) (xy 54.61 110.3122)
 		)
 		(stroke
 			(width 0)
@@ -5611,7 +5762,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 87.4522) (xy 20.32 87.4522)
+			(xy 69.85 77.2922) (xy 38.1 77.2922)
 		)
 		(stroke
 			(width 0)
@@ -5621,7 +5772,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 92.5322) (xy 107.95 82.3722)
+			(xy 125.73 82.3722) (xy 125.73 72.2122)
 		)
 		(stroke
 			(width 0)
@@ -5631,7 +5782,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 92.5322) (xy 20.32 89.9922)
+			(xy 38.1 82.3722) (xy 38.1 79.8322)
 		)
 		(stroke
 			(width 0)
@@ -5641,7 +5792,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 167.64) (xy 172.72 167.64)
+			(xy 180.34 157.48) (xy 190.5 157.48)
 		)
 		(stroke
 			(width 0)
@@ -5651,7 +5802,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 234.7722) (xy 323.85 239.8522)
+			(xy 341.63 224.6122) (xy 341.63 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -5661,7 +5812,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 256.3622) (xy 165.1 256.3622)
+			(xy 175.26 246.2022) (xy 182.88 246.2022)
 		)
 		(stroke
 			(width 0)
@@ -5671,7 +5822,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 225.8822) (xy 137.16 223.3422)
+			(xy 154.94 215.7222) (xy 154.94 213.1822)
 		)
 		(stroke
 			(width 0)
@@ -5681,7 +5832,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 189.0522) (xy 330.2 191.5922)
+			(xy 347.98 178.8922) (xy 347.98 181.4322)
 		)
 		(stroke
 			(width 0)
@@ -5691,7 +5842,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 233.5022) (xy 166.37 233.5022)
+			(xy 175.26 223.3422) (xy 184.15 223.3422)
 		)
 		(stroke
 			(width 0)
@@ -5701,7 +5852,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.5922) (xy 44.45 65.8622)
+			(xy 62.23 54.4322) (xy 62.23 55.7022)
 		)
 		(stroke
 			(width 0)
@@ -5711,7 +5862,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 138.2522) (xy 20.32 138.2522)
+			(xy 54.61 128.0922) (xy 38.1 128.0922)
 		)
 		(stroke
 			(width 0)
@@ -5721,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 143.3322) (xy 116.84 143.3322)
+			(xy 109.22 133.1722) (xy 134.62 133.1722)
 		)
 		(stroke
 			(width 0)
@@ -5731,7 +5882,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 159.8422) (xy 36.83 159.8422)
+			(xy 62.23 149.6822) (xy 54.61 149.6822)
 		)
 		(stroke
 			(width 0)
@@ -5741,7 +5892,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 147.1422) (xy 36.83 138.2522)
+			(xy 54.61 136.9822) (xy 54.61 128.0922)
 		)
 		(stroke
 			(width 0)
@@ -5751,7 +5902,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 252.5522) (xy 344.17 247.4722)
+			(xy 361.95 242.3922) (xy 361.95 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -5761,7 +5912,17 @@
 	)
 	(wire
 		(pts
-			(xy 54.61 82.3722) (xy 36.83 82.3722)
+			(xy 35.56 116.84) (xy 38.1 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f952ccb-12ea-4fe4-b59f-d449f83a3a99")
+	)
+	(wire
+		(pts
+			(xy 72.39 72.2122) (xy 54.61 72.2122)
 		)
 		(stroke
 			(width 0)
@@ -5771,7 +5932,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 143.3322) (xy 91.44 148.4122)
+			(xy 109.22 133.1722) (xy 109.22 138.2522)
 		)
 		(stroke
 			(width 0)
@@ -5781,7 +5942,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 225.8822) (xy 191.77 225.8822)
+			(xy 175.26 215.7222) (xy 209.55 215.7222)
 		)
 		(stroke
 			(width 0)
@@ -5791,7 +5952,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 84.9122) (xy 44.45 91.2622)
+			(xy 62.23 74.7522) (xy 62.23 81.1022)
 		)
 		(stroke
 			(width 0)
@@ -5801,7 +5962,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 261.4422) (xy 208.28 261.4422)
+			(xy 222.25 251.2822) (xy 226.06 251.2822)
 		)
 		(stroke
 			(width 0)
@@ -5811,7 +5972,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 143.3322) (xy 91.44 143.3322)
+			(xy 107.95 133.1722) (xy 109.22 133.1722)
 		)
 		(stroke
 			(width 0)
@@ -5821,7 +5982,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 170.18) (xy 193.04 170.18)
+			(xy 215.9 160.02) (xy 210.82 160.02)
 		)
 		(stroke
 			(width 0)
@@ -5831,7 +5992,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 82.3722) (xy 36.83 78.5622)
+			(xy 54.61 72.2122) (xy 54.61 68.4022)
 		)
 		(stroke
 			(width 0)
@@ -5841,7 +6002,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 252.5522) (xy 312.42 247.4722)
+			(xy 330.2 242.3922) (xy 330.2 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -5851,7 +6012,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 86.36) (xy 193.04 86.36)
+			(xy 213.36 76.2) (xy 210.82 76.2)
 		)
 		(stroke
 			(width 0)
@@ -5861,7 +6022,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 83.82) (xy 195.58 83.82)
+			(xy 210.82 73.66) (xy 213.36 73.66)
 		)
 		(stroke
 			(width 0)
@@ -5871,7 +6032,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 138.2522) (xy 116.84 138.2522)
+			(xy 127 128.0922) (xy 134.62 128.0922)
 		)
 		(stroke
 			(width 0)
@@ -5881,7 +6042,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 252.5522) (xy 302.26 252.5522)
+			(xy 309.88 242.3922) (xy 320.04 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -5891,7 +6052,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 87.4522) (xy 90.17 92.5322)
+			(xy 107.95 77.2922) (xy 107.95 82.3722)
 		)
 		(stroke
 			(width 0)
@@ -5901,7 +6062,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 269.0622) (xy 137.16 266.5222)
+			(xy 154.94 258.9022) (xy 154.94 256.3622)
 		)
 		(stroke
 			(width 0)
@@ -5911,7 +6072,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 92.5322) (xy 99.06 84.9122)
+			(xy 116.84 82.3722) (xy 116.84 74.7522)
 		)
 		(stroke
 			(width 0)
@@ -5921,7 +6082,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 148.4122) (xy 100.33 140.7922)
+			(xy 118.11 138.2522) (xy 118.11 130.6322)
 		)
 		(stroke
 			(width 0)
@@ -5931,7 +6092,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 103.9622) (xy 36.83 103.9622)
+			(xy 62.23 93.8022) (xy 54.61 93.8022)
 		)
 		(stroke
 			(width 0)
@@ -5941,7 +6102,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 64.5922) (xy 52.07 64.5922)
+			(xy 62.23 54.4322) (xy 69.85 54.4322)
 		)
 		(stroke
 			(width 0)
@@ -5951,7 +6112,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 228.4222) (xy 137.16 225.8822)
+			(xy 154.94 218.2622) (xy 154.94 215.7222)
 		)
 		(stroke
 			(width 0)
@@ -5961,7 +6122,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 233.5022) (xy 184.15 233.5022)
+			(xy 196.85 223.3422) (xy 201.93 223.3422)
 		)
 		(stroke
 			(width 0)
@@ -5971,7 +6132,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 64.5922) (xy 44.45 64.5922)
+			(xy 54.61 54.4322) (xy 62.23 54.4322)
 		)
 		(stroke
 			(width 0)
@@ -5981,7 +6142,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 147.32) (xy 193.04 147.32)
+			(xy 215.9 137.16) (xy 210.82 137.16)
 		)
 		(stroke
 			(width 0)
@@ -5991,7 +6152,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 120.4722) (xy 52.07 121.7422)
+			(xy 69.85 110.3122) (xy 69.85 111.5822)
 		)
 		(stroke
 			(width 0)
@@ -6001,7 +6162,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 138.2522) (xy 109.22 138.2522)
+			(xy 86.36 128.0922) (xy 127 128.0922)
 		)
 		(stroke
 			(width 0)
@@ -6011,7 +6172,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 261.4422) (xy 191.77 261.4422)
+			(xy 175.26 251.2822) (xy 209.55 251.2822)
 		)
 		(stroke
 			(width 0)
@@ -6021,7 +6182,7 @@
 	)
 	(wire
 		(pts
-			(xy 100.33 140.7922) (xy 116.84 140.7922)
+			(xy 118.11 130.6322) (xy 134.62 130.6322)
 		)
 		(stroke
 			(width 0)
@@ -6031,7 +6192,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 84.9122) (xy 116.84 84.9122)
+			(xy 116.84 74.7522) (xy 134.62 74.7522)
 		)
 		(stroke
 			(width 0)
@@ -6041,7 +6202,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 162.56) (xy 193.04 162.56)
+			(xy 215.9 152.4) (xy 210.82 152.4)
 		)
 		(stroke
 			(width 0)
@@ -6051,7 +6212,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.4722) (xy 44.45 121.7422)
+			(xy 62.23 110.3122) (xy 62.23 111.5822)
 		)
 		(stroke
 			(width 0)
@@ -6061,7 +6222,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 251.2822) (xy 26.67 256.3622)
+			(xy 44.45 241.1222) (xy 44.45 246.2022)
 		)
 		(stroke
 			(width 0)
@@ -6071,7 +6232,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 263.9822) (xy 137.16 261.4422)
+			(xy 154.94 253.8222) (xy 154.94 251.2822)
 		)
 		(stroke
 			(width 0)
@@ -6081,7 +6242,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 120.4722) (xy 44.45 120.4722)
+			(xy 54.61 110.3122) (xy 62.23 110.3122)
 		)
 		(stroke
 			(width 0)
@@ -6091,7 +6252,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 116.6622) (xy 172.72 124.46)
+			(xy 190.5 106.5022) (xy 190.5 114.3)
 		)
 		(stroke
 			(width 0)
@@ -6101,7 +6262,7 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 148.4122) (xy 109.22 138.2522)
+			(xy 127 138.2522) (xy 127 128.0922)
 		)
 		(stroke
 			(width 0)
@@ -6111,7 +6272,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 234.7722) (xy 292.1 239.8522)
+			(xy 309.88 224.6122) (xy 309.88 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6121,7 +6282,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 234.7722) (xy 283.21 239.8522)
+			(xy 300.99 224.6122) (xy 300.99 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6131,7 +6292,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 84.9122) (xy 44.45 84.9122)
+			(xy 82.55 74.7522) (xy 62.23 74.7522)
 		)
 		(stroke
 			(width 0)
@@ -6141,7 +6302,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 87.4522) (xy 90.17 87.4522)
+			(xy 106.68 77.2922) (xy 107.95 77.2922)
 		)
 		(stroke
 			(width 0)
@@ -6151,7 +6312,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 149.86) (xy 193.04 149.86)
+			(xy 38.1 64.77) (xy 38.1 69.6722)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627ce98e-74c6-44d1-90c6-b26c39499622")
+	)
+	(wire
+		(pts
+			(xy 215.9 139.7) (xy 210.82 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6161,7 +6332,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 84.9122) (xy 20.32 84.9122)
+			(xy 62.23 74.7522) (xy 38.1 74.7522)
 		)
 		(stroke
 			(width 0)
@@ -6171,7 +6342,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 258.9022) (xy 137.16 256.3622)
+			(xy 154.94 248.7422) (xy 154.94 246.2022)
 		)
 		(stroke
 			(width 0)
@@ -6181,7 +6352,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 144.78) (xy 193.04 144.78)
+			(xy 215.9 134.62) (xy 210.82 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6191,7 +6362,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 87.4522) (xy 52.07 87.4522)
+			(xy 93.98 77.2922) (xy 69.85 77.2922)
 		)
 		(stroke
 			(width 0)
@@ -6201,7 +6372,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 252.5522) (xy 323.85 252.5522)
+			(xy 330.2 242.3922) (xy 341.63 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -6211,7 +6382,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 261.4422) (xy 137.16 258.9022)
+			(xy 154.94 251.2822) (xy 154.94 248.7422)
 		)
 		(stroke
 			(width 0)
@@ -6221,7 +6392,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 48.26) (xy 172.72 48.26)
+			(xy 177.8 38.1) (xy 190.5 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6231,7 +6402,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 248.7422) (xy 208.28 248.7422)
+			(xy 222.25 238.5822) (xy 226.06 238.5822)
 		)
 		(stroke
 			(width 0)
@@ -6241,7 +6412,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 248.7422) (xy 191.77 248.7422)
+			(xy 175.26 238.5822) (xy 209.55 238.5822)
 		)
 		(stroke
 			(width 0)
@@ -6251,7 +6422,7 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 190.3222) (xy 38.1 197.9422)
+			(xy 55.88 180.1622) (xy 55.88 187.7822)
 		)
 		(stroke
 			(width 0)
@@ -6261,7 +6432,7 @@
 	)
 	(wire
 		(pts
-			(xy 337.82 205.5622) (xy 337.82 204.2922)
+			(xy 355.6 195.4022) (xy 355.6 194.1322)
 		)
 		(stroke
 			(width 0)
@@ -6271,7 +6442,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 82.3722) (xy 107.95 82.3722)
+			(xy 85.09 72.2122) (xy 125.73 72.2122)
 		)
 		(stroke
 			(width 0)
@@ -6281,7 +6452,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 230.9622) (xy 137.16 228.4222)
+			(xy 154.94 220.8022) (xy 154.94 218.2622)
 		)
 		(stroke
 			(width 0)
@@ -6291,7 +6462,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 91.2622) (xy 36.83 82.3722)
+			(xy 54.61 81.1022) (xy 54.61 72.2122)
 		)
 		(stroke
 			(width 0)
@@ -6301,7 +6472,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 138.2522) (xy 36.83 134.4422)
+			(xy 54.61 128.0922) (xy 54.61 124.2822)
 		)
 		(stroke
 			(width 0)
@@ -6311,7 +6482,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 159.8422) (xy 44.45 159.8422)
+			(xy 69.85 149.6822) (xy 62.23 149.6822)
 		)
 		(stroke
 			(width 0)
@@ -6321,7 +6492,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 38.1) (xy 193.04 43.18)
+			(xy 210.82 27.94) (xy 210.82 33.02)
 		)
 		(stroke
 			(width 0)
@@ -6331,7 +6502,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 132.08) (xy 193.04 132.08)
+			(xy 215.9 121.92) (xy 210.82 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6341,7 +6512,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 154.94) (xy 193.04 154.94)
+			(xy 215.9 144.78) (xy 210.82 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6351,7 +6522,7 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 252.5522) (xy 302.26 247.4722)
+			(xy 320.04 242.3922) (xy 320.04 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -6361,7 +6532,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 223.3422) (xy 208.28 223.3422)
+			(xy 222.25 213.1822) (xy 226.06 213.1822)
 		)
 		(stroke
 			(width 0)
@@ -6371,7 +6542,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 154.94) (xy 172.72 154.94)
+			(xy 180.34 144.78) (xy 190.5 144.78)
 		)
 		(stroke
 			(width 0)
@@ -6381,7 +6552,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 53.34) (xy 193.04 53.34)
+			(xy 215.9 43.18) (xy 210.82 43.18)
 		)
 		(stroke
 			(width 0)
@@ -6391,7 +6562,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 236.0422) (xy 137.16 233.5022)
+			(xy 154.94 225.8822) (xy 154.94 223.3422)
 		)
 		(stroke
 			(width 0)
@@ -6401,7 +6572,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 120.4722) (xy 52.07 120.4722)
+			(xy 62.23 110.3122) (xy 69.85 110.3122)
 		)
 		(stroke
 			(width 0)
@@ -6411,7 +6582,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 45.5422) (xy 22.86 42.7482)
+			(xy 40.64 35.3822) (xy 40.64 32.5882)
 		)
 		(stroke
 			(width 0)
@@ -6421,7 +6592,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 132.08) (xy 172.72 132.08)
+			(xy 180.34 121.92) (xy 190.5 121.92)
 		)
 		(stroke
 			(width 0)
@@ -6431,7 +6602,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 241.1222) (xy 137.16 238.5822)
+			(xy 154.94 230.9622) (xy 154.94 228.4222)
 		)
 		(stroke
 			(width 0)
@@ -6441,7 +6612,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 172.72) (xy 193.04 177.6222)
+			(xy 210.82 162.56) (xy 210.82 167.4622)
 		)
 		(stroke
 			(width 0)
@@ -6451,7 +6622,7 @@
 	)
 	(wire
 		(pts
-			(xy 312.42 234.7722) (xy 312.42 239.8522)
+			(xy 330.2 224.6122) (xy 330.2 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6461,7 +6632,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 82.3722) (xy 20.32 82.3722)
+			(xy 54.61 72.2122) (xy 38.1 72.2122)
 		)
 		(stroke
 			(width 0)
@@ -6471,7 +6642,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 238.5822) (xy 137.16 236.0422)
+			(xy 154.94 228.4222) (xy 154.94 225.8822)
 		)
 		(stroke
 			(width 0)
@@ -6481,7 +6652,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 172.72) (xy 172.72 177.6222)
+			(xy 190.5 162.56) (xy 190.5 167.4622)
 		)
 		(stroke
 			(width 0)
@@ -6491,7 +6662,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 50.8) (xy 172.72 50.8)
+			(xy 177.8 40.64) (xy 190.5 40.64)
 		)
 		(stroke
 			(width 0)
@@ -6501,7 +6672,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 190.3222) (xy 53.34 197.9422)
+			(xy 71.12 180.1622) (xy 71.12 187.7822)
 		)
 		(stroke
 			(width 0)
@@ -6511,7 +6682,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 252.5522) (xy 364.49 252.5522)
+			(xy 372.11 242.3922) (xy 382.27 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -6521,7 +6692,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 234.7722) (xy 374.65 239.8522)
+			(xy 392.43 224.6122) (xy 392.43 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6531,7 +6702,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 78.5622) (xy 44.45 84.9122)
+			(xy 62.23 68.4022) (xy 62.23 74.7522)
 		)
 		(stroke
 			(width 0)
@@ -6541,7 +6712,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 140.7922) (xy 44.45 140.7922)
+			(xy 83.82 130.6322) (xy 62.23 130.6322)
 		)
 		(stroke
 			(width 0)
@@ -6551,7 +6722,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 147.32) (xy 172.72 147.32)
+			(xy 180.34 137.16) (xy 190.5 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6561,7 +6732,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 160.02) (xy 172.72 160.02)
+			(xy 180.34 149.86) (xy 190.5 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6571,7 +6742,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 135.7122) (xy 20.32 130.6322)
+			(xy 38.1 125.5522) (xy 38.1 116.84)
 		)
 		(stroke
 			(width 0)
@@ -6581,7 +6752,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 247.4722) (xy 283.21 252.5522)
+			(xy 300.99 237.3122) (xy 300.99 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -6591,7 +6762,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 236.0422) (xy 191.77 236.0422)
+			(xy 175.26 225.8822) (xy 209.55 225.8822)
 		)
 		(stroke
 			(width 0)
@@ -6601,7 +6772,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 103.9622) (xy 44.45 103.9622)
+			(xy 69.85 93.8022) (xy 62.23 93.8022)
 		)
 		(stroke
 			(width 0)
@@ -6611,7 +6782,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 65.8622) (xy 36.83 64.5922)
+			(xy 54.61 55.7022) (xy 54.61 54.4322)
 		)
 		(stroke
 			(width 0)
@@ -6621,7 +6792,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 220.8022) (xy 157.48 220.8022)
+			(xy 182.88 210.6422) (xy 175.26 210.6422)
 		)
 		(stroke
 			(width 0)
@@ -6631,7 +6802,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 137.16) (xy 193.04 137.16)
+			(xy 215.9 127) (xy 210.82 127)
 		)
 		(stroke
 			(width 0)
@@ -6641,7 +6812,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 84.9122) (xy 99.06 84.9122)
+			(xy 95.25 74.7522) (xy 116.84 74.7522)
 		)
 		(stroke
 			(width 0)
@@ -6651,7 +6822,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 253.8222) (xy 137.16 251.2822)
+			(xy 154.94 243.6622) (xy 154.94 241.1222)
 		)
 		(stroke
 			(width 0)
@@ -6661,7 +6832,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 167.64) (xy 193.04 167.64)
+			(xy 215.9 157.48) (xy 210.82 157.48)
 		)
 		(stroke
 			(width 0)
@@ -6671,7 +6842,17 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 48.26) (xy 193.04 48.26)
+			(xy 25.4 116.84) (xy 27.94 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a38b0fd5-65d2-4b8b-8ca6-bc9f39a53142")
+	)
+	(wire
+		(pts
+			(xy 215.9 38.1) (xy 210.82 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6681,7 +6862,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 269.0622) (xy 184.15 269.0622)
+			(xy 195.58 258.9022) (xy 201.93 258.9022)
 		)
 		(stroke
 			(width 0)
@@ -6691,7 +6872,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 248.7422) (xy 137.16 246.2022)
+			(xy 154.94 238.5822) (xy 154.94 236.0422)
 		)
 		(stroke
 			(width 0)
@@ -6701,7 +6882,7 @@
 	)
 	(wire
 		(pts
-			(xy 78.74 140.7922) (xy 100.33 140.7922)
+			(xy 96.52 130.6322) (xy 118.11 130.6322)
 		)
 		(stroke
 			(width 0)
@@ -6711,7 +6892,17 @@
 	)
 	(wire
 		(pts
-			(xy 302.26 252.5522) (xy 312.42 252.5522)
+			(xy 38.1 116.84) (xy 38.1 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac318d22-455f-452b-9dba-2b32b6c6fcea")
+	)
+	(wire
+		(pts
+			(xy 320.04 242.3922) (xy 330.2 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -6721,7 +6912,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 134.4422) (xy 44.45 140.7922)
+			(xy 62.23 124.2822) (xy 62.23 130.6322)
 		)
 		(stroke
 			(width 0)
@@ -6731,7 +6922,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 190.3222) (xy 22.86 197.9422)
+			(xy 40.64 180.1622) (xy 40.64 187.7822)
 		)
 		(stroke
 			(width 0)
@@ -6741,7 +6932,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 243.6622) (xy 137.16 241.1222)
+			(xy 154.94 233.5022) (xy 154.94 230.9622)
 		)
 		(stroke
 			(width 0)
@@ -6751,7 +6942,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 246.2022) (xy 137.16 243.6622)
+			(xy 154.94 236.0422) (xy 154.94 233.5022)
 		)
 		(stroke
 			(width 0)
@@ -6761,7 +6952,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 236.0422) (xy 208.28 236.0422)
+			(xy 222.25 225.8822) (xy 226.06 225.8822)
 		)
 		(stroke
 			(width 0)
@@ -6771,7 +6962,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 252.5522) (xy 354.33 252.5522)
+			(xy 361.95 242.3922) (xy 372.11 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -6781,7 +6972,7 @@
 	)
 	(wire
 		(pts
-			(xy 184.15 220.8022) (xy 177.8 220.8022)
+			(xy 201.93 210.6422) (xy 195.58 210.6422)
 		)
 		(stroke
 			(width 0)
@@ -6791,7 +6982,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 258.9022) (xy 191.77 258.9022)
+			(xy 175.26 248.7422) (xy 209.55 248.7422)
 		)
 		(stroke
 			(width 0)
@@ -6801,7 +6992,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 138.2522) (xy 36.83 138.2522)
+			(xy 73.66 128.0922) (xy 54.61 128.0922)
 		)
 		(stroke
 			(width 0)
@@ -6811,7 +7002,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 157.48) (xy 193.04 157.48)
+			(xy 215.9 147.32) (xy 210.82 147.32)
 		)
 		(stroke
 			(width 0)
@@ -6821,7 +7012,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 223.3422) (xy 191.77 223.3422)
+			(xy 175.26 213.1822) (xy 209.55 213.1822)
 		)
 		(stroke
 			(width 0)
@@ -6831,7 +7022,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 234.7722) (xy 354.33 239.8522)
+			(xy 372.11 224.6122) (xy 372.11 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6841,7 +7032,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 246.2022) (xy 208.28 246.2022)
+			(xy 222.25 236.0422) (xy 226.06 236.0422)
 		)
 		(stroke
 			(width 0)
@@ -6851,7 +7042,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 190.3222) (xy 68.58 197.9422)
+			(xy 86.36 180.1622) (xy 86.36 187.7822)
 		)
 		(stroke
 			(width 0)
@@ -6861,7 +7052,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 238.5822) (xy 191.77 238.5822)
+			(xy 175.26 228.4222) (xy 209.55 228.4222)
 		)
 		(stroke
 			(width 0)
@@ -6871,7 +7062,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 258.9022) (xy 208.28 258.9022)
+			(xy 222.25 248.7422) (xy 226.06 248.7422)
 		)
 		(stroke
 			(width 0)
@@ -6881,7 +7072,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 139.7) (xy 193.04 139.7)
+			(xy 215.9 129.54) (xy 210.82 129.54)
 		)
 		(stroke
 			(width 0)
@@ -6891,7 +7082,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 269.0622) (xy 165.1 269.0622)
+			(xy 175.26 258.9022) (xy 182.88 258.9022)
 		)
 		(stroke
 			(width 0)
@@ -6901,7 +7092,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 140.7922) (xy 44.45 147.1422)
+			(xy 62.23 130.6322) (xy 62.23 136.9822)
 		)
 		(stroke
 			(width 0)
@@ -6911,7 +7102,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 256.3622) (xy 184.15 256.3622)
+			(xy 195.58 246.2022) (xy 201.93 246.2022)
 		)
 		(stroke
 			(width 0)
@@ -6921,7 +7112,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 152.4) (xy 172.72 152.4)
+			(xy 180.34 142.24) (xy 190.5 142.24)
 		)
 		(stroke
 			(width 0)
@@ -6931,7 +7122,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 252.5522) (xy 323.85 247.4722)
+			(xy 341.63 242.3922) (xy 341.63 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -6941,7 +7132,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 234.7722) (xy 344.17 239.8522)
+			(xy 361.95 224.6122) (xy 361.95 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6951,7 +7142,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 234.7722) (xy 334.01 239.8522)
+			(xy 351.79 224.6122) (xy 351.79 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -6961,7 +7152,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 223.3422) (xy 137.16 220.8022)
+			(xy 154.94 213.1822) (xy 154.94 210.6422)
 		)
 		(stroke
 			(width 0)
@@ -6971,7 +7162,7 @@
 	)
 	(wire
 		(pts
-			(xy 20.32 148.4122) (xy 20.32 145.8722)
+			(xy 38.1 138.2522) (xy 38.1 135.7122)
 		)
 		(stroke
 			(width 0)
@@ -6981,7 +7172,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 256.3622) (xy 137.16 253.8222)
+			(xy 154.94 246.2022) (xy 154.94 243.6622)
 		)
 		(stroke
 			(width 0)
@@ -6991,7 +7182,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 252.5522) (xy 364.49 247.4722)
+			(xy 382.27 242.3922) (xy 382.27 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -7001,7 +7192,7 @@
 	)
 	(wire
 		(pts
-			(xy 292.1 252.5522) (xy 292.1 247.4722)
+			(xy 309.88 242.3922) (xy 309.88 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -7011,7 +7202,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 238.5822) (xy 208.28 238.5822)
+			(xy 222.25 228.4222) (xy 226.06 228.4222)
 		)
 		(stroke
 			(width 0)
@@ -7021,7 +7212,7 @@
 	)
 	(wire
 		(pts
-			(xy 334.01 252.5522) (xy 334.01 247.4722)
+			(xy 351.79 242.3922) (xy 351.79 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -7031,7 +7222,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 149.86) (xy 172.72 149.86)
+			(xy 180.34 139.7) (xy 190.5 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7041,7 +7232,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 119.38) (xy 193.04 124.46)
+			(xy 210.82 109.22) (xy 210.82 114.3)
 		)
 		(stroke
 			(width 0)
@@ -7051,7 +7242,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 139.7) (xy 162.56 139.7)
+			(xy 190.5 129.54) (xy 180.34 129.54)
 		)
 		(stroke
 			(width 0)
@@ -7061,7 +7252,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 170.18) (xy 172.72 170.18)
+			(xy 180.34 160.02) (xy 190.5 160.02)
 		)
 		(stroke
 			(width 0)
@@ -7071,7 +7262,7 @@
 	)
 	(wire
 		(pts
-			(xy 90.17 87.4522) (xy 116.84 87.4522)
+			(xy 107.95 77.2922) (xy 134.62 77.2922)
 		)
 		(stroke
 			(width 0)
@@ -7081,7 +7272,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 143.3322) (xy 20.32 143.3322)
+			(xy 69.85 133.1722) (xy 38.1 133.1722)
 		)
 		(stroke
 			(width 0)
@@ -7091,7 +7282,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 147.1422) (xy 52.07 143.3322)
+			(xy 69.85 136.9822) (xy 69.85 133.1722)
 		)
 		(stroke
 			(width 0)
@@ -7101,7 +7292,7 @@
 	)
 	(wire
 		(pts
-			(xy 349.25 205.5622) (xy 337.82 205.5622)
+			(xy 367.03 195.4022) (xy 355.6 195.4022)
 		)
 		(stroke
 			(width 0)
@@ -7111,7 +7302,7 @@
 	)
 	(wire
 		(pts
-			(xy 374.65 252.5522) (xy 374.65 247.4722)
+			(xy 392.43 242.3922) (xy 392.43 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -7121,7 +7312,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 233.5022) (xy 137.16 230.9622)
+			(xy 154.94 223.3422) (xy 154.94 220.8022)
 		)
 		(stroke
 			(width 0)
@@ -7131,7 +7322,7 @@
 	)
 	(wire
 		(pts
-			(xy 204.47 225.8822) (xy 208.28 225.8822)
+			(xy 222.25 215.7222) (xy 226.06 215.7222)
 		)
 		(stroke
 			(width 0)
@@ -7141,7 +7332,7 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 252.5522) (xy 334.01 252.5522)
+			(xy 341.63 242.3922) (xy 351.79 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -7151,7 +7342,7 @@
 	)
 	(wire
 		(pts
-			(xy 354.33 252.5522) (xy 354.33 247.4722)
+			(xy 372.11 242.3922) (xy 372.11 237.3122)
 		)
 		(stroke
 			(width 0)
@@ -7161,7 +7352,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 134.62) (xy 193.04 134.62)
+			(xy 215.9 124.46) (xy 210.82 124.46)
 		)
 		(stroke
 			(width 0)
@@ -7171,7 +7362,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 208.1022) (xy 349.25 208.1022)
+			(xy 347.98 197.9422) (xy 367.03 197.9422)
 		)
 		(stroke
 			(width 0)
@@ -7181,7 +7372,7 @@
 	)
 	(wire
 		(pts
-			(xy 330.2 204.2922) (xy 330.2 208.1022)
+			(xy 347.98 194.1322) (xy 347.98 197.9422)
 		)
 		(stroke
 			(width 0)
@@ -7191,7 +7382,7 @@
 	)
 	(wire
 		(pts
-			(xy 283.21 252.5522) (xy 292.1 252.5522)
+			(xy 300.99 242.3922) (xy 309.88 242.3922)
 		)
 		(stroke
 			(width 0)
@@ -7201,7 +7392,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 64.5922) (xy 52.07 65.8622)
+			(xy 69.85 54.4322) (xy 69.85 55.7022)
 		)
 		(stroke
 			(width 0)
@@ -7211,7 +7402,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 172.72 93.8022)
+			(xy 190.5 81.28) (xy 190.5 83.6422)
 		)
 		(stroke
 			(width 0)
@@ -7221,7 +7412,7 @@
 	)
 	(wire
 		(pts
-			(xy 364.49 234.7722) (xy 364.49 239.8522)
+			(xy 382.27 224.6122) (xy 382.27 229.6922)
 		)
 		(stroke
 			(width 0)
@@ -7231,7 +7422,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 91.2622) (xy 52.07 87.4522)
+			(xy 69.85 81.1022) (xy 69.85 77.2922)
 		)
 		(stroke
 			(width 0)
@@ -7241,7 +7432,7 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 50.8) (xy 193.04 50.8)
+			(xy 215.9 40.64) (xy 210.82 40.64)
 		)
 		(stroke
 			(width 0)
@@ -7251,7 +7442,7 @@
 	)
 	(wire
 		(pts
-			(xy 107.95 82.3722) (xy 116.84 82.3722)
+			(xy 125.73 72.2122) (xy 134.62 72.2122)
 		)
 		(stroke
 			(width 0)
@@ -7261,7 +7452,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 246.2022) (xy 191.77 246.2022)
+			(xy 175.26 236.0422) (xy 209.55 236.0422)
 		)
 		(stroke
 			(width 0)
@@ -7271,7 +7462,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 143.3322) (xy 52.07 134.4422)
+			(xy 69.85 133.1722) (xy 69.85 124.2822)
 		)
 		(stroke
 			(width 0)
@@ -7281,7 +7472,7 @@
 	)
 	(wire
 		(pts
-			(xy 165.1 253.8222) (xy 157.48 253.8222)
+			(xy 182.88 243.6622) (xy 175.26 243.6622)
 		)
 		(stroke
 			(width 0)
@@ -7291,7 +7482,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 45.72) (xy 172.72 45.72)
+			(xy 177.8 35.56) (xy 190.5 35.56)
 		)
 		(stroke
 			(width 0)
@@ -7301,7 +7492,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 258.9022) (xy 29.21 258.9022)
+			(xy 57.15 248.7422) (xy 46.99 248.7422)
 		)
 		(stroke
 			(width 0)
@@ -7310,7 +7501,7 @@
 		(uuid "fd7da328-bf6d-44bc-91b1-b33cf7abd9c2")
 	)
 	(label "LED4"
-		(at 68.58 190.3222 180)
+		(at 86.36 180.1622 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7320,7 +7511,7 @@
 		(uuid "02ec207f-c00f-4f61-9400-2774995500d7")
 	)
 	(label "P_LS1"
-		(at 157.48 266.5222 0)
+		(at 175.26 256.3622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7330,7 +7521,7 @@
 		(uuid "0515d68a-d8f1-4da9-a515-e80734b6f260")
 	)
 	(label "I2C0_SDA"
-		(at 208.28 248.7422 0)
+		(at 226.06 238.5822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7340,7 +7531,7 @@
 		(uuid "09d4f30a-b2cc-4baa-8934-29c4ecc7fa74")
 	)
 	(label "HAL_A"
-		(at 198.12 132.08 0)
+		(at 215.9 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7350,7 +7541,7 @@
 		(uuid "120547ca-168a-4cde-a406-5938507496bf")
 	)
 	(label "IP_P3"
-		(at 208.28 225.8822 0)
+		(at 226.06 215.7222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7360,7 +7551,7 @@
 		(uuid "12c06573-08cc-4fb0-af8f-3aa9786cb5e0")
 	)
 	(label "IP_N3"
-		(at 374.65 234.7722 0)
+		(at 392.43 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7370,7 +7561,7 @@
 		(uuid "1401ef27-be03-4167-90d6-90d6597e2b4a")
 	)
 	(label "ENC_Z"
-		(at 116.84 143.3322 0)
+		(at 134.62 133.1722 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7380,7 +7571,7 @@
 		(uuid "1d048525-5ee1-4c3b-9185-3027fd427453")
 	)
 	(label "LED3"
-		(at 53.34 190.3222 180)
+		(at 71.12 180.1622 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7390,7 +7581,7 @@
 		(uuid "1ed8eaed-b167-484c-b6ca-9d2f90b195fa")
 	)
 	(label "VP2"
-		(at 162.56 149.86 0)
+		(at 180.34 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7400,7 +7591,7 @@
 		(uuid "257a9ea2-f706-4ae3-80d4-8a066d971bbe")
 	)
 	(label "LED1"
-		(at 22.86 190.3222 180)
+		(at 40.64 180.1622 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7410,7 +7601,7 @@
 		(uuid "28dcc99a-2f8e-48c3-a30c-667fce5bb6e2")
 	)
 	(label "P_LS1"
-		(at 198.12 48.26 0)
+		(at 215.9 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7420,7 +7611,7 @@
 		(uuid "29aad64d-2ffa-47db-a21d-175627f138b8")
 	)
 	(label "DBG_TX"
-		(at 22.86 35.3822 0)
+		(at 40.64 25.2222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7430,7 +7621,7 @@
 		(uuid "2b758cc5-53fd-48c8-91c4-ae4e065c3b65")
 	)
 	(label "DBG_TX"
-		(at 198.12 162.56 0)
+		(at 215.9 152.4 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7440,7 +7631,7 @@
 		(uuid "30e613bd-570a-462e-a153-35f7d23a4b24")
 	)
 	(label "IP_N2"
-		(at 208.28 236.0422 0)
+		(at 226.06 225.8822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7450,7 +7641,7 @@
 		(uuid "327530fa-3706-452d-b449-5b794d2f6388")
 	)
 	(label "HAL_B"
-		(at 116.84 84.9122 0)
+		(at 134.62 74.7522 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7460,7 +7651,7 @@
 		(uuid "3abca6e7-2749-4a04-a3de-f6673a0ee8d7")
 	)
 	(label "IP_P2"
-		(at 208.28 238.5822 0)
+		(at 226.06 228.4222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7470,7 +7661,7 @@
 		(uuid "3b28e314-5fdd-4ecc-84bd-8254788067ee")
 	)
 	(label "VP3"
-		(at 162.56 152.4 0)
+		(at 180.34 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7480,7 +7671,7 @@
 		(uuid "3d553b6c-dbf2-4679-b90f-41d4812aa4b8")
 	)
 	(label "P_LS3"
-		(at 198.12 53.34 0)
+		(at 215.9 43.18 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7490,7 +7681,7 @@
 		(uuid "3fb9f4c4-70d4-4b1b-ae33-cd0fcb393d7f")
 	)
 	(label "IP_N3"
-		(at 208.28 223.3422 0)
+		(at 226.06 213.1822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7500,7 +7691,7 @@
 		(uuid "43379901-8c2a-4c71-b57b-624f6155dc7d")
 	)
 	(label "DBG_RX"
-		(at 162.56 160.02 0)
+		(at 180.34 149.86 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7510,7 +7701,7 @@
 		(uuid "4a47ca53-06cd-450a-bebe-ead9ca34493e")
 	)
 	(label "DBG_RX"
-		(at 22.86 39.1922 0)
+		(at 40.64 29.0322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7520,7 +7711,7 @@
 		(uuid "5798798e-c1f1-494a-b1d4-8449bdf7cd2f")
 	)
 	(label "I2C0_SDA"
-		(at 349.25 205.5622 0)
+		(at 367.03 195.4022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7530,7 +7721,7 @@
 		(uuid "5fb6b0a7-1e00-4176-915e-7cef473af233")
 	)
 	(label "P_HS1"
-		(at 157.48 263.9822 0)
+		(at 175.26 253.8222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7540,7 +7731,7 @@
 		(uuid "6017dcc6-50f7-455a-844e-7f11d38bcd51")
 	)
 	(label "VM"
-		(at 184.15 269.0622 0)
+		(at 201.93 258.9022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7550,7 +7741,7 @@
 		(uuid "62e1bf1e-0cd6-4ff9-97a2-1c8cdf739d7e")
 	)
 	(label "P_HS2"
-		(at 160.02 48.26 0)
+		(at 177.8 38.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7560,7 +7751,7 @@
 		(uuid "647deb00-511d-4e1f-94a7-c2f9c71d62d1")
 	)
 	(label "VP2"
-		(at 292.1 234.7722 0)
+		(at 309.88 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7570,7 +7761,7 @@
 		(uuid "65749b9e-7cb5-4d96-81a8-b2cfafa6bc46")
 	)
 	(label "HAL_B"
-		(at 198.12 134.62 0)
+		(at 215.9 124.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7580,7 +7771,7 @@
 		(uuid "68df9f99-4cbe-4312-8833-99ecdaa7c2da")
 	)
 	(label "ENC_B"
-		(at 116.84 140.7922 0)
+		(at 134.62 130.6322 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7590,7 +7781,7 @@
 		(uuid "7035b745-2263-406d-84c6-c4928ff35aca")
 	)
 	(label "IP_P1"
-		(at 323.85 234.7722 0)
+		(at 341.63 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7600,7 +7791,7 @@
 		(uuid "7574325a-f0ce-4e6c-92db-7e3f77144d82")
 	)
 	(label "ENC_B"
-		(at 198.12 137.16 0)
+		(at 215.9 127 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7610,7 +7801,7 @@
 		(uuid "77195efd-a00a-4f7d-bcc0-9064f81a1c21")
 	)
 	(label "VP3"
-		(at 184.15 220.8022 0)
+		(at 201.93 210.6422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7620,7 +7811,7 @@
 		(uuid "781a98cd-9ddb-432b-95f2-b515e928a119")
 	)
 	(label "LED4"
-		(at 198.12 167.64 0)
+		(at 215.9 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7630,7 +7821,7 @@
 		(uuid "7cea203f-1bc1-4c42-bd17-c5aa4b8637cf")
 	)
 	(label "IP_N2"
-		(at 354.33 234.7722 0)
+		(at 372.11 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7640,7 +7831,7 @@
 		(uuid "7e1afab1-ef9d-4372-854c-fcf251650add")
 	)
 	(label "I2C0_SCL"
-		(at 349.25 208.1022 0)
+		(at 367.03 197.9422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7650,7 +7841,7 @@
 		(uuid "7e8eccf4-c14e-4c19-9ce4-7b53893bbc38")
 	)
 	(label "IP_P1"
-		(at 198.12 157.48 0)
+		(at 215.9 147.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7660,7 +7851,7 @@
 		(uuid "8990c861-f7eb-48e5-a017-e0a0746b5a34")
 	)
 	(label "IP_P1"
-		(at 208.28 261.4422 0)
+		(at 226.06 251.2822 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7670,7 +7861,7 @@
 		(uuid "90fa2ad3-ea98-477b-a6e1-1b69b82e8f81")
 	)
 	(label "IP_N3"
-		(at 198.12 144.78 0)
+		(at 215.9 134.62 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7680,7 +7871,7 @@
 		(uuid "936e33da-933d-4c59-9743-618bf8bddbd7")
 	)
 	(label "LED1"
-		(at 162.56 170.18 0)
+		(at 180.34 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7690,7 +7881,7 @@
 		(uuid "9459e8d5-b49d-4036-b00f-94dde61e9417")
 	)
 	(label "P_HS1"
-		(at 160.02 45.72 0)
+		(at 177.8 35.56 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7700,7 +7891,7 @@
 		(uuid "9656cdd4-bd1a-4b96-89ef-f4a0d10a8e37")
 	)
 	(label "VP1"
-		(at 302.26 234.7722 0)
+		(at 320.04 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7710,7 +7901,7 @@
 		(uuid "9f9a6edb-06ae-4ebb-b955-66ed1497cd07")
 	)
 	(label "HAL_C"
-		(at 162.56 132.08 0)
+		(at 180.34 121.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7720,7 +7911,7 @@
 		(uuid "a3ca59ea-c8d2-41b9-8305-0c0bd68262e6")
 	)
 	(label "ENC_A"
-		(at 162.56 139.7 0)
+		(at 180.34 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7730,7 +7921,7 @@
 		(uuid "a686ab7d-3064-4e43-af90-13bd95e7d6bb")
 	)
 	(label "HAL_C"
-		(at 116.84 87.4522 0)
+		(at 134.62 77.2922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7740,7 +7931,7 @@
 		(uuid "a98d6a52-b188-4bc4-ae22-218b5d84a0f2")
 	)
 	(label "ENC_Z"
-		(at 198.12 139.7 0)
+		(at 215.9 129.54 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7750,7 +7941,7 @@
 		(uuid "ad69fc05-a842-4c42-b8c1-d05718213472")
 	)
 	(label "LED2"
-		(at 38.1 190.3222 180)
+		(at 55.88 180.1622 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7760,7 +7951,7 @@
 		(uuid "b0452016-6a9a-4d1e-a6f1-cd5680740cff")
 	)
 	(label "P_LS2"
-		(at 198.12 50.8 0)
+		(at 215.9 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7770,7 +7961,7 @@
 		(uuid "b07987f0-4e3d-4f3e-8299-abb1474b8dee")
 	)
 	(label "VM"
-		(at 162.56 154.94 0)
+		(at 180.34 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7780,7 +7971,7 @@
 		(uuid "bc9a95f9-1a4c-42e5-9cdd-1fd63ae31be8")
 	)
 	(label "ENC_A"
-		(at 116.84 138.2522 0)
+		(at 134.62 128.0922 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7790,7 +7981,7 @@
 		(uuid "bd72f890-6715-448a-b549-e80e9b4c9a48")
 	)
 	(label "IP_P2"
-		(at 198.12 149.86 0)
+		(at 215.9 139.7 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7800,7 +7991,7 @@
 		(uuid "c80b8733-b8b8-41d9-87d3-5d92596c75e7")
 	)
 	(label "P_HS2"
-		(at 157.48 241.1222 0)
+		(at 175.26 230.9622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7810,7 +8001,7 @@
 		(uuid "c8c12dd0-602a-409b-ab4d-5349508bb1eb")
 	)
 	(label "IP_N3"
-		(at 26.67 269.0622 0)
+		(at 44.45 258.9022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7820,7 +8011,7 @@
 		(uuid "c93442dd-587d-4914-a239-632084505e74")
 	)
 	(label "IP_P2"
-		(at 344.17 234.7722 0)
+		(at 361.95 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7830,7 +8021,7 @@
 		(uuid "ca560fa1-6442-4cf2-86f3-278ce720b02d")
 	)
 	(label "HAL_A"
-		(at 116.84 82.3722 0)
+		(at 134.62 72.2122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7840,7 +8031,7 @@
 		(uuid "cfe060a4-f271-43f2-9ba3-8f1123c36eeb")
 	)
 	(label "LED2"
-		(at 198.12 170.18 0)
+		(at 215.9 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7850,7 +8041,7 @@
 		(uuid "d127256e-0c27-434f-9957-bf9fd4eb7083")
 	)
 	(label "IP_N1"
-		(at 334.01 234.7722 0)
+		(at 351.79 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7860,7 +8051,7 @@
 		(uuid "d9ea4600-e233-4d4c-b93f-42e91f4dbf42")
 	)
 	(label "VM"
-		(at 312.42 234.7722 0)
+		(at 330.2 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7870,7 +8061,7 @@
 		(uuid "df85777d-aeb1-4c87-8388-551e66db58d7")
 	)
 	(label "I2C0_SCL"
-		(at 195.58 86.36 0)
+		(at 213.36 76.2 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7880,7 +8071,7 @@
 		(uuid "e08bb5a9-072a-4082-bcda-8462a2b12477")
 	)
 	(label "IP_P3"
-		(at 198.12 147.32 0)
+		(at 215.9 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7890,7 +8081,7 @@
 		(uuid "e3e34298-e59b-4fdf-afa0-fb4792b649c8")
 	)
 	(label "LED3"
-		(at 162.56 167.64 0)
+		(at 180.34 157.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7900,7 +8091,7 @@
 		(uuid "e44cadbd-9eaf-49b6-ae94-d5f3b20d4fa7")
 	)
 	(label "VP1"
-		(at 184.15 256.3622 0)
+		(at 201.93 246.2022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7910,7 +8101,7 @@
 		(uuid "e5ae1846-7171-4e5f-ae54-e1f991c4890f")
 	)
 	(label "IP_N2"
-		(at 26.67 251.2822 0)
+		(at 44.45 241.1222 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7920,7 +8111,7 @@
 		(uuid "e7ccdc25-cfc7-49b5-8176-bc239d6be5cd")
 	)
 	(label "P_LS3"
-		(at 157.48 230.9622 0)
+		(at 175.26 220.8022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7930,7 +8121,7 @@
 		(uuid "e8592acb-97fb-4ef0-bfbe-b77d941d8dda")
 	)
 	(label "IP_N1"
-		(at 198.12 154.94 0)
+		(at 215.9 144.78 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7940,7 +8131,7 @@
 		(uuid "ecedfe27-c5c3-4b1f-b9e2-85b14777278f")
 	)
 	(label "P_LS2"
-		(at 157.48 243.6622 0)
+		(at 175.26 233.5022 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7950,7 +8141,7 @@
 		(uuid "ee4cfb8e-ea5a-4461-bd7b-a47279f38d24")
 	)
 	(label "VP2"
-		(at 184.15 233.5022 0)
+		(at 201.93 223.3422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7960,7 +8151,7 @@
 		(uuid "efcea2f7-4a9f-4372-bb48-bf9fdbf542c8")
 	)
 	(label "I2C0_SCL"
-		(at 208.28 246.2022 0)
+		(at 226.06 236.0422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7970,7 +8161,7 @@
 		(uuid "f063797a-0243-4256-8942-c84709f80e2f")
 	)
 	(label "OCD"
-		(at 184.15 253.8222 0)
+		(at 201.93 243.6622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7980,7 +8171,7 @@
 		(uuid "f0bebd9a-370e-499b-b8aa-261d348659af")
 	)
 	(label "I2C0_SDA"
-		(at 195.58 83.82 0)
+		(at 213.36 73.66 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7990,7 +8181,7 @@
 		(uuid "f1b54f23-2785-4f14-985f-c3e63a2a8e15")
 	)
 	(label "P_HS3"
-		(at 160.02 50.8 0)
+		(at 177.8 40.64 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8000,7 +8191,7 @@
 		(uuid "f49935e0-03fd-466f-9e07-33efdf706ea8")
 	)
 	(label "P_HS3"
-		(at 157.48 228.4222 0)
+		(at 175.26 218.2622 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8010,7 +8201,7 @@
 		(uuid "f6c52380-87f6-43b7-b97c-304403c5c060")
 	)
 	(label "IP_N1"
-		(at 39.37 258.9022 0)
+		(at 57.15 248.7422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8020,7 +8211,7 @@
 		(uuid "f8c88252-bd78-4bfe-b251-b488e939f345")
 	)
 	(label "IP_N1"
-		(at 208.28 258.9022 0)
+		(at 226.06 248.7422 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8030,7 +8221,7 @@
 		(uuid "fb9b7ce4-2caa-4d03-8556-79ea259187f7")
 	)
 	(label "VP3"
-		(at 283.21 234.7722 0)
+		(at 300.99 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8040,7 +8231,7 @@
 		(uuid "fc0e07da-533f-4a73-98cf-2e2f49c1087e")
 	)
 	(label "IP_N2"
-		(at 198.12 152.4 0)
+		(at 215.9 142.24 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8050,7 +8241,7 @@
 		(uuid "fd7559f5-104f-42cd-9d1a-dfeec1e39400")
 	)
 	(label "VP1"
-		(at 162.56 147.32 0)
+		(at 180.34 137.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8060,7 +8251,7 @@
 		(uuid "fe077f80-7b37-4c42-8d77-84f39f2e190d")
 	)
 	(label "IP_P3"
-		(at 364.49 234.7722 0)
+		(at 382.27 224.6122 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -8072,7 +8263,7 @@
 	(symbol
 		(lib_name "U_Control_0_Header 20X2_RezaLIB.IntLib_1")
 		(lib_id "RezaLIB:U_Control_0_Header 20X2_RezaLIB.IntLib")
-		(at 187.96 121.92 270)
+		(at 205.74 111.76 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -8083,7 +8274,7 @@
 		(dnp no)
 		(uuid "00339d16-7685-4aa1-a9af-3620e0f86a1b")
 		(property "Reference" "P4"
-			(at 187.96 121.92 90)
+			(at 205.74 111.76 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8094,7 +8285,7 @@
 			)
 		)
 		(property "Value" "Header 20X2"
-			(at 187.96 177.8 90)
+			(at 205.74 167.64 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8105,7 +8296,7 @@
 			)
 		)
 		(property "Footprint" "HDR2X20-MU"
-			(at 187.96 121.92 0)
+			(at 205.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8116,7 +8307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 121.92 0)
+			(at 205.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8127,7 +8318,7 @@
 			)
 		)
 		(property "Description" "Header, 20-Pin, Dual row"
-			(at 187.96 121.92 0)
+			(at 205.74 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8138,7 +8329,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 187.96 121.92 90)
+			(at 205.74 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8150,7 +8341,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 187.96 121.92 90)
+			(at 205.74 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8162,7 +8353,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 187.96 121.92 90)
+			(at 205.74 111.76 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8304,7 +8495,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 137.16 238.5822 270)
+		(at 154.94 228.4222 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8314,7 +8505,7 @@
 		(dnp no)
 		(uuid "04eedb1d-9345-4efc-809c-1a5479b3b6f4")
 		(property "Reference" "#PWR020"
-			(at 137.16 238.5822 0)
+			(at 154.94 228.4222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8325,7 +8516,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 130.81 238.5822 90)
+			(at 148.59 228.4222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8336,7 +8527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 238.5822 0)
+			(at 154.94 228.4222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8346,7 +8537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 238.5822 0)
+			(at 154.94 228.4222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8356,7 +8547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 238.5822 0)
+			(at 154.94 228.4222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8379,7 +8570,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 38.1 218.2622 0)
+		(at 55.88 208.1022 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8389,7 +8580,7 @@
 		(dnp no)
 		(uuid "0959937e-78eb-4969-b8c8-60fd96f8a7e4")
 		(property "Reference" "#PWR07"
-			(at 38.1 218.2622 0)
+			(at 55.88 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8400,7 +8591,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 38.1 224.6122 0)
+			(at 55.88 214.4522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8410,7 +8601,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 38.1 218.2622 0)
+			(at 55.88 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8420,7 +8611,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 218.2622 0)
+			(at 55.88 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8430,7 +8621,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 218.2622 0)
+			(at 55.88 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8453,7 +8644,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_PIN 4_RezaLIB.IntLib")
-		(at 15.748 37.1602 180)
+		(at 33.528 27.0002 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8463,7 +8654,7 @@
 		(dnp no)
 		(uuid "0a62c01b-744f-4747-9609-7b3bd08bf0a4")
 		(property "Reference" "P1"
-			(at 10.922 30.5562 0)
+			(at 28.702 20.3962 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8474,7 +8665,7 @@
 			)
 		)
 		(property "Value" "PIN 4"
-			(at 10.922 47.0662 0)
+			(at 28.702 36.9062 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8485,7 +8676,7 @@
 			)
 		)
 		(property "Footprint" "PIN F4"
-			(at 15.748 37.1602 0)
+			(at 33.528 27.0002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8496,7 +8687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 15.748 37.1602 0)
+			(at 33.528 27.0002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8507,7 +8698,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 15.748 37.1602 0)
+			(at 33.528 27.0002 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8540,7 +8731,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 52.07 97.6122 180)
+		(at 69.85 87.4522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8550,7 +8741,7 @@
 		(dnp no)
 		(uuid "0ad7cb8b-7158-4d96-aca8-cd8ed87f0a64")
 		(property "Reference" "R9"
-			(at 53.086 96.0882 0)
+			(at 70.866 85.9282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8561,7 +8752,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 51.054 90.7542 0)
+			(at 68.834 80.5942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8573,7 +8764,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 52.07 97.6122 0)
+			(at 69.85 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8584,7 +8775,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 97.6122 0)
+			(at 69.85 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8595,7 +8786,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 97.6122 0)
+			(at 69.85 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8606,7 +8797,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 53.34 98.8822 0)
+			(at 71.12 88.7222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8633,7 +8824,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+3V3_BAR")
-		(at 330.2 189.0522 180)
+		(at 347.98 178.8922 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8643,7 +8834,7 @@
 		(dnp no)
 		(uuid "0cb6a0ce-d93a-48c2-82e1-ba73ede3f18e")
 		(property "Reference" "#PWR032"
-			(at 330.2 189.0522 0)
+			(at 347.98 178.8922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8654,7 +8845,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 330.2 185.2422 0)
+			(at 347.98 175.0822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8664,7 +8855,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 330.2 189.0522 0)
+			(at 347.98 178.8922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8674,7 +8865,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 189.0522 0)
+			(at 347.98 178.8922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8684,7 +8875,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 189.0522 0)
+			(at 347.98 178.8922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8707,7 +8898,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 238.5822 270)
+		(at 215.9 228.4222 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8717,7 +8908,7 @@
 		(dnp no)
 		(uuid "0d213264-dbe3-4cc2-84af-e99287536c43")
 		(property "Reference" "R30"
-			(at 194.31 242.3922 90)
+			(at 212.09 232.2322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8728,7 +8919,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 237.5662 90)
+			(at 209.042 227.4062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8740,7 +8931,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 238.5822 0)
+			(at 215.9 228.4222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8751,7 +8942,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 238.5822 0)
+			(at 215.9 228.4222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8762,7 +8953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 238.5822 0)
+			(at 215.9 228.4222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8773,7 +8964,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 242.3922 90)
+			(at 218.44 232.2322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8800,7 +8991,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 83.82 143.3322 270)
+		(at 101.6 133.1722 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8810,7 +9001,7 @@
 		(dnp no)
 		(uuid "0ec3c816-efed-437c-859b-ea516fab9b53")
 		(property "Reference" "R15"
-			(at 79.756 142.3162 90)
+			(at 97.536 132.1562 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8821,7 +9012,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 76.962 142.3162 90)
+			(at 94.742 132.1562 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8833,7 +9024,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 83.82 143.3322 0)
+			(at 101.6 133.1722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8844,7 +9035,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 83.82 143.3322 0)
+			(at 101.6 133.1722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8855,7 +9046,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 83.82 143.3322 0)
+			(at 101.6 133.1722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8866,7 +9057,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 85.09 142.0622 90)
+			(at 102.87 131.9022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8893,7 +9084,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 91.44 153.4922 180)
+		(at 109.22 143.3322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8903,7 +9094,7 @@
 		(dnp no)
 		(uuid "0ed5fb53-14ad-41f9-9ab6-a0bc5861cf98")
 		(property "Reference" "C4"
-			(at 93.726 153.2382 0)
+			(at 111.506 143.0782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8914,7 +9105,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 89.154 147.9042 0)
+			(at 106.934 137.7442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8926,7 +9117,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 91.44 153.4922 0)
+			(at 109.22 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8937,7 +9128,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 153.4922 0)
+			(at 109.22 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8948,7 +9139,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 153.4922 0)
+			(at 109.22 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8959,7 +9150,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 93.726 155.7782 0)
+			(at 111.506 145.6182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8986,7 +9177,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 171.45 256.3622 270)
+		(at 189.23 246.2022 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8996,7 +9187,7 @@
 		(dnp no)
 		(uuid "15454b87-b077-45e3-b8a8-9044339374bc")
 		(property "Reference" "R35"
-			(at 167.64 260.1722 90)
+			(at 185.42 250.0122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9007,7 +9198,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 164.592 255.3462 90)
+			(at 182.372 245.1862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9019,7 +9210,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 171.45 256.3622 0)
+			(at 189.23 246.2022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9030,7 +9221,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 256.3622 0)
+			(at 189.23 246.2022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9041,7 +9232,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 256.3622 0)
+			(at 189.23 246.2022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9052,7 +9243,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 173.99 260.1722 90)
+			(at 191.77 250.0122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9079,7 +9270,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 72.39 140.7922 270)
+		(at 90.17 130.6322 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9089,7 +9280,7 @@
 		(dnp no)
 		(uuid "15f843c9-8f3f-4c5d-8c61-d6dcb0b9c731")
 		(property "Reference" "R14"
-			(at 68.326 139.7762 90)
+			(at 86.106 129.6162 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9100,7 +9291,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 65.532 139.7762 90)
+			(at 83.312 129.6162 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9112,7 +9303,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 72.39 140.7922 0)
+			(at 90.17 130.6322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9123,7 +9314,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 140.7922 0)
+			(at 90.17 130.6322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9134,7 +9325,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 72.39 140.7922 0)
+			(at 90.17 130.6322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9145,7 +9336,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 73.66 139.5222 90)
+			(at 91.44 129.3622 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9172,7 +9363,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 364.49 244.9322 180)
+		(at 382.27 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9182,7 +9373,7 @@
 		(dnp no)
 		(uuid "18c1641e-3945-4450-b155-2e4fb963b9ed")
 		(property "Reference" "C15"
-			(at 366.776 244.6782 0)
+			(at 384.556 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9193,7 +9384,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 362.204 239.3442 0)
+			(at 379.984 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9205,7 +9396,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 364.49 244.9322 0)
+			(at 382.27 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9216,7 +9407,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 364.49 244.9322 0)
+			(at 382.27 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9227,7 +9418,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 364.49 244.9322 0)
+			(at 382.27 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9238,7 +9429,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 366.776 247.2182 0)
+			(at 384.556 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9265,7 +9456,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 171.45 220.8022 270)
+		(at 189.23 210.6422 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9275,7 +9466,7 @@
 		(dnp no)
 		(uuid "1a02c19f-1b74-4dc6-a264-a3cd73a8e4df")
 		(property "Reference" "R25"
-			(at 167.64 219.5322 90)
+			(at 185.42 209.3722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9286,7 +9477,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 164.592 219.7862 90)
+			(at 182.372 209.6262 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9298,7 +9489,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 171.45 220.8022 0)
+			(at 189.23 210.6422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9309,7 +9500,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 220.8022 0)
+			(at 189.23 210.6422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9320,7 +9511,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 220.8022 0)
+			(at 189.23 210.6422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9331,7 +9522,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 173.99 219.5322 90)
+			(at 191.77 209.3722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9358,7 +9549,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 36.83 97.6122 180)
+		(at 54.61 87.4522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9368,7 +9559,7 @@
 		(dnp no)
 		(uuid "1c3133c7-cd85-4cc9-bfb4-0c250c27a73e")
 		(property "Reference" "R7"
-			(at 37.846 96.0882 0)
+			(at 55.626 85.9282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9379,7 +9570,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 35.814 90.7542 0)
+			(at 53.594 80.5942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9391,7 +9582,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 36.83 97.6122 0)
+			(at 54.61 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9402,7 +9593,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 97.6122 0)
+			(at 54.61 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9413,7 +9604,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 97.6122 0)
+			(at 54.61 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9424,7 +9615,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 38.1 98.8822 0)
+			(at 55.88 88.7222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9451,7 +9642,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 44.45 159.8422 0)
+		(at 62.23 149.6822 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9461,7 +9652,7 @@
 		(dnp no)
 		(uuid "1cd6baf5-ce2d-474e-b334-4522e1b88c43")
 		(property "Reference" "#PWR011"
-			(at 44.45 159.8422 0)
+			(at 62.23 149.6822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9472,7 +9663,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 166.1922 0)
+			(at 62.23 156.0322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9482,7 +9673,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 159.8422 0)
+			(at 62.23 149.6822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9492,7 +9683,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 159.8422 0)
+			(at 62.23 149.6822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9502,7 +9693,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 159.8422 0)
+			(at 62.23 149.6822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9525,7 +9716,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 258.9022 270)
+		(at 215.9 248.7422 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9535,7 +9726,7 @@
 		(dnp no)
 		(uuid "1d950b58-5e35-48b0-abf7-c0b9f6a204cb")
 		(property "Reference" "R34"
-			(at 194.31 257.6322 90)
+			(at 212.09 247.4722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9546,7 +9737,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 257.8862 90)
+			(at 209.042 247.7262 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9558,7 +9749,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 258.9022 0)
+			(at 215.9 248.7422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9569,7 +9760,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 258.9022 0)
+			(at 215.9 248.7422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9580,7 +9771,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 258.9022 0)
+			(at 215.9 248.7422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9591,7 +9782,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 257.6322 90)
+			(at 218.44 247.4722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9618,7 +9809,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 223.3422 270)
+		(at 215.9 213.1822 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9628,7 +9819,7 @@
 		(dnp no)
 		(uuid "2000b0bb-e097-411d-815c-f9599ca49a11")
 		(property "Reference" "R26"
-			(at 194.31 222.0722 90)
+			(at 212.09 211.9122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9639,7 +9830,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 222.3262 90)
+			(at 209.042 212.1662 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9651,7 +9842,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 223.3422 0)
+			(at 215.9 213.1822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9662,7 +9853,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 223.3422 0)
+			(at 215.9 213.1822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9673,7 +9864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 223.3422 0)
+			(at 215.9 213.1822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9684,7 +9875,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 222.0722 90)
+			(at 218.44 211.9122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9711,7 +9902,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 193.04 38.1 180)
+		(at 210.82 27.94 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9721,7 +9912,7 @@
 		(dnp no)
 		(uuid "20f0a88d-3865-498e-bac6-3484570518ad")
 		(property "Reference" "#PWR027"
-			(at 193.04 38.1 0)
+			(at 210.82 27.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9732,7 +9923,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 31.75 0)
+			(at 210.82 21.59 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9742,7 +9933,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 38.1 0)
+			(at 210.82 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9752,7 +9943,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 38.1 0)
+			(at 210.82 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9762,7 +9953,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 38.1 0)
+			(at 210.82 27.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9785,7 +9976,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 100.33 153.4922 180)
+		(at 118.11 143.3322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9795,7 +9986,7 @@
 		(dnp no)
 		(uuid "22287a5d-0719-41ec-b90c-2bd102db1917")
 		(property "Reference" "C5"
-			(at 102.616 153.2382 0)
+			(at 120.396 143.0782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9806,7 +9997,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 98.044 147.9042 0)
+			(at 115.824 137.7442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9818,7 +10009,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 100.33 153.4922 0)
+			(at 118.11 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9829,7 +10020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 153.4922 0)
+			(at 118.11 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9840,7 +10031,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 153.4922 0)
+			(at 118.11 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9851,7 +10042,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 102.616 155.7782 0)
+			(at 120.396 145.6182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9878,7 +10069,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 20.32 92.5322 0)
+		(at 38.1 82.3722 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9888,7 +10079,7 @@
 		(dnp no)
 		(uuid "223d05f5-be83-41b5-b483-e06b21331c47")
 		(property "Reference" "#PWR02"
-			(at 20.32 92.5322 0)
+			(at 38.1 82.3722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9899,7 +10090,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 98.8822 0)
+			(at 38.1 88.7222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9909,7 +10100,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 92.5322 0)
+			(at 38.1 82.3722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9919,7 +10110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 92.5322 0)
+			(at 38.1 82.3722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9929,7 +10120,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 92.5322 0)
+			(at 38.1 82.3722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9952,7 +10143,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 44.45 128.0922 180)
+		(at 62.23 117.9322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9962,7 +10153,7 @@
 		(dnp no)
 		(uuid "22fea3ee-80d2-41b0-adc9-6fa0e32ddcf3")
 		(property "Reference" "R11"
-			(at 45.466 126.5682 0)
+			(at 63.246 116.4082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9973,7 +10164,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 43.434 121.2342 0)
+			(at 61.214 111.0742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9985,7 +10176,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 44.45 128.0922 0)
+			(at 62.23 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9996,7 +10187,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 128.0922 0)
+			(at 62.23 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10007,7 +10198,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 128.0922 0)
+			(at 62.23 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10018,7 +10209,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 45.72 129.3622 0)
+			(at 63.5 119.2022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10045,7 +10236,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 354.33 244.9322 180)
+		(at 372.11 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10055,7 +10246,7 @@
 		(dnp no)
 		(uuid "2c4e8877-4b7e-4b35-a0bf-b561164699d9")
 		(property "Reference" "C14"
-			(at 356.616 244.6782 0)
+			(at 374.396 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10066,7 +10257,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 352.044 239.3442 0)
+			(at 369.824 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10078,7 +10269,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 354.33 244.9322 0)
+			(at 372.11 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10089,7 +10280,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 354.33 244.9322 0)
+			(at 372.11 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10100,7 +10291,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 354.33 244.9322 0)
+			(at 372.11 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10111,7 +10302,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 356.616 247.2182 0)
+			(at 374.396 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10138,7 +10329,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 302.26 244.9322 180)
+		(at 320.04 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10148,7 +10339,7 @@
 		(dnp no)
 		(uuid "2c6537b3-9497-476b-9b5f-8fd42c81d64f")
 		(property "Reference" "C9"
-			(at 304.546 244.6782 0)
+			(at 322.326 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10159,7 +10350,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 299.974 239.3442 0)
+			(at 317.754 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10171,7 +10362,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 302.26 244.9322 0)
+			(at 320.04 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10182,7 +10373,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 302.26 244.9322 0)
+			(at 320.04 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10193,7 +10384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 302.26 244.9322 0)
+			(at 320.04 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10204,7 +10395,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 304.546 247.2182 0)
+			(at 322.326 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10231,7 +10422,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 171.45 269.0622 270)
+		(at 189.23 258.9022 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10241,7 +10432,7 @@
 		(dnp no)
 		(uuid "2cbc14c0-7681-486b-9997-50396d721385")
 		(property "Reference" "R37"
-			(at 167.64 267.7922 90)
+			(at 185.42 257.6322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10252,7 +10443,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 164.592 268.0462 90)
+			(at 182.372 257.8862 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10264,7 +10455,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 171.45 269.0622 0)
+			(at 189.23 258.9022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10275,7 +10466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 269.0622 0)
+			(at 189.23 258.9022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10286,7 +10477,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 269.0622 0)
+			(at 189.23 258.9022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10297,7 +10488,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 173.99 267.7922 90)
+			(at 191.77 257.6322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10324,7 +10515,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 53.34 211.9122 180)
+		(at 71.12 201.7522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10334,7 +10525,7 @@
 		(dnp no)
 		(uuid "2e6bf826-c78f-433f-a551-3ee1a3906824")
 		(property "Reference" "R23"
-			(at 54.356 210.3882 0)
+			(at 72.136 200.2282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10345,7 +10536,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 52.324 205.0542 0)
+			(at 70.104 194.8942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10357,7 +10548,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 53.34 211.9122 0)
+			(at 71.12 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10368,7 +10559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 211.9122 0)
+			(at 71.12 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10379,7 +10570,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 211.9122 0)
+			(at 71.12 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10390,7 +10581,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 54.356 212.9282 0)
+			(at 72.136 202.7682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10417,7 +10608,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+3V3_BAR")
-		(at 44.45 64.5922 180)
+		(at 62.23 54.4322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10427,7 +10618,7 @@
 		(dnp no)
 		(uuid "2ea9419c-c047-4876-968a-9498f5771905")
 		(property "Reference" "#PWR08"
-			(at 44.45 64.5922 0)
+			(at 62.23 54.4322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10438,7 +10629,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 44.45 60.7822 0)
+			(at 62.23 50.6222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10448,7 +10639,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 64.5922 0)
+			(at 62.23 54.4322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10458,7 +10649,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 64.5922 0)
+			(at 62.23 54.4322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10468,7 +10659,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 64.5922 0)
+			(at 62.23 54.4322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10491,7 +10682,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 225.8822 270)
+		(at 215.9 215.7222 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10501,7 +10692,7 @@
 		(dnp no)
 		(uuid "3624b57a-6e9e-4633-9eb6-7c16b69a2c71")
 		(property "Reference" "R27"
-			(at 194.31 229.6922 90)
+			(at 212.09 219.5322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10512,7 +10703,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 224.8662 90)
+			(at 209.042 214.7062 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10524,7 +10715,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 225.8822 0)
+			(at 215.9 215.7222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10535,7 +10726,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 225.8822 0)
+			(at 215.9 215.7222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10546,7 +10737,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 225.8822 0)
+			(at 215.9 215.7222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10557,7 +10748,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 229.6922 90)
+			(at 218.44 219.5322 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10584,7 +10775,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 236.0422 270)
+		(at 215.9 225.8822 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10594,7 +10785,7 @@
 		(dnp no)
 		(uuid "388d24c7-8520-4e45-a4c3-4a6329162fa2")
 		(property "Reference" "R29"
-			(at 194.31 234.7722 90)
+			(at 212.09 224.6122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10605,7 +10796,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 235.0262 90)
+			(at 209.042 224.8662 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10617,7 +10808,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 236.0422 0)
+			(at 215.9 225.8822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10628,7 +10819,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 236.0422 0)
+			(at 215.9 225.8822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10639,7 +10830,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 236.0422 0)
+			(at 215.9 225.8822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10650,7 +10841,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 234.7722 90)
+			(at 218.44 224.6122 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10677,7 +10868,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 36.83 153.4922 180)
+		(at 54.61 143.3322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10687,7 +10878,7 @@
 		(dnp no)
 		(uuid "39c0df56-b444-4e80-b75b-30761f07b66c")
 		(property "Reference" "R16"
-			(at 37.846 151.9682 0)
+			(at 55.626 141.8082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10698,7 +10889,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 35.814 146.6342 0)
+			(at 53.594 136.4742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10710,7 +10901,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 36.83 153.4922 0)
+			(at 54.61 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10721,7 +10912,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 153.4922 0)
+			(at 54.61 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10732,7 +10923,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 153.4922 0)
+			(at 54.61 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10743,7 +10934,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 38.1 154.7622 0)
+			(at 55.88 144.6022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10770,7 +10961,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 44.45 153.4922 180)
+		(at 62.23 143.3322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10780,7 +10971,7 @@
 		(dnp no)
 		(uuid "3a471cf4-8923-44e1-87d5-1f7e4605e39c")
 		(property "Reference" "R17"
-			(at 45.466 151.9682 0)
+			(at 63.246 141.8082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10791,7 +10982,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 43.434 146.6342 0)
+			(at 61.214 136.4742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,7 +10994,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 44.45 153.4922 0)
+			(at 62.23 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10814,7 +11005,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 153.4922 0)
+			(at 62.23 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10825,7 +11016,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 153.4922 0)
+			(at 62.23 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10836,7 +11027,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 45.72 154.7622 0)
+			(at 63.5 144.6022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10863,7 +11054,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 100.33 156.0322 0)
+		(at 118.11 145.8722 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10873,7 +11064,7 @@
 		(dnp no)
 		(uuid "3a53e568-29b2-4878-b3e0-ee613db0b917")
 		(property "Reference" "#PWR017"
-			(at 100.33 156.0322 0)
+			(at 118.11 145.8722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10884,7 +11075,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.33 162.3822 0)
+			(at 118.11 152.2222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10894,7 +11085,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 100.33 156.0322 0)
+			(at 118.11 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10904,7 +11095,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 100.33 156.0322 0)
+			(at 118.11 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10914,7 +11105,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 100.33 156.0322 0)
+			(at 118.11 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10937,7 +11128,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 36.83 128.0922 180)
+		(at 54.61 117.9322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -10947,7 +11138,7 @@
 		(dnp no)
 		(uuid "45e54636-c000-4270-a145-5ffd7956cf86")
 		(property "Reference" "R10"
-			(at 37.846 126.5682 0)
+			(at 55.626 116.4082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10958,7 +11149,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 35.814 121.2342 0)
+			(at 53.594 111.0742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10970,7 +11161,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 36.83 128.0922 0)
+			(at 54.61 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10981,7 +11172,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 128.0922 0)
+			(at 54.61 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10992,7 +11183,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 128.0922 0)
+			(at 54.61 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11003,7 +11194,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 38.1 129.3622 0)
+			(at 55.88 119.2022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11030,7 +11221,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_3_Res SMD_RezaLIB.IntLib")
-		(at 330.2 197.9422 0)
+		(at 347.98 187.7822 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11040,7 +11231,7 @@
 		(dnp no)
 		(uuid "48306e94-5abc-496b-b8aa-454cdfb60298")
 		(property "Reference" "R19"
-			(at 331.216 196.4182 0)
+			(at 348.996 186.2582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11051,7 +11242,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 329.184 191.0842 0)
+			(at 346.964 180.9242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11063,7 +11254,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 330.2 197.9422 0)
+			(at 347.98 187.7822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11074,7 +11265,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 330.2 197.9422 0)
+			(at 347.98 187.7822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11085,7 +11276,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 330.2 197.9422 0)
+			(at 347.98 187.7822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11096,7 +11287,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 331.216 198.9582 0)
+			(at 348.996 188.7982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11123,7 +11314,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 68.58 218.2622 0)
+		(at 86.36 208.1022 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11133,7 +11324,7 @@
 		(dnp no)
 		(uuid "48b78cf0-3dca-4380-963d-07a3e1d4f2a4")
 		(property "Reference" "#PWR013"
-			(at 68.58 218.2622 0)
+			(at 86.36 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11144,7 +11335,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 68.58 224.6122 0)
+			(at 86.36 214.4522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11154,7 +11345,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 68.58 218.2622 0)
+			(at 86.36 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11164,7 +11355,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 218.2622 0)
+			(at 86.36 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11174,7 +11365,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 218.2622 0)
+			(at 86.36 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11197,7 +11388,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 193.04 119.38 180)
+		(at 210.82 109.22 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11207,7 +11398,7 @@
 		(dnp no)
 		(uuid "4fabd4d7-fe20-4790-aa4e-f01cac926bfa")
 		(property "Reference" "#PWR029"
-			(at 193.04 119.38 0)
+			(at 210.82 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11218,7 +11409,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 193.04 113.03 0)
+			(at 210.82 102.87 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11228,7 +11419,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 119.38 0)
+			(at 210.82 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11238,7 +11429,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 119.38 0)
+			(at 210.82 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11248,7 +11439,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 119.38 0)
+			(at 210.82 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11271,7 +11462,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 22.86 45.5422 0)
+		(at 40.64 35.3822 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11281,7 +11472,7 @@
 		(dnp no)
 		(uuid "4fc34b9c-72b6-4294-8062-67165d6a380b")
 		(property "Reference" "#PWR05"
-			(at 22.86 45.5422 0)
+			(at 40.64 35.3822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11292,7 +11483,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 51.8922 0)
+			(at 40.64 41.7322 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11302,7 +11493,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 45.5422 0)
+			(at 40.64 35.3822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11312,7 +11503,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 45.5422 0)
+			(at 40.64 35.3822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11322,7 +11513,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 45.5422 0)
+			(at 40.64 35.3822 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11345,7 +11536,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 44.45 103.9622 0)
+		(at 62.23 93.8022 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11355,7 +11546,7 @@
 		(dnp no)
 		(uuid "51fda9b2-6a3d-4d34-8391-199cb0ab8e81")
 		(property "Reference" "#PWR09"
-			(at 44.45 103.9622 0)
+			(at 62.23 93.8022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11366,7 +11557,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.45 110.3122 0)
+			(at 62.23 100.1522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11376,7 +11567,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 103.9622 0)
+			(at 62.23 93.8022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11386,7 +11577,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 103.9622 0)
+			(at 62.23 93.8022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11396,7 +11587,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 103.9622 0)
+			(at 62.23 93.8022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11419,7 +11610,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_3_Res SMD_RezaLIB.IntLib")
-		(at 337.82 197.9422 0)
+		(at 355.6 187.7822 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11429,7 +11620,7 @@
 		(dnp no)
 		(uuid "54a128c4-59c6-45f3-ad73-def02c8c05a8")
 		(property "Reference" "R20"
-			(at 338.836 196.4182 0)
+			(at 356.616 186.2582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11440,7 +11631,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 336.804 191.0842 0)
+			(at 354.584 180.9242 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11452,7 +11643,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 337.82 197.9422 0)
+			(at 355.6 187.7822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11463,7 +11654,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 337.82 197.9422 0)
+			(at 355.6 187.7822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11474,7 +11665,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 337.82 197.9422 0)
+			(at 355.6 187.7822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11485,7 +11676,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 338.836 198.9582 0)
+			(at 356.616 188.7982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11512,7 +11703,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 53.34 218.2622 0)
+		(at 71.12 208.1022 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11522,7 +11713,7 @@
 		(dnp no)
 		(uuid "5a6b79f4-1c73-4a29-865d-4d6961481af4")
 		(property "Reference" "#PWR012"
-			(at 53.34 218.2622 0)
+			(at 71.12 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11533,7 +11724,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 53.34 224.6122 0)
+			(at 71.12 214.4522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11543,7 +11734,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 53.34 218.2622 0)
+			(at 71.12 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11553,7 +11744,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 218.2622 0)
+			(at 71.12 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11563,7 +11754,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 218.2622 0)
+			(at 71.12 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11586,7 +11777,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_3_LED_RezaLIB.IntLib")
-		(at 68.58 203.0222 0)
+		(at 86.36 192.8622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11596,7 +11787,7 @@
 		(dnp no)
 		(uuid "5bf19efd-5168-4940-ac7f-2c955e910cc6")
 		(property "Reference" "LED4"
-			(at 71.628 205.3082 0)
+			(at 89.408 195.1482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11607,7 +11798,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 67.056 197.4342 0)
+			(at 84.836 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11619,7 +11810,7 @@
 			)
 		)
 		(property "Footprint" "LED0603"
-			(at 68.58 203.0222 0)
+			(at 86.36 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11630,7 +11821,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 203.0222 0)
+			(at 86.36 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11641,7 +11832,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 203.0222 0)
+			(at 86.36 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11652,7 +11843,7 @@
 			)
 		)
 		(property "DESIGNER :" "Razi Research Team Of Mashhad - Hamed Jafarzadeh"
-			(at 67.056 197.4342 0)
+			(at 84.836 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11680,7 +11871,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Connector 5Pin_RezaLIB.IntLib")
-		(at 12.7 143.5862 180)
+		(at 30.48 133.4262 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11690,7 +11881,7 @@
 		(dnp no)
 		(uuid "5e47d698-3598-4f6a-b599-1800bdd0b110")
 		(property "Reference" "P5"
-			(at 7.62 133.4262 0)
+			(at 25.4 123.2662 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11701,7 +11892,7 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 7.62 150.9522 0)
+			(at 25.4 140.7922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11712,7 +11903,7 @@
 			)
 		)
 		(property "Footprint" "PH Connector 5Pin"
-			(at 12.7 143.5862 0)
+			(at 30.48 133.4262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11723,7 +11914,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 12.7 143.5862 0)
+			(at 30.48 133.4262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11734,7 +11925,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 12.7 143.5862 0)
+			(at 30.48 133.4262 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11745,7 +11936,7 @@
 			)
 		)
 		(property "DESIGNER:" "Hamed Jafarzadeh - www.R2T.ir"
-			(at 7.62 133.4262 0)
+			(at 25.4 123.2662 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11782,7 +11973,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 44.45 97.6122 180)
+		(at 62.23 87.4522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11792,7 +11983,7 @@
 		(dnp no)
 		(uuid "5f98b75d-c1b0-4f00-b179-7ea16513869b")
 		(property "Reference" "R8"
-			(at 45.466 96.0882 0)
+			(at 63.246 85.9282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11803,7 +11994,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 43.434 90.7542 0)
+			(at 61.214 80.5942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11815,7 +12006,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 44.45 97.6122 0)
+			(at 62.23 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11826,7 +12017,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 97.6122 0)
+			(at 62.23 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11837,7 +12028,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 97.6122 0)
+			(at 62.23 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11848,7 +12039,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 45.72 98.8822 0)
+			(at 63.5 88.7222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11875,7 +12066,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 52.07 72.2122 180)
+		(at 69.85 62.0522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11885,7 +12076,7 @@
 		(dnp no)
 		(uuid "61d5f448-68e9-46a1-a331-5413db92fc68")
 		(property "Reference" "R3"
-			(at 53.086 70.6882 0)
+			(at 70.866 60.5282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11896,7 +12087,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 51.054 65.3542 0)
+			(at 68.834 55.1942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11908,7 +12099,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 52.07 72.2122 0)
+			(at 69.85 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11919,7 +12110,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 72.2122 0)
+			(at 69.85 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11930,7 +12121,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 72.2122 0)
+			(at 69.85 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11941,7 +12132,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 53.34 73.4822 0)
+			(at 71.12 63.3222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11968,7 +12159,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_3_LED_RezaLIB.IntLib")
-		(at 38.1 203.0222 0)
+		(at 55.88 192.8622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11978,7 +12169,7 @@
 		(dnp no)
 		(uuid "62af8c7a-59ce-406b-a73f-8063a5f261f3")
 		(property "Reference" "LED2"
-			(at 41.148 205.3082 0)
+			(at 58.928 195.1482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11989,7 +12180,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 36.576 197.4342 0)
+			(at 54.356 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12001,7 +12192,7 @@
 			)
 		)
 		(property "Footprint" "LED0603"
-			(at 38.1 203.0222 0)
+			(at 55.88 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12012,7 +12203,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 203.0222 0)
+			(at 55.88 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12023,7 +12214,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 203.0222 0)
+			(at 55.88 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12034,7 +12225,7 @@
 			)
 		)
 		(property "DESIGNER :" "Razi Research Team Of Mashhad - Hamed Jafarzadeh"
-			(at 36.576 197.4342 0)
+			(at 54.356 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12062,7 +12253,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 374.65 244.9322 180)
+		(at 392.43 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12072,7 +12263,7 @@
 		(dnp no)
 		(uuid "65cb384b-f9bf-4aaf-8143-22073fbc1b11")
 		(property "Reference" "C16"
-			(at 376.936 244.6782 0)
+			(at 394.716 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12083,7 +12274,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 372.364 239.3442 0)
+			(at 390.144 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12095,7 +12286,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 374.65 244.9322 0)
+			(at 392.43 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12106,7 +12297,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 374.65 244.9322 0)
+			(at 392.43 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12117,7 +12308,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 374.65 244.9322 0)
+			(at 392.43 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12128,7 +12319,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 376.936 247.2182 0)
+			(at 394.716 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12155,7 +12346,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 71.12 84.9122 270)
+		(at 88.9 74.7522 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12165,7 +12356,7 @@
 		(dnp no)
 		(uuid "6ae9c9d9-6a51-4460-a8de-eb7f959ac38d")
 		(property "Reference" "R5"
-			(at 67.056 83.8962 90)
+			(at 84.836 73.7362 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12176,7 +12367,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 64.262 83.8962 90)
+			(at 82.042 73.7362 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12188,7 +12379,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 71.12 84.9122 0)
+			(at 88.9 74.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12199,7 +12390,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 71.12 84.9122 0)
+			(at 88.9 74.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12210,7 +12401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 71.12 84.9122 0)
+			(at 88.9 74.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12221,7 +12412,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 72.39 83.6422 90)
+			(at 90.17 73.4822 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12248,7 +12439,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 52.07 153.4922 180)
+		(at 69.85 143.3322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12258,7 +12449,7 @@
 		(dnp no)
 		(uuid "6bc29c38-358d-4943-91e1-3c95fc3b828d")
 		(property "Reference" "R18"
-			(at 53.086 151.9682 0)
+			(at 70.866 141.8082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12269,7 +12460,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 51.054 146.6342 0)
+			(at 68.834 136.4742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12281,7 +12472,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 52.07 153.4922 0)
+			(at 69.85 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12292,7 +12483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 153.4922 0)
+			(at 69.85 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12303,7 +12494,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 153.4922 0)
+			(at 69.85 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12314,7 +12505,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 53.34 154.7622 0)
+			(at 71.12 144.6022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12341,7 +12532,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 91.44 156.0322 0)
+		(at 109.22 145.8722 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12351,7 +12542,7 @@
 		(dnp no)
 		(uuid "6ffaae8f-148e-4070-a7a6-c5ff527acbd8")
 		(property "Reference" "#PWR015"
-			(at 91.44 156.0322 0)
+			(at 109.22 145.8722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12362,7 +12553,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 91.44 162.3822 0)
+			(at 109.22 152.2222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12372,7 +12563,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 91.44 156.0322 0)
+			(at 109.22 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12382,7 +12573,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 91.44 156.0322 0)
+			(at 109.22 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12392,7 +12583,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 91.44 156.0322 0)
+			(at 109.22 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12415,7 +12606,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 109.22 156.0322 0)
+		(at 127 145.8722 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12425,7 +12616,7 @@
 		(dnp no)
 		(uuid "705940ba-acd8-48a5-87a3-d9419e3420ec")
 		(property "Reference" "#PWR019"
-			(at 109.22 156.0322 0)
+			(at 127 145.8722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12436,7 +12627,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 109.22 162.3822 0)
+			(at 127 152.2222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12446,7 +12637,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 156.0322 0)
+			(at 127 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12456,7 +12647,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 156.0322 0)
+			(at 127 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12466,7 +12657,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 156.0322 0)
+			(at 127 145.8722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12490,7 +12681,7 @@
 	(symbol
 		(lib_name "U_Control_0_Header 20X2_RezaLIB.IntLib_2")
 		(lib_id "RezaLIB:U_Control_0_Header 20X2_RezaLIB.IntLib")
-		(at 187.96 40.64 270)
+		(at 205.74 30.48 270)
 		(mirror x)
 		(unit 1)
 		(body_style 1)
@@ -12501,7 +12692,7 @@
 		(dnp no)
 		(uuid "7060665b-a0dc-47f1-96a5-b3e9fc7d5685")
 		(property "Reference" "P2"
-			(at 187.96 40.64 90)
+			(at 205.74 30.48 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12512,7 +12703,7 @@
 			)
 		)
 		(property "Value" "Header 20X2"
-			(at 187.96 96.52 90)
+			(at 205.74 86.36 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12523,7 +12714,7 @@
 			)
 		)
 		(property "Footprint" "HDR2X20-MU"
-			(at 187.96 40.64 0)
+			(at 205.74 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12534,7 +12725,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 187.96 40.64 0)
+			(at 205.74 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12545,7 +12736,7 @@
 			)
 		)
 		(property "Description" "Header, 20-Pin, Dual row"
-			(at 187.96 40.64 0)
+			(at 205.74 30.48 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12556,7 +12747,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 187.96 40.64 90)
+			(at 205.74 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12568,7 +12759,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 187.96 40.64 90)
+			(at 205.74 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12580,7 +12771,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 187.96 40.64 90)
+			(at 205.74 30.48 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12722,7 +12913,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_0_Header 20X2_RezaLIB.IntLib")
-		(at 142.24 218.2622 90)
+		(at 160.02 208.1022 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12732,7 +12923,7 @@
 		(dnp no)
 		(uuid "71bd4250-a7e1-4a22-800e-d3a7adb6aeb2")
 		(property "Reference" "P6"
-			(at 142.24 218.2622 90)
+			(at 160.02 208.1022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12743,7 +12934,7 @@
 			)
 		)
 		(property "Value" "Header 20X2"
-			(at 142.24 274.1422 90)
+			(at 160.02 263.9822 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12754,7 +12945,7 @@
 			)
 		)
 		(property "Footprint" "HDR2X20-MD"
-			(at 142.24 218.2622 0)
+			(at 160.02 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12765,7 +12956,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 218.2622 0)
+			(at 160.02 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12776,7 +12967,7 @@
 			)
 		)
 		(property "Description" "Header, 20-Pin, Dual row"
-			(at 142.24 218.2622 0)
+			(at 160.02 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12787,7 +12978,7 @@
 			)
 		)
 		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 142.24 218.2622 90)
+			(at 160.02 208.1022 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12799,7 +12990,7 @@
 			)
 		)
 		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 142.24 218.2622 90)
+			(at 160.02 208.1022 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12811,7 +13002,7 @@
 			)
 		)
 		(property "PUBLISHER" "Altium Limited"
-			(at 142.24 218.2622 90)
+			(at 160.02 208.1022 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12953,7 +13144,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 172.72 233.5022 270)
+		(at 190.5 223.3422 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12963,7 +13154,7 @@
 		(dnp no)
 		(uuid "730f04b3-8aa3-43d0-b02c-b52221c28740")
 		(property "Reference" "R28"
-			(at 168.91 232.2322 90)
+			(at 186.69 222.0722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12974,7 +13165,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 165.862 232.4862 90)
+			(at 183.642 222.3262 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12986,7 +13177,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 172.72 233.5022 0)
+			(at 190.5 223.3422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12997,7 +13188,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 233.5022 0)
+			(at 190.5 223.3422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13008,7 +13199,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 233.5022 0)
+			(at 190.5 223.3422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13019,7 +13210,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 175.26 232.2322 90)
+			(at 193.04 222.0722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13045,8 +13236,162 @@
 		)
 	)
 	(symbol
+		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
+		(at 25.4 116.84 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "82056360-c0f7-4b53-8900-da447eec05ab")
+		(property "Reference" "#PWR028"
+			(at 25.4 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 19.05 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 25.4 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 25.4 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 25.4 116.84 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "9837ebf8-d5bb-4364-b442-45c23ba551c3")
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/ef339802-cb4b-45e6-a11b-c0e21622845d"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 31.75 116.84 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "82e7726d-1598-4473-b84a-b124fee69f94")
+		(property "Reference" "C25"
+			(at 31.75 109.22 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1uF"
+			(at 31.75 111.76 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
+			(at 35.56 115.8748 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 31.75 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 31.75 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "6f00ff75-61bb-4701-98f7-6efb0aab4800")
+		)
+		(pin "1"
+			(uuid "51f23d05-5075-4913-86a2-9e2466a51089")
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/ef339802-cb4b-45e6-a11b-c0e21622845d"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 292.1 244.9322 180)
+		(at 309.88 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13056,7 +13401,7 @@
 		(dnp no)
 		(uuid "861cd9e1-a2d6-40b6-9c77-bb80f620f5c1")
 		(property "Reference" "C8"
-			(at 294.386 244.6782 0)
+			(at 312.166 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13067,7 +13412,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 289.814 239.3442 0)
+			(at 307.594 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13079,7 +13424,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 292.1 244.9322 0)
+			(at 309.88 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13090,7 +13435,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 292.1 244.9322 0)
+			(at 309.88 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13101,7 +13446,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 292.1 244.9322 0)
+			(at 309.88 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13112,7 +13457,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 294.386 247.2182 0)
+			(at 312.166 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13139,7 +13484,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 62.23 138.2522 270)
+		(at 80.01 128.0922 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13149,7 +13494,7 @@
 		(dnp no)
 		(uuid "8a90c342-06e4-436c-bfa4-9e722e4422b4")
 		(property "Reference" "R13"
-			(at 58.166 137.2362 90)
+			(at 75.946 127.0762 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13160,7 +13505,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 55.372 137.2362 90)
+			(at 73.152 127.0762 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13172,7 +13517,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 62.23 138.2522 0)
+			(at 80.01 128.0922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13183,7 +13528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 62.23 138.2522 0)
+			(at 80.01 128.0922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13194,7 +13539,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 62.23 138.2522 0)
+			(at 80.01 128.0922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13205,7 +13550,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 63.5 136.9822 90)
+			(at 81.28 126.8222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13232,7 +13577,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+5V_BAR")
-		(at 20.32 74.7522 180)
+		(at 38.1 64.77 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13242,7 +13587,7 @@
 		(dnp no)
 		(uuid "8d17badd-749e-45b4-b6e1-0145f9bcba9a")
 		(property "Reference" "#PWR01"
-			(at 20.32 74.7522 0)
+			(at 38.1 64.77 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13253,7 +13598,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 20.32 70.9422 0)
+			(at 38.1 60.96 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13263,7 +13608,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 74.7522 0)
+			(at 38.1 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13273,7 +13618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 74.7522 0)
+			(at 38.1 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13283,7 +13628,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 74.7522 0)
+			(at 38.1 64.77 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13306,7 +13651,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 82.55 87.4522 270)
+		(at 100.33 77.2922 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13316,7 +13661,7 @@
 		(dnp no)
 		(uuid "8f2c304c-c161-4774-832c-6eb5b59333a5")
 		(property "Reference" "R6"
-			(at 78.486 86.4362 90)
+			(at 96.266 76.2762 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13327,7 +13672,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 75.692 86.4362 90)
+			(at 93.472 76.2762 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13339,7 +13684,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 82.55 87.4522 0)
+			(at 100.33 77.2922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13350,7 +13695,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 82.55 87.4522 0)
+			(at 100.33 77.2922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13361,7 +13706,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 82.55 87.4522 0)
+			(at 100.33 77.2922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13372,7 +13717,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 83.82 86.1822 90)
+			(at 101.6 76.0222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13399,7 +13744,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 22.86 211.9122 180)
+		(at 40.64 201.7522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13409,7 +13754,7 @@
 		(dnp no)
 		(uuid "9842191c-e735-4669-98c1-a0548c3ca82a")
 		(property "Reference" "R21"
-			(at 23.876 210.3882 0)
+			(at 41.656 200.2282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13420,7 +13765,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 21.844 205.0542 0)
+			(at 39.624 194.8942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13432,7 +13777,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 22.86 211.9122 0)
+			(at 40.64 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13443,7 +13788,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 211.9122 0)
+			(at 40.64 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13454,7 +13799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 211.9122 0)
+			(at 40.64 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13465,7 +13810,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 23.876 212.9282 0)
+			(at 41.656 202.7682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13492,7 +13837,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 312.42 244.9322 180)
+		(at 330.2 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13502,7 +13847,7 @@
 		(dnp no)
 		(uuid "996bd2e2-5be5-49c7-9b3c-3141b58b8079")
 		(property "Reference" "C10"
-			(at 314.706 244.6782 0)
+			(at 332.486 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13513,7 +13858,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 310.134 239.3442 0)
+			(at 327.914 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13525,7 +13870,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 312.42 244.9322 0)
+			(at 330.2 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13536,7 +13881,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 312.42 244.9322 0)
+			(at 330.2 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13547,7 +13892,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 312.42 244.9322 0)
+			(at 330.2 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13558,7 +13903,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 314.706 247.2182 0)
+			(at 332.486 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13585,7 +13930,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 246.2022 270)
+		(at 215.9 236.0422 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13595,7 +13940,7 @@
 		(dnp no)
 		(uuid "9daa77f0-69bc-4bcf-a9d7-a6f0ec9c3014")
 		(property "Reference" "R31"
-			(at 194.31 244.9322 90)
+			(at 212.09 234.7722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13606,7 +13951,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 245.1862 90)
+			(at 209.042 235.0262 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13618,7 +13963,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 246.2022 0)
+			(at 215.9 236.0422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13629,7 +13974,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 246.2022 0)
+			(at 215.9 236.0422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13640,7 +13985,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 246.2022 0)
+			(at 215.9 236.0422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13651,7 +13996,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 244.9322 90)
+			(at 218.44 234.7722 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13678,7 +14023,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+10V_BAR")
-		(at 172.72 116.6622 180)
+		(at 190.5 106.5022 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13688,7 +14033,7 @@
 		(dnp no)
 		(uuid "9f1481ff-f7dc-4de6-9145-3f38aafe452e")
 		(property "Reference" "#PWR025"
-			(at 172.72 116.6622 0)
+			(at 190.5 106.5022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13699,7 +14044,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 172.72 112.8522 0)
+			(at 190.5 102.6922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13709,7 +14054,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 116.6622 0)
+			(at 190.5 106.5022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13719,7 +14064,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 116.6622 0)
+			(at 190.5 106.5022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13729,7 +14074,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 116.6622 0)
+			(at 190.5 106.5022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13752,7 +14097,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 248.7422 270)
+		(at 215.9 238.5822 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13762,7 +14107,7 @@
 		(dnp no)
 		(uuid "a240f4de-6a9e-40c0-a6be-e6f43916f8dc")
 		(property "Reference" "R33"
-			(at 194.31 252.5522 90)
+			(at 212.09 242.3922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13773,7 +14118,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 247.7262 90)
+			(at 209.042 237.5662 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13785,7 +14130,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 248.7422 0)
+			(at 215.9 238.5822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13796,7 +14141,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 248.7422 0)
+			(at 215.9 238.5822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13807,7 +14152,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 248.7422 0)
+			(at 215.9 238.5822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13818,7 +14163,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 252.5522 90)
+			(at 218.44 242.3922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13845,7 +14190,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+10V_BAR")
-		(at 157.48 251.2822 90)
+		(at 175.26 241.1222 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13855,7 +14200,7 @@
 		(dnp no)
 		(uuid "a3f09d6d-5c96-4bf8-8b2f-880fe5a1e774")
 		(property "Reference" "#PWR022"
-			(at 157.48 251.2822 0)
+			(at 175.26 241.1222 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13866,7 +14211,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 161.29 251.2822 90)
+			(at 179.07 241.1222 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13877,7 +14222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 251.2822 0)
+			(at 175.26 241.1222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13887,7 +14232,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 251.2822 0)
+			(at 175.26 241.1222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13897,7 +14242,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 251.2822 0)
+			(at 175.26 241.1222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13920,7 +14265,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+5V_BAR")
-		(at 20.32 130.6322 180)
+		(at 38.1 110.49 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13930,7 +14275,7 @@
 		(dnp no)
 		(uuid "a420c8a5-23cd-49cb-a509-cbe791b70535")
 		(property "Reference" "#PWR03"
-			(at 20.32 130.6322 0)
+			(at 38.1 110.49 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13940,8 +14285,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 20.32 126.8222 0)
+		(property "Value" "+10V"
+			(at 38.1 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13951,7 +14296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 130.6322 0)
+			(at 38.1 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13961,7 +14306,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 130.6322 0)
+			(at 38.1 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13971,7 +14316,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 130.6322 0)
+			(at 38.1 110.49 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13994,7 +14339,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 334.01 244.9322 180)
+		(at 351.79 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14004,7 +14349,7 @@
 		(dnp no)
 		(uuid "a765093d-52fb-4921-b03a-4780c3c76095")
 		(property "Reference" "C12"
-			(at 336.296 244.6782 0)
+			(at 354.076 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14015,7 +14360,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 331.724 239.3442 0)
+			(at 349.504 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14027,7 +14372,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 334.01 244.9322 0)
+			(at 351.79 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14038,7 +14383,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 334.01 244.9322 0)
+			(at 351.79 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14049,7 +14394,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 334.01 244.9322 0)
+			(at 351.79 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14060,7 +14405,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 336.296 247.2182 0)
+			(at 354.076 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14087,7 +14432,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 90.17 100.1522 0)
+		(at 107.95 89.9922 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14097,7 +14442,7 @@
 		(dnp no)
 		(uuid "a8dd1444-e804-46fe-9fd0-b19c9344ad9b")
 		(property "Reference" "#PWR014"
-			(at 90.17 100.1522 0)
+			(at 107.95 89.9922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14108,7 +14453,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 90.17 106.5022 0)
+			(at 107.95 96.3422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14118,7 +14463,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 90.17 100.1522 0)
+			(at 107.95 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14128,7 +14473,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 100.1522 0)
+			(at 107.95 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14138,7 +14483,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 100.1522 0)
+			(at 107.95 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14161,7 +14506,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 107.95 97.6122 180)
+		(at 125.73 87.4522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14171,7 +14516,7 @@
 		(dnp no)
 		(uuid "aea99c89-2044-4938-905a-91b5112b1779")
 		(property "Reference" "C3"
-			(at 110.236 97.3582 0)
+			(at 128.016 87.1982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14182,7 +14527,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 105.664 92.0242 0)
+			(at 123.444 81.8642 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14194,7 +14539,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 107.95 97.6122 0)
+			(at 125.73 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14205,7 +14550,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 97.6122 0)
+			(at 125.73 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14216,7 +14561,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 97.6122 0)
+			(at 125.73 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14227,7 +14572,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 110.236 99.8982 0)
+			(at 128.016 89.7382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14254,7 +14599,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 107.95 100.1522 0)
+		(at 125.73 89.9922 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14264,7 +14609,7 @@
 		(dnp no)
 		(uuid "b0fface0-c307-4528-8d76-50c4e27f3634")
 		(property "Reference" "#PWR018"
-			(at 107.95 100.1522 0)
+			(at 125.73 89.9922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14275,7 +14620,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 107.95 106.5022 0)
+			(at 125.73 96.3422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14285,7 +14630,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 107.95 100.1522 0)
+			(at 125.73 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14295,7 +14640,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 107.95 100.1522 0)
+			(at 125.73 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14305,7 +14650,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 107.95 100.1522 0)
+			(at 125.73 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14328,7 +14673,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 60.96 82.3722 270)
+		(at 78.74 72.2122 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14338,7 +14683,7 @@
 		(dnp no)
 		(uuid "b7165e86-9766-48c6-b409-601f7e203b56")
 		(property "Reference" "R4"
-			(at 56.896 81.3562 90)
+			(at 74.676 71.1962 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14349,7 +14694,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 54.102 81.3562 90)
+			(at 71.882 71.1962 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14361,7 +14706,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 60.96 82.3722 0)
+			(at 78.74 72.2122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14372,7 +14717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 60.96 82.3722 0)
+			(at 78.74 72.2122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14383,7 +14728,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 60.96 82.3722 0)
+			(at 78.74 72.2122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14394,7 +14739,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 62.23 81.1022 90)
+			(at 80.01 70.9422 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14421,7 +14766,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 36.83 72.2122 180)
+		(at 54.61 62.0522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14431,7 +14776,7 @@
 		(dnp no)
 		(uuid "b720fdb3-d166-4901-906b-90ab56c279e0")
 		(property "Reference" "R1"
-			(at 37.846 70.6882 0)
+			(at 55.626 60.5282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14442,7 +14787,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 35.814 65.3542 0)
+			(at 53.594 55.1942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14454,7 +14799,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 36.83 72.2122 0)
+			(at 54.61 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14465,7 +14810,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 72.2122 0)
+			(at 54.61 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14476,7 +14821,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 36.83 72.2122 0)
+			(at 54.61 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14487,7 +14832,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 38.1 73.4822 0)
+			(at 55.88 63.3222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14514,7 +14859,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 323.85 244.9322 180)
+		(at 341.63 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14524,7 +14869,7 @@
 		(dnp no)
 		(uuid "bb423626-3c8c-4cab-a45f-90022d8d13ef")
 		(property "Reference" "C11"
-			(at 326.136 244.6782 0)
+			(at 343.916 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14535,7 +14880,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 321.564 239.3442 0)
+			(at 339.344 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14547,7 +14892,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 323.85 244.9322 0)
+			(at 341.63 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14558,7 +14903,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 244.9322 0)
+			(at 341.63 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14569,7 +14914,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 244.9322 0)
+			(at 341.63 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14580,7 +14925,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 326.136 247.2182 0)
+			(at 343.916 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14607,7 +14952,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 90.17 97.6122 180)
+		(at 107.95 87.4522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14617,7 +14962,7 @@
 		(dnp no)
 		(uuid "c864ff6f-3932-4d17-94ac-ef2f2b131811")
 		(property "Reference" "C1"
-			(at 92.456 97.3582 0)
+			(at 110.236 87.1982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14628,7 +14973,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 87.884 92.0242 0)
+			(at 105.664 81.8642 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14640,7 +14985,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 90.17 97.6122 0)
+			(at 107.95 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14651,7 +14996,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 90.17 97.6122 0)
+			(at 107.95 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14662,7 +15007,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 90.17 97.6122 0)
+			(at 107.95 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14673,7 +15018,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 92.456 99.8982 0)
+			(at 110.236 89.7382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14700,7 +15045,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 99.06 97.6122 180)
+		(at 116.84 87.4522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14710,7 +15055,7 @@
 		(dnp no)
 		(uuid "cb8564b8-d233-4939-a641-e012617bc9cb")
 		(property "Reference" "C2"
-			(at 101.346 97.3582 0)
+			(at 119.126 87.1982 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14721,7 +15066,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 96.774 92.0242 0)
+			(at 114.554 81.8642 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14733,7 +15078,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 99.06 97.6122 0)
+			(at 116.84 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14744,7 +15089,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 97.6122 0)
+			(at 116.84 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14755,7 +15100,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 97.6122 0)
+			(at 116.84 87.4522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14766,7 +15111,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 101.346 99.8982 0)
+			(at 119.126 89.7382 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14793,7 +15138,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Connector 5Pin_RezaLIB.IntLib")
-		(at 12.7 87.7062 180)
+		(at 30.48 77.5462 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14803,7 +15148,7 @@
 		(dnp no)
 		(uuid "ccb331fc-9f7c-4055-bb34-18ea04904a72")
 		(property "Reference" "P3"
-			(at 7.62 77.5462 0)
+			(at 25.4 67.3862 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14814,7 +15159,7 @@
 			)
 		)
 		(property "Value" "Connector"
-			(at 7.62 95.0722 0)
+			(at 25.4 84.9122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14825,7 +15170,7 @@
 			)
 		)
 		(property "Footprint" "PH Connector 5Pin"
-			(at 12.7 87.7062 0)
+			(at 30.48 77.5462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14836,7 +15181,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 12.7 87.7062 0)
+			(at 30.48 77.5462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14847,7 +15192,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 12.7 87.7062 0)
+			(at 30.48 77.5462 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14858,7 +15203,7 @@
 			)
 		)
 		(property "DESIGNER:" "Hamed Jafarzadeh - www.R2T.ir"
-			(at 7.62 77.5462 0)
+			(at 25.4 67.3862 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14895,7 +15240,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 109.22 153.4922 180)
+		(at 127 143.3322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14905,7 +15250,7 @@
 		(dnp no)
 		(uuid "cfc7a533-b8ff-42b5-a20e-0ed2f3d53b9b")
 		(property "Reference" "C6"
-			(at 111.506 153.2382 0)
+			(at 129.286 143.0782 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14916,7 +15261,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 106.934 147.9042 0)
+			(at 124.714 137.7442 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14928,7 +15273,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 109.22 153.4922 0)
+			(at 127 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14939,7 +15284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 153.4922 0)
+			(at 127 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14950,7 +15295,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 153.4922 0)
+			(at 127 143.3322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14961,7 +15306,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 111.506 155.7782 0)
+			(at 129.286 145.6182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14988,7 +15333,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 99.06 100.1522 0)
+		(at 116.84 89.9922 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14998,7 +15343,7 @@
 		(dnp no)
 		(uuid "d703edc6-209f-4512-96ff-63447957d7e0")
 		(property "Reference" "#PWR016"
-			(at 99.06 100.1522 0)
+			(at 116.84 89.9922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15009,7 +15354,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 99.06 106.5022 0)
+			(at 116.84 96.3422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15019,7 +15364,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 100.1522 0)
+			(at 116.84 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15029,7 +15374,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 100.1522 0)
+			(at 116.84 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15039,7 +15384,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 99.06 100.1522 0)
+			(at 116.84 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15062,7 +15407,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 198.12 261.4422 270)
+		(at 215.9 251.2822 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15072,7 +15417,7 @@
 		(dnp no)
 		(uuid "de53d758-73ea-4288-be6d-db0c8b828aa1")
 		(property "Reference" "R36"
-			(at 194.31 265.2522 90)
+			(at 212.09 255.0922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15083,7 +15428,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 191.262 260.4262 90)
+			(at 209.042 250.2662 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15095,7 +15440,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 198.12 261.4422 0)
+			(at 215.9 251.2822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15106,7 +15451,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 198.12 261.4422 0)
+			(at 215.9 251.2822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15117,7 +15462,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 198.12 261.4422 0)
+			(at 215.9 251.2822 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15128,7 +15473,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 200.66 265.2522 90)
+			(at 218.44 255.0922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15155,7 +15500,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 20.32 148.4122 0)
+		(at 38.1 138.2522 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15165,7 +15510,7 @@
 		(dnp no)
 		(uuid "e01567eb-5f12-44ba-9aad-f0b52d4fb77c")
 		(property "Reference" "#PWR04"
-			(at 20.32 148.4122 0)
+			(at 38.1 138.2522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15176,7 +15521,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 20.32 154.7622 0)
+			(at 38.1 144.6022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15186,7 +15531,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 20.32 148.4122 0)
+			(at 38.1 138.2522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15196,7 +15541,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 20.32 148.4122 0)
+			(at 38.1 138.2522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15206,7 +15551,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 20.32 148.4122 0)
+			(at 38.1 138.2522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15229,7 +15574,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_0_JumperSMD 3Pin_RezaLIB.IntLib")
-		(at 29.972 259.9182 90)
+		(at 47.752 249.7582 90)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15239,7 +15584,7 @@
 		(dnp no)
 		(uuid "e2662451-3989-404d-aa25-0efdac771794")
 		(property "Reference" "JS1"
-			(at 30.226 258.6482 90)
+			(at 48.006 248.4882 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15250,7 +15595,7 @@
 			)
 		)
 		(property "Value" "JumperSMD 3Pin"
-			(at 30.226 261.1882 90)
+			(at 48.006 251.0282 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15262,7 +15607,7 @@
 			)
 		)
 		(property "Footprint" "JumperSMD 3Pin - UltraSmall"
-			(at 29.972 259.9182 0)
+			(at 47.752 249.7582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15273,7 +15618,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 29.972 259.9182 0)
+			(at 47.752 249.7582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15284,7 +15629,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 29.972 259.9182 0)
+			(at 47.752 249.7582 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15314,7 +15659,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 344.17 244.9322 180)
+		(at 361.95 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15324,7 +15669,7 @@
 		(dnp no)
 		(uuid "e653f778-9adf-4a7d-aff6-fdabe2c22243")
 		(property "Reference" "C13"
-			(at 346.456 244.6782 0)
+			(at 364.236 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15335,7 +15680,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 341.884 239.3442 0)
+			(at 359.664 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15347,7 +15692,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 344.17 244.9322 0)
+			(at 361.95 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15358,7 +15703,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 344.17 244.9322 0)
+			(at 361.95 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15369,7 +15714,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 344.17 244.9322 0)
+			(at 361.95 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15380,7 +15725,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 346.456 247.2182 0)
+			(at 364.236 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15407,7 +15752,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 172.72 177.6222 0)
+		(at 190.5 167.4622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15417,7 +15762,7 @@
 		(dnp no)
 		(uuid "e6631ba1-667e-4951-bf85-9f2a34e992bc")
 		(property "Reference" "#PWR026"
-			(at 172.72 177.6222 0)
+			(at 190.5 167.4622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15428,7 +15773,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 183.9722 0)
+			(at 190.5 173.8122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15438,7 +15783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 177.6222 0)
+			(at 190.5 167.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15448,7 +15793,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 177.6222 0)
+			(at 190.5 167.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15458,7 +15803,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 177.6222 0)
+			(at 190.5 167.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15481,7 +15826,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+3V3_BAR")
-		(at 193.04 177.6222 0)
+		(at 210.82 167.4622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15491,7 +15836,7 @@
 		(dnp no)
 		(uuid "e682e151-9d30-47f8-b434-e6b4753be5bf")
 		(property "Reference" "#PWR030"
-			(at 193.04 177.6222 0)
+			(at 210.82 167.4622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15502,7 +15847,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 193.04 181.4322 0)
+			(at 210.82 171.2722 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15512,7 +15857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 193.04 177.6222 0)
+			(at 210.82 167.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15522,7 +15867,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 193.04 177.6222 0)
+			(at 210.82 167.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15532,7 +15877,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 193.04 177.6222 0)
+			(at 210.82 167.4622 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15555,7 +15900,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 44.45 72.2122 180)
+		(at 62.23 62.0522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15565,7 +15910,7 @@
 		(dnp no)
 		(uuid "e75fd9ab-b002-4fef-94af-c4b8b64c19a7")
 		(property "Reference" "R2"
-			(at 45.466 70.6882 0)
+			(at 63.246 60.5282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15576,7 +15921,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 43.434 65.3542 0)
+			(at 61.214 55.1942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15588,7 +15933,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 44.45 72.2122 0)
+			(at 62.23 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15599,7 +15944,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 72.2122 0)
+			(at 62.23 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15610,7 +15955,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 72.2122 0)
+			(at 62.23 62.0522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15621,7 +15966,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 45.72 73.4822 0)
+			(at 63.5 63.3222 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15648,7 +15993,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 22.86 218.2622 0)
+		(at 40.64 208.1022 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15658,7 +16003,7 @@
 		(dnp no)
 		(uuid "e77797c9-fe6a-40ff-8d6d-75870d389ebf")
 		(property "Reference" "#PWR06"
-			(at 22.86 218.2622 0)
+			(at 40.64 208.1022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15669,7 +16014,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 22.86 224.6122 0)
+			(at 40.64 214.4522 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15679,7 +16024,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 218.2622 0)
+			(at 40.64 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15689,7 +16034,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 218.2622 0)
+			(at 40.64 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15699,7 +16044,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 218.2622 0)
+			(at 40.64 208.1022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15722,7 +16067,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 52.07 128.0922 180)
+		(at 69.85 117.9322 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15732,7 +16077,7 @@
 		(dnp no)
 		(uuid "e8853392-8e9b-4f9e-89a1-909fca23692a")
 		(property "Reference" "R12"
-			(at 53.086 126.5682 0)
+			(at 70.866 116.4082 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15743,7 +16088,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 51.054 121.2342 0)
+			(at 68.834 111.0742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15755,7 +16100,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 52.07 128.0922 0)
+			(at 69.85 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15766,7 +16111,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 128.0922 0)
+			(at 69.85 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15777,7 +16122,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 52.07 128.0922 0)
+			(at 69.85 117.9322 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15788,7 +16133,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "10K"
-			(at 53.34 129.3622 0)
+			(at 71.12 119.2022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15815,7 +16160,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 172.72 93.8022 0)
+		(at 190.5 83.6422 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15825,7 +16170,7 @@
 		(dnp no)
 		(uuid "e8cb70fb-1bb1-4994-91eb-61235322e239")
 		(property "Reference" "#PWR024"
-			(at 172.72 93.8022 0)
+			(at 190.5 83.6422 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15836,7 +16181,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 100.1522 0)
+			(at 190.5 89.9922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15846,7 +16191,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 93.8022 0)
+			(at 190.5 83.6422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15856,7 +16201,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 93.8022 0)
+			(at 190.5 83.6422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15866,7 +16211,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 172.72 93.8022 0)
+			(at 190.5 83.6422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15889,7 +16234,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 323.85 252.5522 0)
+		(at 341.63 242.3922 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15899,7 +16244,7 @@
 		(dnp no)
 		(uuid "ef22fcb7-7e0a-4381-8a07-1f271b120ac5")
 		(property "Reference" "#PWR031"
-			(at 323.85 252.5522 0)
+			(at 341.63 242.3922 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15910,7 +16255,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 323.85 258.9022 0)
+			(at 341.63 248.7422 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15920,7 +16265,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 323.85 252.5522 0)
+			(at 341.63 242.3922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15930,7 +16275,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 323.85 252.5522 0)
+			(at 341.63 242.3922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15940,7 +16285,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 323.85 252.5522 0)
+			(at 341.63 242.3922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15963,7 +16308,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_3_LED_RezaLIB.IntLib")
-		(at 53.34 203.0222 0)
+		(at 71.12 192.8622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15973,7 +16318,7 @@
 		(dnp no)
 		(uuid "f175dfa6-2752-4776-8cd0-07d2b89d0960")
 		(property "Reference" "LED3"
-			(at 56.388 205.3082 0)
+			(at 74.168 195.1482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15984,7 +16329,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 51.816 197.4342 0)
+			(at 69.596 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15996,7 +16341,7 @@
 			)
 		)
 		(property "Footprint" "LED0603"
-			(at 53.34 203.0222 0)
+			(at 71.12 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16007,7 +16352,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 203.0222 0)
+			(at 71.12 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16018,7 +16363,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 203.0222 0)
+			(at 71.12 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16029,7 +16374,7 @@
 			)
 		)
 		(property "DESIGNER :" "Razi Research Team Of Mashhad - Hamed Jafarzadeh"
-			(at 51.816 197.4342 0)
+			(at 69.596 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16057,7 +16402,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 68.58 211.9122 180)
+		(at 86.36 201.7522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16067,7 +16412,7 @@
 		(dnp no)
 		(uuid "f276a71f-5ebc-486c-a7ca-366a8a3b8e91")
 		(property "Reference" "R24"
-			(at 69.596 210.3882 0)
+			(at 87.376 200.2282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16078,7 +16423,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 67.564 205.0542 0)
+			(at 85.344 194.8942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16090,7 +16435,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 68.58 211.9122 0)
+			(at 86.36 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16101,7 +16446,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 68.58 211.9122 0)
+			(at 86.36 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16112,7 +16457,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 68.58 211.9122 0)
+			(at 86.36 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16123,7 +16468,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 69.596 212.9282 0)
+			(at 87.376 202.7682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16150,7 +16495,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+Vin_BAR")
-		(at 137.16 269.0622 270)
+		(at 154.94 258.9022 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16160,7 +16505,7 @@
 		(dnp no)
 		(uuid "f5f6f601-eda7-40cc-b760-fd7131bdc30a")
 		(property "Reference" "#PWR021"
-			(at 137.16 269.0622 0)
+			(at 154.94 258.9022 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16171,7 +16516,7 @@
 			)
 		)
 		(property "Value" "+Vin"
-			(at 133.35 269.0622 90)
+			(at 151.13 258.9022 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16182,7 +16527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 137.16 269.0622 0)
+			(at 154.94 258.9022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16192,7 +16537,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 137.16 269.0622 0)
+			(at 154.94 258.9022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16202,7 +16547,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 137.16 269.0622 0)
+			(at 154.94 258.9022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16225,7 +16570,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_3_LED_RezaLIB.IntLib")
-		(at 22.86 203.0222 0)
+		(at 40.64 192.8622 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16235,7 +16580,7 @@
 		(dnp no)
 		(uuid "f63e66b0-b860-42b8-8b38-fcd0c9b5ed4f")
 		(property "Reference" "LED1"
-			(at 25.908 205.3082 0)
+			(at 43.688 195.1482 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16246,7 +16591,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 21.336 197.4342 0)
+			(at 39.116 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16258,7 +16603,7 @@
 			)
 		)
 		(property "Footprint" "LED0603"
-			(at 22.86 203.0222 0)
+			(at 40.64 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16269,7 +16614,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 203.0222 0)
+			(at 40.64 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16280,7 +16625,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 22.86 203.0222 0)
+			(at 40.64 192.8622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16291,7 +16636,7 @@
 			)
 		)
 		(property "DESIGNER :" "Razi Research Team Of Mashhad - Hamed Jafarzadeh"
-			(at 21.336 197.4342 0)
+			(at 39.116 187.2742 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16319,7 +16664,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+3V3_BAR")
-		(at 44.45 120.4722 180)
+		(at 62.23 110.3122 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16329,7 +16674,7 @@
 		(dnp no)
 		(uuid "f6844396-3b7b-4b40-8e9e-fb2ab0486ca2")
 		(property "Reference" "#PWR010"
-			(at 44.45 120.4722 0)
+			(at 62.23 110.3122 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16340,7 +16685,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 44.45 116.6622 0)
+			(at 62.23 106.5022 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16350,7 +16695,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 120.4722 0)
+			(at 62.23 110.3122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16360,7 +16705,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 120.4722 0)
+			(at 62.23 110.3122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16370,7 +16715,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 120.4722 0)
+			(at 62.23 110.3122 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16393,7 +16738,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Res SMD_RezaLIB.IntLib")
-		(at 38.1 211.9122 180)
+		(at 55.88 201.7522 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16403,7 +16748,7 @@
 		(dnp no)
 		(uuid "f7da5a3a-9e1e-4d26-94a6-dd9d8d382aaf")
 		(property "Reference" "R22"
-			(at 39.116 210.3882 0)
+			(at 56.896 200.2282 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16414,7 +16759,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 37.084 205.0542 0)
+			(at 54.864 194.8942 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16426,7 +16771,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 38.1 211.9122 0)
+			(at 55.88 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16437,7 +16782,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 38.1 211.9122 0)
+			(at 55.88 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16448,7 +16793,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 38.1 211.9122 0)
+			(at 55.88 201.7522 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16459,7 +16804,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 39.116 212.9282 0)
+			(at 56.896 202.7682 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16486,7 +16831,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_1_Cap SMD_RezaLIB.IntLib")
-		(at 283.21 244.9322 180)
+		(at 300.99 234.7722 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16496,7 +16841,7 @@
 		(dnp no)
 		(uuid "fa604b57-5dd9-4f15-930d-5feaf992d3bc")
 		(property "Reference" "C7"
-			(at 285.496 244.6782 0)
+			(at 303.276 234.5182 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16507,7 +16852,7 @@
 			)
 		)
 		(property "Value" "Cap SMD"
-			(at 280.924 239.3442 0)
+			(at 298.704 229.1842 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16519,7 +16864,7 @@
 			)
 		)
 		(property "Footprint" "CAPC1608X90N"
-			(at 283.21 244.9322 0)
+			(at 300.99 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16530,7 +16875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 283.21 244.9322 0)
+			(at 300.99 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16541,7 +16886,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 283.21 244.9322 0)
+			(at 300.99 234.7722 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16552,7 +16897,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "1nF"
-			(at 285.496 247.2182 0)
+			(at 303.276 237.0582 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16579,7 +16924,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_Control_2_Res SMD_RezaLIB.IntLib")
-		(at 171.45 253.8222 270)
+		(at 189.23 243.6622 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16589,7 +16934,7 @@
 		(dnp no)
 		(uuid "fc1a6b8e-b709-4bde-9055-41c9af052d1c")
 		(property "Reference" "R32"
-			(at 167.64 252.5522 90)
+			(at 185.42 242.3922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16600,7 +16945,7 @@
 			)
 		)
 		(property "Value" "Res SMD"
-			(at 164.592 252.8062 90)
+			(at 182.372 242.6462 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16612,7 +16957,7 @@
 			)
 		)
 		(property "Footprint" "RESC1608X55N"
-			(at 171.45 253.8222 0)
+			(at 189.23 243.6622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16623,7 +16968,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 171.45 253.8222 0)
+			(at 189.23 243.6622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16634,7 +16979,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 171.45 253.8222 0)
+			(at 189.23 243.6622 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16645,7 +16990,7 @@
 			)
 		)
 		(property "ALTIUM_VALUE" "560"
-			(at 173.99 252.5522 90)
+			(at 191.77 242.3922 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

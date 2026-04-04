@@ -5,6 +5,161 @@
 	(uuid "e417cb8f-0f8e-4947-80eb-9d176f1fecf4")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorDrive_Power-altium-import:+Vin_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -269,194 +424,6 @@
 						)
 					)
 					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized Capacitor (Radial)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CAP-6.3-7.7*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0_1_0"
-				(polyline
-					(pts
-						(xy -4.572 -0.762) (xy -0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 -1.778) (xy -0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8127,6 +8094,12 @@
 		(uuid "16750358-190a-421b-a52e-79365d45320c")
 	)
 	(junction
+		(at 46.99 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16a7af9d-cd4f-426c-a932-a32d4cc5ccff")
+	)
+	(junction
 		(at 107.95 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8229,6 +8202,12 @@
 		(uuid "282e9f07-e277-4bdc-85d8-8f1d0e0e871e")
 	)
 	(junction
+		(at 95.25 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "296e8ed6-9e27-4407-8d37-4d26d1648c88")
+	)
+	(junction
 		(at 217.17 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8319,10 +8298,10 @@
 		(uuid "3aff9790-9c47-432f-b92a-4e0d906f6d41")
 	)
 	(junction
-		(at 46.99 208.28)
+		(at 46.99 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3c95e969-90ad-4d56-acae-67781d74d4a8")
+		(uuid "3c3ef933-1016-489a-bde4-ff79588b756c")
 	)
 	(junction
 		(at 57.15 163.83)
@@ -8421,12 +8400,6 @@
 		(uuid "524c8d0e-b1ff-4cca-b0c0-1bd9da0c3a3a")
 	)
 	(junction
-		(at 46.99 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "54086bda-5a96-4683-aed1-461712f673bf")
-	)
-	(junction
 		(at 67.31 146.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8481,12 +8454,6 @@
 		(uuid "609b47fa-be7f-4eb6-9987-2ef3e0f65eec")
 	)
 	(junction
-		(at 95.25 115.57)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "61e4550f-2755-4826-9781-bb48cfdd05a1")
-	)
-	(junction
 		(at 158.75 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8523,6 +8490,18 @@
 		(uuid "6a93e52a-0f5f-492a-9373-3a0cb37b8aa5")
 	)
 	(junction
+		(at 95.25 123.19)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b8bd583-e785-4c23-9a43-e0530eaec149")
+	)
+	(junction
+		(at 46.99 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6c33199f-c8f6-4194-b993-dadfbae860e7")
+	)
+	(junction
 		(at 158.75 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8545,12 +8524,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d9b6301-bd2e-40a5-9b50-e176f99fa80f")
-	)
-	(junction
-		(at 46.99 30.48)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6e2deacc-1380-4863-9723-827de40e9b99")
 	)
 	(junction
 		(at 260.35 60.96)
@@ -8581,12 +8554,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "711bbfd7-c09f-40f3-9311-84a7e5ebe556")
-	)
-	(junction
-		(at 46.99 200.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "71ff89e6-4cfc-4360-bf5e-9f6c1c5b32ae")
 	)
 	(junction
 		(at 280.67 60.96)
@@ -8685,12 +8652,6 @@
 		(uuid "7fe8937d-1187-475a-9534-b6a39c2d7721")
 	)
 	(junction
-		(at 46.99 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8055cba3-d3c2-49d1-accb-a0fd96a51360")
-	)
-	(junction
 		(at 270.51 231.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8713,6 +8674,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "83c02ba0-2673-45c4-a560-957175764c0e")
+	)
+	(junction
+		(at 46.99 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "83cf7d04-6f44-453c-a947-f0dff5d3ff1e")
 	)
 	(junction
 		(at 46.99 60.96)
@@ -8877,12 +8844,6 @@
 		(uuid "96c0382c-9139-437b-8f12-78aeea98ade0")
 	)
 	(junction
-		(at 95.25 123.19)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9732a0f0-90e7-402e-82e6-141b1b329917")
-	)
-	(junction
 		(at 247.65 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8953,12 +8914,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a2256f29-2fd4-48ed-bab5-94547c849fb1")
-	)
-	(junction
-		(at 46.99 38.1)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a227722c-c119-478f-8d1a-797e2a21b2d3")
 	)
 	(junction
 		(at 209.55 68.58)
@@ -9141,6 +9096,12 @@
 		(uuid "bb577076-49c9-46e5-a89d-21e295b22576")
 	)
 	(junction
+		(at 46.99 200.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bcf5952d-d3f5-4dc6-8e83-69721fb9ca87")
+	)
+	(junction
 		(at 107.95 171.45)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9277,6 +9238,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d3368c35-9d88-4c73-91d7-80ed32c9a018")
+	)
+	(junction
+		(at 46.99 208.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d33d6434-94a5-44b7-877a-7a1251553689")
 	)
 	(junction
 		(at 158.75 223.52)
@@ -12173,171 +12140,6 @@
 		(uuid "ffe70403-118f-4ac8-adfe-1d6ea670164d")
 	)
 	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 49.53 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "002419f6-a7a9-4c67-b1f5-acb15d0ffc03")
-		(property "Reference" "C8"
-			(at 49.276 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 49.53 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 49.53 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 44.704 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 49.276 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "5c0b7c0f-6dd1-471a-8b16-fd26837eaae9")
-		)
-		(pin "2"
-			(uuid "fa3dc725-aa39-4934-895b-9422fdabf761")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_45")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 219.71 151.13 180)
@@ -14024,6 +13826,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 64.77 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1b9ff665-a24a-4641-9a5d-9de4233e92e4")
+		(property "Reference" "C209"
+			(at 68.58 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47µF 50V"
+			(at 68.58 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+			(at 65.7352 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9cef583c-3eac-420b-9de7-9c50e3ff2c4e")
+		)
+		(pin "2"
+			(uuid "cd34c3cc-35bd-47fd-b406-080475751d0a")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C209")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_33")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 290.83 151.13 180)
@@ -14850,6 +14734,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 64.77 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "29ae836c-27bf-4cbe-b192-21864e7ff4b8")
+		(property "Reference" "C192"
+			(at 68.58 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF 50V"
+			(at 68.58 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 65.7352 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "33070961-3fcb-43a5-a8d3-9434d761a43d")
+		)
+		(pin "2"
+			(uuid "6f72a03a-a01d-4c8b-8e1d-0fef9c57e622")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C192")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_3")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 247.65 120.65 180)
@@ -15012,6 +14978,88 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "#PWR0119")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ff812a0-2183-45bc-8ab8-97b90b8705da")
+		(property "Reference" "C188"
+			(at 50.8 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF 50V"
+			(at 50.8 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 47.9552 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "72004f1c-3a64-4baa-95e4-315c1a9ccc99")
+		)
+		(pin "2"
+			(uuid "fcfacfaf-56a7-4a87-9858-8ebd73ac13cd")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C188")
 					(unit 1)
 				)
 			)
@@ -16368,171 +16416,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 49.53 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "3d11e68d-eec5-4333-95a9-7e2c2abc4b8a")
-		(property "Reference" "C7"
-			(at 49.276 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 49.53 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 44.704 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 49.276 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "38235869-30b3-49cd-ab3d-3240366f2be2")
-		)
-		(pin "2"
-			(uuid "453ec6be-c770-41b0-bc1d-ab637eec89da")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_19")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 67.31 228.6 180)
@@ -16627,171 +16510,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 67.31 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "40c38314-8701-4f81-bfc3-780ee6feae1a")
-		(property "Reference" "C22"
-			(at 67.056 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 67.31 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 67.31 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 62.484 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 67.056 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "7425ebb6-e21e-41fb-8ae4-3b56baabc1f0")
-		)
-		(pin "2"
-			(uuid "1d4a9f5f-ac96-4efb-bfb1-b435f9af5b26")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C22")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_2")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 186.69 35.56 180)
@@ -16880,6 +16598,88 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "C76")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 204.47 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4120cfc2-1cb1-47f6-97d3-9de403df8aca")
+		(property "Reference" "C193"
+			(at 50.8 203.2 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47µF 50V"
+			(at 50.8 205.74 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+			(at 47.9552 208.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 204.47 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "8e40d263-3965-4135-a54e-8435f6213847")
+		)
+		(pin "2"
+			(uuid "e646a2d9-3052-4625-842f-7fc082d6b012")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C193")
 					(unit 1)
 				)
 			)
@@ -17646,171 +17446,6 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "#PWR06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 49.53 203.2 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "4d9e449e-f9a3-432f-81aa-a814f04946f9")
-		(property "Reference" "C9"
-			(at 49.276 204.47 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 49.53 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 49.53 203.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 44.704 200.152 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 49.276 207.01 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "e2184458-118c-4557-9864-6f661bc27f7f")
-		)
-		(pin "2"
-			(uuid "4cb6d0ae-ebfc-43dc-8a3a-eb9d350b2868")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -19429,6 +19064,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 64.77 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b44191b-3295-4b8d-b69b-af501e70e84f")
+		(property "Reference" "C187"
+			(at 68.58 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF 50V"
+			(at 68.58 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 65.7352 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 64.77 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ab1a6ce1-b187-4f51-a80b-73fed5933c9e")
+		)
+		(pin "2"
+			(uuid "a0a9e4a0-7473-4902-b412-d7eba2202c54")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C187")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_28")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 128.27 228.6 180)
@@ -19517,171 +19234,6 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "C59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 67.31 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d2f81be-c94a-47f4-ae45-94e282f76331")
-		(property "Reference" "C19"
-			(at 67.056 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 67.31 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 67.31 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 62.484 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 67.056 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "d744e194-a8fc-4e6b-9ec5-9e23986d670c")
-		)
-		(pin "2"
-			(uuid "6acf4210-c1e5-4449-bfc4-6ae2c57bd096")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -19964,171 +19516,6 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "C90")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 67.31 33.02 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "749f131b-a621-44f1-8b66-a114fab33585")
-		(property "Reference" "C16"
-			(at 67.056 34.29 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 67.31 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 67.31 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 67.31 33.02 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 62.484 29.972 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 67.056 36.83 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "d2c00a5a-9046-4df2-aa02-0e057b0526ff")
-		)
-		(pin "2"
-			(uuid "9495ee3b-ef9c-4d87-8ea5-db5941296967")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -20881,171 +20268,6 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "C97")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 115.57 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "827d904b-0680-4730-a51c-55aef63a3696")
-		(property "Reference" "C186"
-			(at 115.316 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 115.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 115.57 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 110.744 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 115.316 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "d4343774-89c9-4fb5-9eb9-310297fc7baf")
-		)
-		(pin "2"
-			(uuid "ef7daefa-4370-4af2-812b-db9903076276")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C186")
 					(unit 1)
 				)
 			)
@@ -22684,6 +21906,88 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 113.03 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a07e5e50-102b-40f8-a13c-c41d9121a76b")
+		(property "Reference" "C190"
+			(at 116.84 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF 50V"
+			(at 116.84 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 113.9952 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 113.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 113.03 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "261094a8-61d5-4783-9718-6b7f3bf40425")
+		)
+		(pin "2"
+			(uuid "bb529886-47d3-4e3c-b941-64025794fee3")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C190")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_17")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 278.13 205.74 180)
@@ -23812,171 +23116,6 @@
 		)
 	)
 	(symbol
-		(lib_id "RezaLIB:U_PowerStage_2_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 97.79 118.11 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b5c8ddec-e6f3-49eb-ad8a-be318e5148d6")
-		(property "Reference" "C185"
-			(at 97.536 119.38 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-6.3-7.7"
-			(at 97.79 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 97.79 118.11 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 92.964 115.062 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 97.536 121.92 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "f5a72d70-ea98-499c-b5ec-b3f5bf81d602")
-		)
-		(pin "2"
-			(uuid "d0c2cf66-900e-4638-83df-d1a3d771b9c1")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
-					(reference "C185")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib_34")
 		(lib_id "RezaLIB:U_PowerStage_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 270.51 66.04 180)
@@ -24327,6 +23466,88 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "C56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 95.25 119.38 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bac5f2b4-ce6f-44c3-8dc3-75eebb4270ea")
+		(property "Reference" "C189"
+			(at 99.06 118.11 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF 50V"
+			(at 99.06 120.65 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 96.2152 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 95.25 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "122b940d-09d0-423d-b528-d4f4ec0fda77")
+		)
+		(pin "2"
+			(uuid "8e41c5a3-5b3d-4fcc-9351-da40fa07148d")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C189")
 					(unit 1)
 				)
 			)
@@ -28471,6 +27692,88 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
 					(reference "C61")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 46.99 34.29 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5b1face-97de-4d83-ae5f-88d886524990")
+		(property "Reference" "C191"
+			(at 50.8 33.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100µF 50V"
+			(at 50.8 35.56 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_8x10.2"
+			(at 47.9552 38.1 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 46.99 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5870ccbb-9897-4b23-b39d-9cb96ee2a713")
+		)
+		(pin "2"
+			(uuid "02004017-e72a-43da-9b3d-432ef1c229f3")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/52a1c571-7d56-4a46-89c0-d3181c950bd0"
+					(reference "C191")
 					(unit 1)
 				)
 			)

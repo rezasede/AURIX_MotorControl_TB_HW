@@ -5,6 +5,161 @@
 	(uuid "2a97330b-d332-4a96-8d51-76b9382a51f4")
 	(paper "A3")
 	(lib_symbols
+		(symbol "Device:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.635 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorDrive_Control_AURIX-altium-import:+10V_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -2659,194 +2814,6 @@
 				)
 				(pin passive line
 					(at 0 -6.35 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RezaLIB:U_PSU_3_Cap Pol_RezaLIB.IntLib_0"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Polarized Capacitor (Radial)"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*CAP-4.0-5.3*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_PSU_3_Cap Pol_RezaLIB.IntLib_0_1_0"
-				(polyline
-					(pts
-						(xy -4.572 -0.762) (xy -0.508 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -4.572 -1.778) (xy -0.508 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 0) (xy -2.54 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy -2.54 -1.778)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 0.508) (xy -0.762 0.508)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -1.27 1.016)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -2.54 2.54 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -2.54 -5.08 90)
 					(length 2.54)
 					(name "2"
 						(effects
@@ -5544,6 +5511,12 @@
 		(uuid "586fbd48-ee80-466d-8acc-db964513f923")
 	)
 	(junction
+		(at 326.39 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5935c427-db59-4fd5-a375-96d2f5246fd2")
+	)
+	(junction
 		(at 228.6 250.0122)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5779,6 +5752,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 150.9522) (xy 326.39 161.1122)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0bcb2391-a47f-43b4-8d33-572f67d410e9")
+	)
+	(wire
+		(pts
 			(xy 233.68 183.9722) (xy 228.6 183.9722)
 		)
 		(stroke
@@ -5889,7 +5872,7 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 143.3322) (xy 326.39 134.4422)
+			(xy 326.39 143.3322) (xy 326.39 134.62)
 		)
 		(stroke
 			(width 0)
@@ -6199,16 +6182,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 51.8922) (xy 66.04 53.1622)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4fe511d0-fd5d-40a3-94a8-835dc8fc7c61")
-	)
-	(wire
-		(pts
 			(xy 209.55 134.4422) (xy 209.55 136.9822)
 		)
 		(stroke
@@ -6439,6 +6412,16 @@
 	)
 	(wire
 		(pts
+			(xy 326.39 134.62) (xy 326.39 134.4422)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "839e749a-ff09-47d8-b0ca-54c02248d0c1")
+	)
+	(wire
+		(pts
 			(xy 228.6 232.2322) (xy 228.6 234.7722)
 		)
 		(stroke
@@ -6446,6 +6429,16 @@
 			(type default)
 		)
 		(uuid "83d81511-05ad-4bf3-9610-1c8a28901869")
+	)
+	(wire
+		(pts
+			(xy 342.9 134.62) (xy 326.39 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84553366-31df-4e1b-abee-c864fbbc303f")
 	)
 	(wire
 		(pts
@@ -6639,13 +6632,13 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 63.3222) (xy 66.04 60.7822)
+			(xy 342.9 160.02) (xy 342.9 151.13)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a80fd245-ce86-4876-878c-3c314993083e")
+		(uuid "a92044ab-c58c-4364-b404-23e66e773f79")
 	)
 	(wire
 		(pts
@@ -6679,16 +6672,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 150.9522) (xy 326.39 161.1122)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "acefa567-971f-429c-93f6-92697a7a5863")
-	)
-	(wire
-		(pts
 			(xy 111.76 114.1222) (xy 121.92 114.1222)
 		)
 		(stroke
@@ -6709,7 +6692,17 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 143.3322) (xy 353.06 139.5222)
+			(xy 342.9 143.51) (xy 342.9 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcdbe1aa-3d03-4ff5-bd62-821f9889e98c")
+	)
+	(wire
+		(pts
+			(xy 381 144.78) (xy 381 140.97)
 		)
 		(stroke
 			(width 0)
@@ -6756,6 +6749,16 @@
 			(type default)
 		)
 		(uuid "c2e678ca-9d69-41f0-a84a-3383e07b31d3")
+	)
+	(wire
+		(pts
+			(xy 66.04 51.8922) (xy 66.04 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c375ac76-1020-444f-a783-6d34cfef0e77")
 	)
 	(wire
 		(pts
@@ -6979,7 +6982,7 @@
 	)
 	(wire
 		(pts
-			(xy 353.06 149.6822) (xy 353.06 153.4922)
+			(xy 381 151.13) (xy 381 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7006,6 +7009,16 @@
 			(type default)
 		)
 		(uuid "eca1d972-3a74-4b27-bef4-578b471ce70b")
+	)
+	(wire
+		(pts
+			(xy 66.04 60.96) (xy 66.04 63.3222)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f09f5c32-eb95-4b2c-a3d0-824c85adca60")
 	)
 	(wire
 		(pts
@@ -7146,6 +7159,80 @@
 			(justify left bottom)
 		)
 		(uuid "9a2d43b1-a204-46aa-b6b5-a8199b5f98d9")
+	)
+	(symbol
+		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
+		(at 342.9 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "00553144-1a60-46d4-bd24-ad21c373dada")
+		(property "Reference" "#PWR061"
+			(at 342.9 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 342.9 166.37 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 342.9 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 342.9 160.02 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "e3654a46-c5c7-4622-84b4-eac467a476b4")
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
+					(reference "#PWR061")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+Vin_BAR")
@@ -7402,6 +7489,88 @@
 			(project "MotorDrive_Control_AURIX"
 				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
 					(reference "MIC_R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 66.04 57.15 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "195ec03c-2abb-439c-b10a-ca87d28eceb0")
+		(property "Reference" "C24"
+			(at 69.85 55.88 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "47µF 50V"
+			(at 69.85 58.42 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+			(at 67.0052 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 66.04 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7f441a0c-b240-449c-8771-450a4071ca53")
+		)
+		(pin "2"
+			(uuid "4d749bb5-f2d4-4558-b343-cf160b5d04d4")
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
+					(reference "C24")
 					(unit 1)
 				)
 			)
@@ -7670,7 +7839,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:GND_POWER_GROUND")
-		(at 353.06 153.4922 0)
+		(at 381 154.94 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7680,7 +7849,7 @@
 		(dnp no)
 		(uuid "2205bfa8-fa19-47ae-8a3c-9a352b7af32b")
 		(property "Reference" "#PWR060"
-			(at 353.06 153.4922 0)
+			(at 381 154.94 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7691,7 +7860,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 353.06 159.8422 0)
+			(at 381 161.29 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7701,7 +7870,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 153.4922 0)
+			(at 381 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7711,7 +7880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 153.4922 0)
+			(at 381 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7721,7 +7890,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 153.4922 0)
+			(at 381 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9038,7 +9207,7 @@
 	)
 	(symbol
 		(lib_id "MotorDrive_Control_AURIX-altium-import:+10V_BAR")
-		(at 353.06 139.5222 180)
+		(at 381 140.97 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9048,7 +9217,7 @@
 		(dnp no)
 		(uuid "4f7195c0-8b5c-44d7-aebf-c5672e3924cd")
 		(property "Reference" "#PWR059"
-			(at 353.06 139.5222 0)
+			(at 381 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9059,7 +9228,7 @@
 			)
 		)
 		(property "Value" "+10V"
-			(at 353.06 135.7122 0)
+			(at 381 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9069,7 +9238,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 353.06 139.5222 0)
+			(at 381 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9079,7 +9248,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 139.5222 0)
+			(at 381 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9089,7 +9258,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 353.06 139.5222 0)
+			(at 381 140.97 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9991,171 +10160,6 @@
 			(project "MotorDrive_Control_AURIX"
 				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
 					(reference "MIC_L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_PSU_3_Cap Pol_RezaLIB.IntLib_0")
-		(at 68.58 55.7022 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "7c2f382a-d136-43d9-8159-1665042387ad")
-		(property "Reference" "C17"
-			(at 68.326 56.9722 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Cap Pol"
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "CAP-4.0-5.3"
-			(at 68.58 55.7022 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 55.7022 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Polarized Capacitor (Radial)"
-			(at 68.58 55.7022 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "PUBLISHED" "8-Jun-2000"
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONDATE" "17-Jul-2002"
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "LATESTREVISIONNOTE" "Re-released for DXP Platform."
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEREFERENCE" "RB7.6-15"
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PUBLISHER" "Altium Limited"
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "PACKAGEDESCRIPTION" "Polarized Capacitor (Radial); 2 Leads"
-			(at 63.754 52.6542 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "ALTIUM_VALUE" "1000uF"
-			(at 68.326 59.5122 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "bbe8e5f6-28e7-4b94-af92-8357dc07f72d")
-		)
-		(pin "2"
-			(uuid "8edd321c-0ebe-4103-93a9-f83a8ddd4788")
-		)
-		(instances
-			(project "MotorDrive_Control_AURIX"
-				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
-					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11333,7 +11337,7 @@
 	)
 	(symbol
 		(lib_id "RezaLIB:U_PSU_1_Generic Diode_RezaLIB.IntLib")
-		(at 353.06 147.1422 180)
+		(at 381 148.59 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11343,7 +11347,7 @@
 		(dnp no)
 		(uuid "c725c4ca-1694-4f3c-8ed1-dd587c1dd893")
 		(property "Reference" "D1"
-			(at 354.584 148.1582 0)
+			(at 382.524 149.606 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11354,7 +11358,7 @@
 			)
 		)
 		(property "Value" "SMBJ10A"
-			(at 354.584 150.6982 0)
+			(at 382.524 152.146 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11365,7 +11369,7 @@
 			)
 		)
 		(property "Footprint" "DO-214AA"
-			(at 353.06 147.1422 0)
+			(at 381 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11376,7 +11380,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 353.06 147.1422 0)
+			(at 381 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11387,7 +11391,7 @@
 			)
 		)
 		(property "Description" "schottky  diode"
-			(at 353.06 147.1422 0)
+			(at 381 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12131,6 +12135,88 @@
 			(project "MotorDrive_Control_AURIX"
 				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
 					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 342.9 147.32 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec0ab43b-c1c7-4ea3-b3b4-89050e3e5b1d")
+		(property "Reference" "C26"
+			(at 346.71 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220µF 16V"
+			(at 346.71 148.59 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_Elec_6.3x7.7"
+			(at 343.8652 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 342.9 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 342.9 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "99a40a07-1f84-4f13-9939-7a35c4fc257c")
+		)
+		(pin "2"
+			(uuid "5016aa1a-0999-4ab4-abb0-3e7d00d302c6")
+		)
+		(instances
+			(project "MotorDrive_Control_AURIX"
+				(path "/f5d9a872-990a-49bc-88ba-e0269dbe1034/9c95140c-92cc-4ed1-bd81-53c31bed9974"
+					(reference "C26")
 					(unit 1)
 				)
 			)
