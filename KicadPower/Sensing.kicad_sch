@@ -5,6 +5,146 @@
 	(uuid "6e298c5f-38dd-4ddf-96b6-006a7fcab7e1")
 	(paper "A")
 	(lib_symbols
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorDrive_Power-altium-import:+3V3_SNS_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -107,125 +247,6 @@
 					(length 0)
 					(hide yes)
 					(name "+3V3_SNS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "MotorDrive_Power-altium-import:+Vin_BAR"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "+Vin"
-				(at 0 -3.81 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name '+Vin'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "+Vin_BAR_0_0"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "+Vin"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -938,324 +959,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RezaLIB:U_Sensing_2_1_JumperSMD 3Pin_RezaLIB.IntLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*JumperSMD{space}3Pin*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_Sensing_2_1_JumperSMD 3Pin_RezaLIB.IntLib_1_0"
-				(rectangle
-					(start -1.524 2.794)
-					(end 0.254 3.81)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type color)
-						(color 255 0 0 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 3.302) (xy -0.762 3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 3.302) (xy 0 3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -0.254 2.794)
-					(end 1.27 3.81)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type color)
-						(color 192 192 192 1)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 3.302) (xy 0.762 3.302)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 3.556 3.302 180)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 0.254 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -3.302 3.302 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RezaLIB:U_Sensing_2_1_PIN 2_RezaLIB.IntLib"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*PIN{space}2*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_Sensing_2_1_PIN 2_RezaLIB.IntLib_1_0"
-				(rectangle
-					(start -5.08 5.588)
-					(end 1.778 12.446)
-					(stroke
-						(width 0.0254)
-						(type solid)
-						(color 128 0 0 1)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(pin passive line
-					(at -10.16 10.668 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -10.16 7.112 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RezaLIB:U_Sensing_2_1_Res SMD_RezaLIB.IntLib"
 			(pin_numbers
 				(hide yes)
@@ -1333,135 +1036,6 @@
 				)
 			)
 			(symbol "U_Sensing_2_1_Res SMD_RezaLIB.IntLib_1_0"
-				(polyline
-					(pts
-						(xy 0 -3.81) (xy 0.762 -3.048) (xy -0.762 -1.524) (xy 0.762 0) (xy -0.762 1.524) (xy 0.762 3.048)
-						(xy 0 3.81)
-					)
-					(stroke
-						(width 0)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at 0 6.35 270)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -6.35 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
-		(symbol "RezaLIB:U_Sensing_2_2_Res SMD_RezaLIB.IntLib"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "*RESC1608X55N*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "U_Sensing_2_2_Res SMD_RezaLIB.IntLib_1_0"
 				(polyline
 					(pts
 						(xy 0 -3.81) (xy 0.762 -3.048) (xy -0.762 -1.524) (xy 0.762 0) (xy -0.762 1.524) (xy 0.762 3.048)
@@ -2006,6 +1580,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:Conn_01x03"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "J"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x03"
+				(at 0 -5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Conn_01x03_1_1"
+				(rectangle
+					(start -1.27 3.81)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(text_box "Fc = 1.68 MHz"
 		(exclude_from_sim no)
@@ -2070,16 +1831,22 @@
 		(uuid "21aad1d3-0c1f-40e4-a08a-a743051f4b5f")
 	)
 	(junction
-		(at 157.48 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "422235b2-5fc4-4391-88ce-115c351936ce")
-	)
-	(junction
 		(at 123.19 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4feecd4c-2f01-4f56-9d32-ffdd4b494d99")
+	)
+	(junction
+		(at 157.48 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fefa612-7285-43c3-abde-74b3261d0e26")
+	)
+	(junction
+		(at 157.48 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d82d56bb-9631-46af-85b6-35116a9b19d7")
 	)
 	(junction
 		(at 69.85 165.1)
@@ -2092,16 +1859,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fa3993bf-139b-4780-956c-77f98441726f")
-	)
-	(wire
-		(pts
-			(xy 172.72 91.44) (xy 187.96 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e8b17b3-1988-47d5-bffa-11ff0ffdff8a")
 	)
 	(wire
 		(pts
@@ -2125,7 +1882,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 93.98) (xy 157.48 83.82)
+			(xy 157.48 73.66) (xy 157.48 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2145,13 +1902,23 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 83.82) (xy 157.48 73.66)
+			(xy 157.48 58.42) (xy 157.48 68.58)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "30af6653-7bc0-44af-a8df-40451ab3fb8e")
+		(uuid "2a08bbda-9b4b-4a31-b378-ce181012e038")
+	)
+	(wire
+		(pts
+			(xy 179.07 74.93) (xy 179.07 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3037a720-01a3-490f-b1a8-beed12f145e3")
 	)
 	(wire
 		(pts
@@ -2225,6 +1992,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 67.31) (xy 179.07 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4eeecb1e-606a-4ce4-88b1-c232aee76d72")
+	)
+	(wire
+		(pts
 			(xy 71.12 81.28) (xy 88.9 81.28)
 		)
 		(stroke
@@ -2245,6 +2022,16 @@
 	)
 	(wire
 		(pts
+			(xy 157.48 57.15) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f4796b5-6fe5-4ae2-b5cf-ca1c2b47c3b0")
+	)
+	(wire
+		(pts
 			(xy 121.92 93.98) (xy 157.48 93.98)
 		)
 		(stroke
@@ -2255,6 +2042,16 @@
 	)
 	(wire
 		(pts
+			(xy 179.07 93.98) (xy 157.48 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "80e92a57-e6c0-46f9-af04-e1b0478b2f2b")
+	)
+	(wire
+		(pts
 			(xy 149.86 121.92) (xy 187.96 121.92)
 		)
 		(stroke
@@ -2262,16 +2059,6 @@
 			(type default)
 		)
 		(uuid "8cd04e39-e9cb-4443-9295-a5fa072556fa")
-	)
-	(wire
-		(pts
-			(xy 157.48 70.104) (xy 157.48 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3399d5-fd76-48bd-8622-543650b28e6c")
 	)
 	(wire
 		(pts
@@ -2295,7 +2082,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 91.44) (xy 165.862 91.44)
+			(xy 121.92 91.44) (xy 187.96 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2325,7 +2112,7 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 81.28) (xy 71.12 81.28)
+			(xy 60.96 81.28) (xy 71.12 81.28)
 		)
 		(stroke
 			(width 0)
@@ -2355,26 +2142,6 @@
 	)
 	(wire
 		(pts
-			(xy 169.418 83.82) (xy 157.48 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc498edf-2b03-40fa-83b1-76cb70bca47e")
-	)
-	(wire
-		(pts
-			(xy 169.418 88.392) (xy 169.418 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d4542c12-692a-4f84-a054-69c80394d405")
-	)
-	(wire
-		(pts
 			(xy 88.9 96.52) (xy 81.28 96.52)
 		)
 		(stroke
@@ -2395,6 +2162,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 71.12) (xy 157.48 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e934bb0c-7669-4943-a404-901d08163d82")
+	)
+	(wire
+		(pts
 			(xy 45.72 81.28) (xy 53.34 81.28)
 		)
 		(stroke
@@ -2402,6 +2179,16 @@
 			(type default)
 		)
 		(uuid "eb41865b-69c7-424d-9e6a-10c6a864eccf")
+	)
+	(wire
+		(pts
+			(xy 179.07 58.42) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5ec98d0-4e7d-42cd-9e2d-a18c7d18a9fe")
 	)
 	(wire
 		(pts
@@ -2442,6 +2229,16 @@
 			(justify left bottom)
 		)
 		(uuid "58692096-e05a-4d25-aa95-6da04abefeaa")
+	)
+	(label "Iph_P"
+		(at 165.1 71.12 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "dde3b6f2-4f20-4255-89d8-cfd41caf4176")
 	)
 	(hierarchical_label "Iph_P"
 		(shape output)
@@ -2497,6 +2294,93 @@
 			(justify left)
 		)
 		(uuid "770018c7-5016-4a1a-94f8-5379e78023ef")
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 179.07 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "17117c84-3f6e-468c-bb0b-63802a031e1d")
+		(property "Reference" "R62"
+			(at 182.626 71.374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "4.7K"
+			(at 185.166 71.374 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 180.848 71.12 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 179.07 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "378b65b7-d6bc-47f1-80e9-053e31eb70de")
+		)
+		(pin "1"
+			(uuid "1d978041-0e2d-474f-b127-88103643488d")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
+					(reference "R64")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
+					(reference "R63")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
+					(reference "R62")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
@@ -2677,6 +2561,88 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
 					(reference "C169")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MotorDrive_Power-altium-import:+3V3_SNS_BAR")
+		(at 157.48 57.15 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "23e91aed-1457-4625-9836-c897c07779a7")
+		(property "Reference" "#PWR067"
+			(at 157.48 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3_SNS"
+			(at 157.48 53.34 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 157.48 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5354cd74-f00f-473a-aae0-87c633a8eabd")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
+					(reference "#PWR069")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
+					(reference "#PWR068")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
+					(reference "#PWR067")
 					(unit 1)
 				)
 			)
@@ -3050,6 +3016,97 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:Conn_01x03")
+		(at 152.4 71.12 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "77b8cd68-0137-4574-97dd-3d9d6c2e5a8a")
+		(property "Reference" "J1"
+			(at 152.4 62.23 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03"
+			(at 152.4 64.77 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 152.4 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 152.4 71.12 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "24d55b2a-20db-4d0d-90e3-5e8fed92c3f7")
+		)
+		(pin "3"
+			(uuid "39b86310-b93e-4f96-a434-3d6003e45379")
+		)
+		(pin "1"
+			(uuid "90086548-a25f-430b-9a10-491992fdb413")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
+					(reference "J3")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
+					(reference "J2")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "RezaLIB:U_Sensing_2_1_Cap SMD_RezaLIB.IntLib")
 		(at 71.12 86.36 180)
 		(unit 1)
@@ -3145,269 +3202,6 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
 					(reference "C173")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_Sensing_2_1_JumperSMD 3Pin_RezaLIB.IntLib")
-		(at 169.418 88.138 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a27396ac-cf73-4cfb-b90c-06ed631de39e")
-		(property "Reference" "JS2"
-			(at 168.148 94.742 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "JumperSMD 3Pin"
-			(at 168.148 97.282 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "RezaLIB:JumperSMD 3Pin - UltraSmall"
-			(at 169.418 88.138 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 169.418 88.138 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 169.418 88.138 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "238b36d1-22e0-4cca-9b7a-2073753f71ef")
-		)
-		(pin "2"
-			(uuid "f97d4697-ad75-4c35-855b-68cf63f6c47b")
-		)
-		(pin "3"
-			(uuid "30532891-d8d6-4468-9bdf-6f363a24a682")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "JS1")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "JS3")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "JS2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_Sensing_2_1_PIN 2_RezaLIB.IntLib")
-		(at 147.32 62.992 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b085fafc-f4f8-4b4f-9ab8-817753268d2f")
-		(property "Reference" "P1"
-			(at 145.542 66.802 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "PIN 2"
-			(at 145.542 77.978 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "PIN 2"
-			(at 147.32 62.992 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 147.32 62.992 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 147.32 62.992 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "abba4f57-f926-4a6d-9995-f7f5c29f9cb4")
-		)
-		(pin "1"
-			(uuid "cf05d642-3e38-4d39-800e-247e836f2143")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "P2")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "P3")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "P1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorDrive_Power-altium-import:+Vin_BAR")
-		(at 157.48 60.96 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "b6f9da7e-91a1-4aa3-8481-7a9a707cdf3a")
-		(property "Reference" "#PWR068"
-			(at 157.48 60.96 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+Vin"
-			(at 157.48 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 157.48 60.96 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "dc15bf97-3980-44f9-bbbe-3280686360c6")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "#PWR069")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "#PWR067")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "#PWR068")
 					(unit 1)
 				)
 			)
@@ -3510,6 +3304,93 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
 					(reference "C177")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 57.15 81.28 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bd5fd35e-546b-4425-ae5f-5c7b8d654bc2")
+		(property "Reference" "R65"
+			(at 56.896 84.836 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10R"
+			(at 56.896 87.376 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 57.15 83.058 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 57.15 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c166ca5f-cc31-4903-9cfb-6790f0b3bbc6")
+		)
+		(pin "1"
+			(uuid "8be589df-e204-44a8-b123-fba157d9a2ed")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
+					(reference "R67")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
+					(reference "R66")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
+					(reference "R65")
 					(unit 1)
 				)
 			)
@@ -4240,107 +4121,6 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
 					(reference "FB2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_Sensing_2_2_Res SMD_RezaLIB.IntLib")
-		(at 59.69 81.28 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f9d5c133-8d45-4638-8215-8fca0e2135d2")
-		(property "Reference" "R32"
-			(at 55.626 80.264 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "Res SMD"
-			(at 52.832 80.264 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "RESC1608X55N"
-			(at 59.69 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 59.69 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 59.69 81.28 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "ALTIUM_VALUE" "10R"
-			(at 55.626 84.836 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(pin "1"
-			(uuid "abbd7482-28f4-4c6e-98a7-afe75db84763")
-		)
-		(pin "2"
-			(uuid "b51e02ca-e283-465f-b5f8-ff7660ffdc33")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/0d1533d2-6c61-4fd7-a308-668343f2b242"
-					(reference "R31")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/65358cc6-1dc8-46b9-8cf8-c102d4a17bed"
-					(reference "R33")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/a091e90a-e882-4b25-8edc-4c914cc5ee3b"
-					(reference "R32")
 					(unit 1)
 				)
 			)

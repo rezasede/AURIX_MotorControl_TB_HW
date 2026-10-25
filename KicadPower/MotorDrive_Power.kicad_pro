@@ -50,7 +50,23 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "border_display_style": 2,
+          "border_hatch_pitch": 0.5,
+          "corner_radius": 0.0,
+          "corner_smoothing": 0,
+          "fill_mode": 0,
+          "hatch_gap": 1.5,
+          "hatch_orientation": 0.0,
+          "hatch_smoothing_level": 0,
+          "hatch_smoothing_value": 0.1,
+          "hatch_thickness": 1.0,
+          "min_clearance": 0.5,
+          "min_island_area": 10.0,
+          "min_thickness": 0.25,
+          "pad_connection": 1,
+          "remove_islands": 0,
+          "thermal_relief_gap": 0.5,
+          "thermal_relief_spoke_width": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -162,6 +178,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -173,6 +190,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -184,6 +202,7 @@
         {
           "td_allow_use_two_tracks": true,
           "td_curve_segcount": 0,
+          "td_enabled": false,
           "td_height_ratio": 1.0,
           "td_length_ratio": 0.5,
           "td_maxheight": 2.0,
@@ -466,6 +485,7 @@
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
+      "same_local_global_power": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
       "similar_power": "warning",
@@ -639,8 +659,8 @@
     "meta": {
       "version": 5
     },
-    "net_colors": null,
-    "netclass_assignments": null,
+    "net_colors": {},
+    "netclass_assignments": {},
     "netclass_patterns": [
       {
         "netclass": "P_LS[1..3]",
@@ -734,6 +754,7 @@
       "netlist": "",
       "plot": "C:/Users/rezas/Desktop/Power/",
       "specctra_dsn": "",
+      "step": "",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -1012,7 +1033,7 @@
         "uuid": "b3d8444f-9701-4bb0-8db6-84dd09da4106"
       }
     ],
-    "used_designators": "C187-193,C209",
+    "used_designators": "#PWR67-69,#PWR117-118,#PWR121-125,C187-193,C209,D14-25,J1-3,R38-40,R62-67",
     "variants": []
   },
   "sheets": [
@@ -1025,16 +1046,28 @@
       "U_PowerStage"
     ],
     [
+      "a091e90a-e882-4b25-8edc-4c914cc5ee3b",
+      "U_Sensing_1"
+    ],
+    [
+      "b3d8444f-9701-4bb0-8db6-84dd09da4106",
+      "Main"
+    ],
+    [
+      "4101f834-48cb-40ca-8c67-a537c6712f98",
+      "U_GateDrive"
+    ],
+    [
+      "132a60a0-d8ca-4004-9968-c1990a94735c",
+      "U_TempSensor_2"
+    ],
+    [
       "583638e6-279e-47f1-9856-e5828de959a3",
       "U_PowerStage_1"
     ],
     [
       "1cc55cc7-df8f-42d6-a930-8776bd6520e4",
       "U_PowerStage_2"
-    ],
-    [
-      "a091e90a-e882-4b25-8edc-4c914cc5ee3b",
-      "U_Sensing_1"
     ],
     [
       "65358cc6-1dc8-46b9-8cf8-c102d4a17bed",
@@ -1045,16 +1078,8 @@
       "U_Sensing_2"
     ],
     [
-      "b3d8444f-9701-4bb0-8db6-84dd09da4106",
-      "Main"
-    ],
-    [
       "9252f410-1898-4564-9d05-e8bcb0be908b",
       "U_Connector"
-    ],
-    [
-      "4101f834-48cb-40ca-8c67-a537c6712f98",
-      "U_GateDrive"
     ],
     [
       "38c0015d-2771-48fa-a490-bdf722e0ebfd",
@@ -1063,10 +1088,6 @@
     [
       "6d9192a1-8b3c-404e-a09b-ac69e693ce70",
       "U_GateDrive_2"
-    ],
-    [
-      "132a60a0-d8ca-4004-9968-c1990a94735c",
-      "U_TempSensor_2"
     ],
     [
       "842552db-c6ca-4109-bc80-82bec330fc23",

@@ -4934,7 +4934,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "3")
+					(page "10")
 				)
 			)
 		)
@@ -5108,7 +5108,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "6")
+					(page "15")
 				)
 			)
 		)
@@ -5185,7 +5185,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "2")
+					(page "8")
 				)
 			)
 		)
@@ -5282,7 +5282,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "5")
+					(page "12")
 				)
 			)
 		)
@@ -5502,7 +5502,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "2")
+					(page "7")
 				)
 			)
 		)
@@ -5599,7 +5599,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "3")
+					(page "9")
 				)
 			)
 		)
@@ -5696,7 +5696,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "5")
+					(page "13")
 				)
 			)
 		)
@@ -5783,7 +5783,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "6")
+					(page "14")
 				)
 			)
 		)
@@ -5900,7 +5900,7 @@
 		(instances
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106"
-					(page "4")
+					(page "11")
 				)
 			)
 		)

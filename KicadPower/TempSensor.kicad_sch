@@ -124,161 +124,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "MotorDrive_Power-altium-import:GND_POWER_GROUND"
-			(power global)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "#PWR"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "GND"
-				(at 0 -6.35 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Power symbol creates a global label with name 'GND'"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "power-flag"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "GND_POWER_GROUND_0_0"
-				(polyline
-					(pts
-						(xy -2.54 -2.54) (xy 2.54 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.778 -3.302) (xy 1.778 -3.302)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.016 -4.064) (xy 1.016 -4.064)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 -4.826) (xy 0.254 -4.826)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin power_in line
-					(at 0 0 0)
-					(length 0)
-					(hide yes)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "RezaLIB:U_TempSensor_1_0_TMP1075DGKR_RezaLIB.IntLib"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -673,6 +518,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "symbols:GND"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 68.58 96.52)
@@ -765,7 +725,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 109.22) (xy 68.58 106.68)
+			(xy 68.58 106.68) (xy 68.58 110.49)
 		)
 		(stroke
 			(width 0)
@@ -813,6 +773,16 @@
 			(color 173 188 231 1)
 		)
 		(uuid "a90076f0-64e5-4fc6-8f7e-022c4074f99d")
+	)
+	(wire
+		(pts
+			(xy 132.08 118.11) (xy 132.08 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1fa07dd-36c9-412c-9f3c-6cd30d71cf21")
 	)
 	(wire
 		(pts
@@ -968,6 +938,92 @@
 			(justify left)
 		)
 		(uuid "d50441b9-72b8-4869-b2c2-f6c7daaa0b28")
+	)
+	(symbol
+		(lib_id "symbols:GND")
+		(at 68.58 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2f0f17df-3a25-487e-8633-a4b2fec6abd8")
+		(property "Reference" "#PWR0123"
+			(at 68.58 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 68.58 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 68.58 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9add06c0-9052-4081-b094-68810c4ad4de")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/132a60a0-d8ca-4004-9968-c1990a94735c"
+					(reference "#PWR0123")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/18a84344-2c51-4ad1-a327-06558e4f78c7"
+					(reference "#PWR0125")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/842552db-c6ca-4109-bc80-82bec330fc23"
+					(reference "#PWR0124")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "MotorDrive_Power-altium-import:+3V3_BAR")
@@ -1320,8 +1376,8 @@
 		)
 	)
 	(symbol
-		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
-		(at 68.58 109.22 0)
+		(lib_id "symbols:GND")
+		(at 132.08 118.11 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1329,91 +1385,10 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(uuid "edd70da8-e2b3-4eba-9a09-aa623e09d92f")
-		(property "Reference" "#PWR0114"
-			(at 68.58 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 68.58 115.57 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 68.58 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 68.58 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 68.58 109.22 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin ""
-			(uuid "6431f62d-dcfd-4a92-a2bc-9f8ea78de238")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/132a60a0-d8ca-4004-9968-c1990a94735c"
-					(reference "#PWR0114")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/18a84344-2c51-4ad1-a327-06558e4f78c7"
-					(reference "#PWR0116")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/842552db-c6ca-4109-bc80-82bec330fc23"
-					(reference "#PWR0115")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MotorDrive_Power-altium-import:GND_POWER_GROUND")
-		(at 132.08 109.22 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f6041aad-b1b8-4dc0-ab7f-d79f99349ce1")
+		(fields_autoplaced yes)
+		(uuid "fd885fac-5ae7-4948-b837-af647f1f523b")
 		(property "Reference" "#PWR0117"
-			(at 132.08 109.22 0)
+			(at 132.08 124.46 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1424,7 +1399,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 132.08 115.57 0)
+			(at 132.08 123.19 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1434,7 +1409,8 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 132.08 109.22 0)
+			(at 132.08 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1444,7 +1420,8 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 132.08 109.22 0)
+			(at 132.08 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1453,8 +1430,9 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 132.08 109.22 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 132.08 118.11 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1463,8 +1441,8 @@
 				)
 			)
 		)
-		(pin ""
-			(uuid "bdead655-fba6-4c7c-88da-3b7b670edd94")
+		(pin "1"
+			(uuid "46e5c7c2-88f4-4bc1-908e-ac9db799ac1f")
 		)
 		(instances
 			(project "MotorDrive_Power"
@@ -1473,11 +1451,11 @@
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/18a84344-2c51-4ad1-a327-06558e4f78c7"
-					(reference "#PWR0118")
+					(reference "#PWR0122")
 					(unit 1)
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/842552db-c6ca-4109-bc80-82bec330fc23"
-					(reference "v01")
+					(reference "#PWR0118")
 					(unit 1)
 				)
 			)

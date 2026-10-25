@@ -124,6 +124,125 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "MotorDrive_Power-altium-import:+3V3_BAR"
+			(power global)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#PWR"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "+3V3"
+				(at 0 -3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name '+3V3'"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "power-flag"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "+3V3_BAR_0_0"
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 1.27 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin power_in line
+					(at 0 0 0)
+					(length 0)
+					(hide yes)
+					(name "+3V3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "MotorDrive_Power-altium-import:+3V3_SNS_BAR"
 			(power global)
 			(exclude_from_sim no)
@@ -1895,12 +2014,6 @@
 		(uuid "6ee7a13a-1d4f-49a3-9893-c529cb9c08ed")
 	)
 	(junction
-		(at 114.3 121.1072)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8916d336-893d-4e30-a9f5-f175787bd62c")
-	)
-	(junction
 		(at 114.3 108.4072)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2604,6 +2717,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 118.11) (xy 114.3 118.5672)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b4f668-326d-446e-9e42-af931b80d080")
+	)
+	(wire
+		(pts
 			(xy 114.3 116.0272) (xy 114.3 113.4872)
 		)
 		(stroke
@@ -2702,6 +2825,16 @@
 			(type default)
 		)
 		(uuid "a9e4f35f-b185-46e2-bf1b-dc75e344c666")
+	)
+	(wire
+		(pts
+			(xy 106.68 118.11) (xy 114.3 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "abffd227-890f-4aa6-b696-bce33c5d8178")
 	)
 	(wire
 		(pts
@@ -2845,16 +2978,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 121.1072) (xy 114.3 118.5672)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dc4d16a8-82ac-47e9-824b-68543fe3f01f")
-	)
-	(wire
-		(pts
 			(xy 147.32 108.4072) (xy 134.62 108.4072)
 		)
 		(stroke
@@ -2912,6 +3035,16 @@
 			(type default)
 		)
 		(uuid "ee96df03-762e-4acf-8230-9f2e3295bed9")
+	)
+	(wire
+		(pts
+			(xy 106.68 114.3) (xy 106.68 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee9d5738-aae8-41ab-b578-234c8206654d")
 	)
 	(wire
 		(pts
@@ -3898,6 +4031,80 @@
 			(project "MotorDrive_Power"
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/9252f410-1898-4564-9d05-e8bcb0be908b"
 					(reference "#PWR078")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MotorDrive_Power-altium-import:+3V3_BAR")
+		(at 106.68 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "33391463-da54-494f-87dd-10470f8de48e")
+		(property "Reference" "#PWR0121"
+			(at 106.68 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 106.68 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 106.68 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 114.3 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin ""
+			(uuid "5ab4b582-79b0-4e84-bbf2-d1e45b3ee67a")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/9252f410-1898-4564-9d05-e8bcb0be908b"
+					(reference "#PWR0121")
 					(unit 1)
 				)
 			)

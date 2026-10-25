@@ -1611,11 +1611,12 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "RezaLIB:U_GateDrive_1_Generic Diode_RezaLIB.IntLib"
+		(symbol "symbols:SS34"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
+				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -1623,8 +1624,8 @@
 			(on_board yes)
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" ""
-				(at 0 0 0)
+			(property "Reference" "D"
+				(at 0 2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1633,8 +1634,8 @@
 					)
 				)
 			)
-			(property "Value" ""
-				(at 0 0 0)
+			(property "Value" "SS34"
+				(at 0 -2.54 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -1643,7 +1644,18 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SMA"
+				(at 0 -4.445 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1654,7 +1666,7 @@
 					)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Description" "40V 3A Schottky Diode, SMA"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1665,7 +1677,7 @@
 					)
 				)
 			)
-			(property "Description" "schottky  diode"
+			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1676,7 +1688,7 @@
 					)
 				)
 			)
-			(property "ki_fp_filters" "*DO-214AC*"
+			(property "ki_fp_filters" "D*SMA*"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1687,60 +1699,74 @@
 					)
 				)
 			)
-			(symbol "U_GateDrive_1_Generic Diode_RezaLIB.IntLib_1_0"
+			(symbol "SS34_0_1"
 				(polyline
 					(pts
-						(xy 1.27 0) (xy 0 -1.27) (xy -1.27 0) (xy 1.27 0)
+						(xy -1.905 0.635) (xy -1.905 1.27) (xy -1.27 1.27) (xy -1.27 -1.27) (xy -0.635 -1.27) (xy -0.635 -0.635)
 					)
 					(stroke
-						(width -0.0001)
-						(type solid)
+						(width 0.254)
+						(type default)
 					)
 					(fill
-						(type outline)
+						(type none)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.27) (xy -1.27 -1.27) (xy 1.27 -1.27)
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
 					)
 					(stroke
 						(width 0)
-						(type solid)
+						(type default)
 					)
 					(fill
-						(type background)
+						(type none)
+					)
+				)
+			)
+			(symbol "SS34_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
 					)
 				)
 				(pin passive line
-					(at 0 2.54 270)
+					(at 3.81 0 180)
 					(length 2.54)
-					(name "1"
+					(name "A"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "K"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1988,6 +2014,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 109.22) (xy 123.19 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e4cd167-b73f-4237-b0ea-c21a11ffe2a9")
+	)
+	(wire
+		(pts
 			(xy 135.89 140.97) (xy 135.89 133.35)
 		)
 		(stroke
@@ -2088,16 +2124,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 81.28) (xy 227.33 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "223484d5-765c-4c6c-b56a-232bc6954ab8")
-	)
-	(wire
-		(pts
 			(xy 153.67 84.328) (xy 153.67 95.25)
 		)
 		(stroke
@@ -2148,7 +2174,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 100.33) (xy 123.19 67.31)
+			(xy 123.19 101.6) (xy 123.19 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2205,16 +2231,6 @@
 			(type default)
 		)
 		(uuid "3f42abbe-8740-4701-8787-ec1245e413e7")
-	)
-	(wire
-		(pts
-			(xy 123.19 106.68) (xy 123.19 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a0e405-5ba2-45be-bbc3-96753da4c6bc")
 	)
 	(wire
 		(pts
@@ -2488,7 +2504,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 100.33) (xy 44.45 67.31)
+			(xy 44.45 99.06) (xy 44.45 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2548,6 +2564,26 @@
 	)
 	(wire
 		(pts
+			(xy 227.33 91.44) (xy 227.33 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5ba690-16c2-40b3-bddb-3021e21ca4d0")
+	)
+	(wire
+		(pts
+			(xy 227.33 83.82) (xy 227.33 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0a5ded3-7cfd-4b02-8dd7-3e0f152c176c")
+	)
+	(wire
+		(pts
 			(xy 69.85 67.31) (xy 74.93 67.31)
 		)
 		(stroke
@@ -2575,6 +2611,16 @@
 			(type default)
 		)
 		(uuid "a83d9d8f-cf38-4e63-a324-c4720591b389")
+	)
+	(wire
+		(pts
+			(xy 44.45 106.68) (xy 44.45 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a90847d5-47ca-4194-b31b-0180094aa2b7")
 	)
 	(wire
 		(pts
@@ -2675,16 +2721,6 @@
 			(type default)
 		)
 		(uuid "c99cdeda-08ad-4a30-ab31-da1a4d71fb9a")
-	)
-	(wire
-		(pts
-			(xy 44.45 106.68) (xy 44.45 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc59f334-787b-47d6-ac88-3dad084b3529")
 	)
 	(wire
 		(pts
@@ -3714,6 +3750,96 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:SS34")
+		(at 227.33 87.63 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4f1fbb65-1282-487a-a4f7-139d8c4a89dc")
+		(property "Reference" "D17"
+			(at 229.87 86.0425 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 229.87 88.5825 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 222.885 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 227.33 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 227.33 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "960b2056-b767-4306-9982-44a9ffff4db3")
+		)
+		(pin "2"
+			(uuid "f5d5097b-669a-4cb5-bc61-5234f8706ac0")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "D17")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 171.45 123.19 90)
 		(unit 1)
@@ -3795,95 +3921,6 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
 					(reference "R55")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Generic Diode_RezaLIB.IntLib")
-		(at 123.19 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "79fc3023-971f-43c5-907c-37a46cbe8d79")
-		(property "Reference" "D6"
-			(at 124.714 105.156 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SS34"
-			(at 124.714 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "DO-214AC"
-			(at 123.19 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 123.19 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "schottky  diode"
-			(at 123.19 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "A"
-			(uuid "818ccd15-735d-469e-b956-f97122a0f26e")
-		)
-		(pin "K"
-			(uuid "459a35c8-f6c0-487a-bccb-ea60ecf921a5")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "D7")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "D6")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -4409,6 +4446,96 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
 					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "symbols:SS34")
+		(at 123.19 105.41 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "99f2f9d3-f4fb-4d76-8199-057aec7d027e")
+		(property "Reference" "D20"
+			(at 125.73 103.8225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 125.73 106.3625 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 118.745 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 123.19 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "4f7c20f9-684e-464b-a59d-f0369646f962")
+		)
+		(pin "2"
+			(uuid "c46aec47-a770-4bda-bec3-98b655ca67c7")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "D21")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -5494,6 +5621,96 @@
 		)
 	)
 	(symbol
+		(lib_id "symbols:SS34")
+		(at 44.45 102.87 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "df565a2b-8478-432b-b07a-c3b7e2e24f9d")
+		(property "Reference" "D23"
+			(at 46.99 101.2825 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SS34"
+			(at 46.99 103.8225 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SMA"
+			(at 40.005 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
+			(at 44.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "40V 3A Schottky Diode, SMA"
+			(at 44.45 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ffd62ccc-3874-404c-aaab-1966faf8ca59")
+		)
+		(pin "2"
+			(uuid "559157d3-4ae5-4910-a74c-aedf4913a8d8")
+		)
+		(instances
+			(project "MotorDrive_Power"
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
+					(reference "D25")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 69.85 78.74 0)
 		(unit 1)
@@ -5661,95 +5878,6 @@
 				)
 				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
 					(reference "#PWR0110")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "RezaLIB:U_GateDrive_1_Generic Diode_RezaLIB.IntLib")
-		(at 44.45 104.14 180)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ffa04025-9b2f-4cf1-9635-4521b5834cf2")
-		(property "Reference" "D3"
-			(at 45.974 105.156 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Value" "SS34"
-			(at 45.974 107.696 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right bottom)
-			)
-		)
-		(property "Footprint" "DO-214AC"
-			(at 44.45 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 44.45 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "schottky  diode"
-			(at 44.45 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "K"
-			(uuid "86fe9226-8e0b-477a-a7ad-db2a86600e61")
-		)
-		(pin "A"
-			(uuid "5497920e-0739-478d-b8d7-27460b7cb18b")
-		)
-		(instances
-			(project "MotorDrive_Power"
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/38c0015d-2771-48fa-a490-bdf722e0ebfd"
-					(reference "D2")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/4101f834-48cb-40ca-8c67-a537c6712f98"
-					(reference "D3")
-					(unit 1)
-				)
-				(path "/b3d8444f-9701-4bb0-8db6-84dd09da4106/6d9192a1-8b3c-404e-a09b-ac69e693ce70"
-					(reference "D4")
 					(unit 1)
 				)
 			)
